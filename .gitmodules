@@ -1,0 +1,3 @@
+[submodule "WuwaData"]
+	path = WuwaData
+	url = https://github.com/sipofnightshade/WuwaData
