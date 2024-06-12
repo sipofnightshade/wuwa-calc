@@ -1,12 +1,11 @@
 <script lang="ts">
 	import '../app.css';
-	import type { LayoutData } from './$types';
+	import '@fontsource/palanquin/400.css';
+	import '@fontsource/palanquin/700.css';
 	import { dev } from '$app/environment';
 	import TailwindBreakpoints from '$lib/components/TailwindBreakpoints.svelte';
-	import Navbar from '$lib/components/Navbar/Navbar.svelte';
-	import Footer from '$lib/components/Footer/Footer.svelte';
-
-	export let data: LayoutData;
+	import Navbar from '$lib/components/Layout/Navbar.svelte';
+	import Footer from '$lib/components/Layout/Footer.svelte';
 </script>
 
 <div
