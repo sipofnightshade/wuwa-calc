@@ -3,9 +3,9 @@
 	import '@fontsource/palanquin/400.css';
 	import '@fontsource/palanquin/700.css';
 	import { dev } from '$app/environment';
-	import TailwindBreakpoints from '$lib/components/TailwindBreakpoints.svelte';
-	import Navbar from '$lib/components/Layout/Navbar.svelte';
-	import Footer from '$lib/components/Layout/Footer.svelte';
+	import TailwindBreakpoints from '$lib/components/feature/TailwindBreakpoints.svelte';
+	import Navbar from '$lib/components/layout/Navbar.svelte';
+	import Footer from '$lib/components/layout/Footer.svelte';
 </script>
 
 <div
