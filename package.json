@@ -41,7 +41,6 @@
   },
   "type": "module",
   "dependencies": {
-    "@fontsource/palanquin": "^5.0.13",
-    "svelte-sonner": "^0.3.24"
+    "@fontsource/palanquin": "^5.0.13"
   }
 }

@@ -5,7 +5,6 @@
 	import { dev } from '$app/environment';
 	import TailwindBreakpoints from '$lib/components/feature/TailwindBreakpoints.svelte';
 	import Navbar from '$lib/components/layout/Navbar.svelte';
-	import Footer from '$lib/components/layout/Footer.svelte';
 </script>
 
 <div
@@ -16,7 +15,6 @@
 		<div class="container mx-auto px-2 py-8">
 			<slot />
 		</div>
-		<Footer />
 	</div>
 </div>
 
