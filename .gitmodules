@@ -1,3 +1,6 @@
 [submodule "WutheringData"]
 	path = WutheringData
 	url = https://github.com/Dimbreath/WutheringData
+[submodule "WW_Asset"]
+	path = WW_Asset
+	url = https://github.com/alt3ri/WW_Asset
