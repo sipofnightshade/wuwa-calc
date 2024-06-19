@@ -9,7 +9,7 @@
 </script>
 
 <div
-	class="absolute top-0 z-[-2] h-screen w-screen overflow-hidden bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))] text-slate-200"
+	class="absolute top-0 z-[-2] h-screen w-screen overflow-hidden bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(119,132,198,0.3),rgba(255,255,255,0))] text-slate-200"
 >
 	<div class="flex h-full w-full flex-col justify-between gap-y-4 overflow-y-auto">
 		<Navbar />
