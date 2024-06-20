@@ -6,7 +6,14 @@ export default {
 
   theme: {
     extend: {
-      colors: {},
+      colors: {
+        spectro: '#F8E56C',
+        havoc: '#E649A6',
+        fusion: '#F0744E',
+        aero: '#74F3B6',
+        electro: '#B46BFF',
+        glacio: '#41AEFB'
+      },
       fontFamily: {
         sans: ['Inter Variable', ...defaultTheme.fontFamily.sans]
       }
