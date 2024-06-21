@@ -36,3 +36,54 @@ export const elementFilters = [
     color: 'border-havoc'
   }
 ];
+
+export const weaponFilters = [
+  {
+    id: 1,
+    name: 'Sword',
+    imageUrl: '/weapons/T_IconWeaponSword1.webp'
+  },
+  {
+    id: 2,
+    name: 'Broadblade',
+    imageUrl: '/weapons/T_IconWeaponCatalyst1.webp'
+  },
+  {
+    id: 3,
+    name: 'Rectifier',
+    imageUrl: '/weapons/T_IconWeaponPolearm1.webp'
+  }
+];
+
+export const ratingFilters = [
+  {
+    id: 1,
+    name: 'Five Star',
+    imageUrl: '/rating/Five_Star.svg',
+    color: 'border-fiveStar'
+  },
+  {
+    id: 2,
+    name: 'Four Star',
+    imageUrl: '/rating/Four_Star.svg',
+    color: 'border-fourStar'
+  },
+  {
+    id: 3,
+    name: 'Three Star',
+    imageUrl: '/rating/Three_Star.svg',
+    color: 'border-threeStar'
+  },
+  {
+    id: 4,
+    name: 'Two Star',
+    imageUrl: '/rating/Two_Star.svg',
+    color: 'border-twoStar'
+  },
+  {
+    id: 5,
+    name: 'One Star',
+    imageUrl: '/rating/One_Star.svg',
+    color: 'border-oneStar'
+  }
+];

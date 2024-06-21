@@ -12,7 +12,12 @@ export default {
         fusion: '#F0744E',
         aero: '#74F3B6',
         electro: '#B46BFF',
-        glacio: '#41AEFB'
+        glacio: '#41AEFB',
+        fiveStar: '#F5D736',
+        fourStar: '#B46BFF',
+        threeStar: '#369BF9',
+        twoStar: '#21B627',
+        oneStar: '#CCD1D6'
       },
       fontFamily: {
         sans: ['Inter Variable', ...defaultTheme.fontFamily.sans]
