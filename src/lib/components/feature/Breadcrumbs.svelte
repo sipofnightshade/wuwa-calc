@@ -2,13 +2,13 @@
   import { page } from '$app/stores';
   import Chevron from '$lib/icons/Chevron.svelte';
 
-  let crumbs: { path: string; label: string }[] = $state([]);
-  let currentPath: string = $state('');
+  type Breadcrumb = { path: string; label: string };
 
-  $effect(() => {
+  let breadcrumbs: Breadcrumb[] = $derived.by(() => {
     const pathTokens = $page.url.pathname.split('/').filter((token) => token);
 
-    currentPath = $page.url.pathname;
+    let crumbs: Breadcrumb[] = [];
+
     crumbs = pathTokens.map((token, index) => {
       const path = '/' + pathTokens.slice(0, index + 1).join('/');
       return {
@@ -20,14 +20,18 @@
     // Add home breadcrumb
     crumbs.unshift({
       path: '/',
-      label: 'Home'
+      label: 'home'
     });
+
+    return crumbs;
   });
+
+  $effect(() => {});
 </script>
 
 <div class="flex items-center gap-x-4 text-sm font-bold uppercase">
-  {#each crumbs as crumb}
-    {#if crumb.path === currentPath}
+  {#each breadcrumbs as crumb}
+    {#if crumb.path === $page.url.pathname}
       <Chevron class="h-3 text-zinc-400" />
       <span class="text-zinc-400">{crumb.label}</span>
     {:else if crumb.path === '/'}
