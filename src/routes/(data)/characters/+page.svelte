@@ -1,7 +1,13 @@
 <script lang="ts">
   import Filter from '$lib/components/feature/Filter/Filter.svelte';
-  import { elementFilters } from '$lib/components/feature/Filter/constants';
+  import {
+    elementFilters,
+    ratingFilters,
+    weaponFilters
+  } from '$lib/components/feature/Filter/constants';
   import type { FilterHandler, SelectedFilterGroup } from '$lib/components/feature/Filter/types';
+
+  const customRatingFilters = ratingFilters.slice(0, 2);
 
   let selectedFilters: SelectedFilterGroup = $state({
     weapon: null,
@@ -16,8 +22,6 @@
     }
     selectedFilters[type] = selected;
   };
-
-  $inspect('element', selectedFilters['element']);
 </script>
 
 <div class="flex flex-col gap-y-8">
@@ -29,6 +33,12 @@
       filters={elementFilters}
       selected={selectedFilters.element}
       type="element"
+      {handleFilter}
+    />
+    <Filter
+      filters={customRatingFilters}
+      selected={selectedFilters.rating}
+      type="rating"
       {handleFilter}
     />
   </div>

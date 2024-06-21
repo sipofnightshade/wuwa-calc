@@ -2,8 +2,6 @@
   import type { FilterContainer } from './types';
 
   let { filters, selected, handleFilter, type }: FilterContainer = $props();
-
-  $inspect('selected', selected);
 </script>
 
 <div class="flex gap-2">

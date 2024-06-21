@@ -1,7 +1,7 @@
 export type FilterItem = {
   id: number;
   name: string;
-  imageUrl: string;
+  imageUrl?: string;
   color?: string;
 };
 
