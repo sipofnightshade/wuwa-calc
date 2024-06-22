@@ -14,7 +14,7 @@
 
 {#if children}
   <div class="p-[1px] {gradients[rating]}">
-    <div class="bg-gradient-to-tl from-zinc-900 via-zinc-800 to-zinc-900">
+    <div class="bg-gradient-to-tl from-zinc-950 via-zinc-900 to-zinc-800">
       {@render children()}
     </div>
   </div>
