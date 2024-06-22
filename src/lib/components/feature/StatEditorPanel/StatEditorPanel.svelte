@@ -1,4 +1,5 @@
 <script lang="ts">
+  import RangeSelector from '$lib/components/common/RangeSelector.svelte';
   import StatBlock from './StatBlock.svelte';
   import WeaponSelector from './WeaponSelector.svelte';
   import { stats } from './constants';
@@ -8,7 +9,7 @@
   <section class="flex flex-col gap-y-5">
     <h2 class="text-2xl font-bold uppercase">Stats</h2>
     <!-- weapon & level selectors -->
-    <div class="grid gap-x-8 lg:grid-cols-2">
+    <div class="grid gap-x-8 gap-y-2 lg:grid-cols-2">
       <div class="flex gap-x-2">
         <WeaponSelector />
         <button
@@ -17,7 +18,7 @@
           >?</button
         >
       </div>
-      <div>LEVEL Selector</div>
+      <RangeSelector label="Level" value={90} max={90} />
     </div>
 
     <!-- stat editor -->
