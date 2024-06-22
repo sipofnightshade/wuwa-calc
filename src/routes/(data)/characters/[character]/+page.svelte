@@ -1,4 +1,5 @@
 <script lang="ts">
+  import ImageContainer from '$lib/components/common/ImageContainer.svelte';
   import RequiredItemGroup from '$lib/components/common/RequiredItemGroup.svelte';
   import Separator from '$lib/components/common/Separator.svelte';
   import StarGroup from '$lib/components/common/StarGroup.svelte';
@@ -11,9 +12,9 @@
   <!-- LEFT SECTION -->
   <div class="flex flex-col gap-y-4 overflow-hidden">
     <!-- character image -->
-    <div class="border border-zinc-600 p-1">
+    <ImageContainer rating={5}>
       <img class="h-[572px] w-full" src="/temp/T_IconRole_Pile_kakaluo_UI.png" alt="character" />
-    </div>
+    </ImageContainer>
 
     <!-- character info -->
     <div class="flex items-end gap-2 overflow-hidden">
