@@ -1,7 +1,12 @@
 <script lang="ts">
   import type { Snippet } from 'svelte';
 
-  let { rating, children }: { rating: 1 | 2 | 3 | 4 | 5; children: Snippet } = $props();
+  type Props = {
+    rating: 1 | 2 | 3 | 4 | 5;
+    children: Snippet;
+  };
+
+  let { rating, children }: Props = $props();
 
   const gradients = {
     5: 'bg-gradient-to-t from-fiveStar/10 via-fiveStar to-fiveStar/10',
