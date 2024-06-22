@@ -74,3 +74,45 @@ export const stats: StatItem[] = [
     isPercent: true
   }
 ];
+
+export const deepenBuffsSingle = [
+  {
+    character: 'Mortefi',
+    image: 'T_IconRoleHead150_13.png',
+    color: 'border-fusion',
+    value: [
+      {
+        name: 'heavyAtkDeepen',
+        label: 'Heavy ATK Deepen',
+        value: 0.38
+      }
+    ]
+  },
+  {
+    character: 'Yinlin',
+    image: 'T_IconRoleHead150_17.png',
+    color: 'border-electro',
+    value: [
+      {
+        name: 'heavyAtkDeepen',
+        label: 'Heavy ATK Deepen',
+        value: 0.38
+      }
+    ]
+  }
+];
+
+export const deepenBuffsMulti = [
+  {
+    character: 'Verina',
+    image: 'T_IconRoleHead256_3_UI.png',
+    color: 'border-spectro',
+    value: [
+      {
+        name: 'heavyAtkDeepen',
+        label: 'Heavy ATK Deepen',
+        value: 0.38
+      }
+    ]
+  }
+];
