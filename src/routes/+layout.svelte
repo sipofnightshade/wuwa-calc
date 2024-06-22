@@ -16,7 +16,7 @@
     class:justify-between={$page.url.pathname === '/'}
   >
     <Navbar />
-    <div class="container mx-auto px-2 py-8">
+    <div class="container mx-auto px-2 py-4">
       <slot />
     </div>
     <Footer />
