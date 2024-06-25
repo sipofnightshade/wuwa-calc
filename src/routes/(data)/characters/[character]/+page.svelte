@@ -77,32 +77,32 @@
   const wavebands = [
     {
       id: 0,
-      name: 'Waveband Name',
+      name: 'C1',
       src: '/temp/T_IconDevice_JiyanM6_UI.png'
     },
     {
       id: 1,
-      name: 'Waveband Name',
+      name: 'C2',
       src: '/temp/T_IconDevice_JiyanM6_UI.png'
     },
     {
       id: 2,
-      name: 'Waveband Name',
+      name: 'C3',
       src: '/temp/T_IconDevice_JiyanM6_UI.png'
     },
     {
       id: 3,
-      name: 'Waveband Name',
+      name: 'C4',
       src: '/temp/T_IconDevice_JiyanM6_UI.png'
     },
     {
       id: 4,
-      name: 'Waveband Name',
+      name: 'C5',
       src: '/temp/T_IconDevice_JiyanM6_UI.png'
     },
     {
       id: 5,
-      name: 'Waveband Name',
+      name: 'C6',
       src: '/temp/T_IconDevice_JiyanM6_UI.png'
     }
   ];
