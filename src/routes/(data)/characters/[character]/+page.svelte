@@ -132,22 +132,22 @@
   <StatEditorPanel />
 </div>
 
-<section class="mt-16 flex flex-col gap-y-8">
+<section class="mt-16 flex flex-col gap-y-6">
   <!-- title -->
   <div class="flex items-end justify-between">
-    <h2 class="flex gap-4 text-3xl font-bold">
+    <h2 class="flex gap-4 text-2xl font-bold">
       <span>Forte</span>
       <span class="text-zinc-500">/</span>
       <span class="text-zinc-500">Resonator Abilities</span>
     </h2>
-    <div class="flex items-center gap-4">
-      <div class="flex items-center gap-1 text-lg font-bold uppercase">
+    <div class="flex items-center gap-4 font-bold uppercase">
+      <div class="flex items-center gap-1">
         <img class="h-6 w-6" src="/stats/T_Iconpropertyredcrit_UI.png" alt="stat" />
         <p>Crit DMG</p>
         <p class="text-electro">+12%</p>
       </div>
       <Separator height="h-5" />
-      <div class="flex items-center gap-1 text-lg font-bold uppercase">
+      <div class="flex items-center gap-1">
         <img class="h-6 w-6" src="/stats/T_Iconpropertyredattack_UI.png" alt="stat" />
         <p>ATK%</p>
         <p class="text-electro">+12%</p>
@@ -157,7 +157,7 @@
 
   <!-- skills and damage tables -->
   {#each skills as skill, i}
-    <div class="mb-4 grid grid-cols-2 gap-12 border-t border-zinc-800 pt-6">
+    <div class="grid grid-cols-2 gap-12 border-t border-zinc-700 pt-6">
       <div class="space-y-4">
         <ImageHeader title={skill.name} subtitle="Skill name goes here" src={skill.src} />
         <ContentBlock element="electro" />

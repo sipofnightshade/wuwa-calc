@@ -3,7 +3,7 @@
 </script>
 
 <div class="flex w-full items-end gap-2">
-  <label class="mb-[18px] flex w-full flex-col gap-6">
+  <label class="mb-[18px] flex w-full flex-col gap-5">
     <span class="text-zinc-400">{label}</span>
     <input
       type="range"
