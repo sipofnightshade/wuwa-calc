@@ -1,0 +1,3999 @@
+[
+  {
+    "id": 1402,
+    "name": "Yangyang",
+    "rating": 4,
+    "element": "Aero",
+    "weaponType": 2,
+    "skills": [
+      {
+        "Id": 1000101,
+        "SkillGroupId": 1402,
+        "SkillType": "Normal Attack",
+        "SkillName": "Feather as Blade",
+        "SkillLevelGroupId": 1000101,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 10,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": [
+          1402001001,
+          1402002001,
+          1402003001,
+          1402004001,
+          1402004003,
+          1402200001,
+          1402007002,
+          1402006001,
+          1402009001,
+          1402203014,
+          1402203024,
+          1402203034,
+          1402203044
+        ],
+        "Icon": "SP_IconNorKnife",
+        "SortIndex": 1,
+        "SkillDescribe": "<span class=\"font-title\">Basic Attack</span><br>Yangayang performs up to 4 consecutive attacks, dealing <span class=\"text-aero\">Aero DMG</span>.<br> <br><span class=\"font-title\">Heavy Attack</span><br>Yangyang consumes STA to lunge forward, dealing <span class=\"text-aero\">Aero DMG</span>.<br> <br><span class=\"font-title\">Heavy Attack: Zephyr Song</span><br>Use <span class=\"text-highlight\">Basic Attack</span> after <span class=\"text-highlight\">Heavy Attack</span> or <span class=\"text-highlight\">Dodge Counter</span> to perform Heavy Attack <span class=\"text-highlight\">Zephyr Song</span>, dealing <span class=\"text-aero\">Aero DMG</span>.<br> <br><span class=\"font-title\">Mid-air Attack</span><br>Yangyang consumes STA to perform a Plunging Attack from mid-air, dealing <span class=\"text-aero\">Aero DMG</span>.<br> <br><span class=\"font-title\">Dodge Counter</span><br>Use <span class=\"text-highlight\">Basic Attack</span> after a successful <span class=\"text-highlight\">Dodge</span> to thrust forward, dealing <span class=\"text-aero\">Aero DMG</span>.",
+        "SkillTagList": null,
+        "SkillDetailNum": null
+      },
+      {
+        "Id": 1000102,
+        "SkillGroupId": 1402,
+        "SkillType": "Resonance Skill",
+        "SkillName": "Zephyr Domain",
+        "SkillLevelGroupId": 1000102,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 10,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": [
+          1402105004,
+          1402105005,
+          1402105024,
+          1402105025,
+          1402105034,
+          1402105035,
+          1402105044,
+          1402105124,
+          1402105125,
+          1402105134,
+          1402105135,
+          1402105054,
+          1402105104,
+          1402105105
+        ],
+        "Icon": "SP_IconYangyangB1",
+        "SortIndex": 2,
+        "SkillDescribe": "Yangyang wields her sword to create a whirling vortex of winds that gathers nearby enemies to the center, dealing <span class=\"text-aero\">Aero DMG</span>.",
+        "SkillTagList": null,
+        "SkillDetailNum": null
+      },
+      {
+        "Id": 1000103,
+        "SkillGroupId": 1402,
+        "SkillType": "Resonance Liberation",
+        "SkillName": "Wind Spirals",
+        "SkillLevelGroupId": 1000103,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 10,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": [
+          1402301001,
+          1402301002
+        ],
+        "Icon": "SP_IconYangyangC1",
+        "SortIndex": 3,
+        "SkillDescribe": "Yangyang conjures a mighty Cyclone that gathers nearby enemies, dealing <span class=\"text-aero\">Aero DMG</span>.",
+        "SkillTagList": null,
+        "SkillDetailNum": null
+      },
+      {
+        "Id": 1000106,
+        "SkillGroupId": 1402,
+        "SkillType": "Intro Skill",
+        "SkillName": "Cerulean Song",
+        "SkillLevelGroupId": 1000106,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 10,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": [
+          1402601001
+        ],
+        "Icon": "SP_IconYangyangQTE",
+        "SortIndex": 4,
+        "SkillDescribe": "Yangyang sends the target into the air, dealing <span class=\"text-aero\">Aero DMG</span>.",
+        "SkillTagList": null,
+        "SkillDetailNum": null
+      },
+      {
+        "Id": 1000107,
+        "SkillGroupId": 1402,
+        "SkillType": "Forte Circuit",
+        "SkillName": "Echoing Feathers",
+        "SkillLevelGroupId": 1000107,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 10,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": [
+          1402203001,
+          1402203002,
+          1402203003,
+          1402203005,
+          1402203009,
+          1402203004
+        ],
+        "Icon": "SP_IconYangyangY",
+        "SortIndex": 5,
+        "SkillDescribe": "<span class=\"font-title\">Heavy Attack: Stormy Strike</span><br>When Yangyang has {0} Melodies, she can cast <span class=\"text-highlight\">Stormy Strike</span> after <span class=\"text-highlight\">Heavy Attack</span> or <span class=\"text-highlight\">Dodge Counter</span>, dealing <span class=\"text-aero\">Aero DMG</span>.<br> <br><span class=\"font-title\">Mid-air Attack: Feather Release</span><br>When Yangyang has {1} Melodies, cast <span class=\"text-highlight\">Basic Attack</span> in mid-air to consume all Melodies and perform consecutive strikes, diving from mid-air, dealing <span class=\"text-aero\">Aero DMG</span>. As Yangyang lands, she sheathes her sword with an attack, dealing <span class=\"text-aero\">Aero DMG</span>, considered as Basic Attack DMG.<br> <br><span class=\"font-title\">Melody</span><br>Yangyang can hold up to {2} Melodies<br>Yangyang obtains {3} Melody with every <span class=\"text-highlight\">Basic Attack 4</span> on hit.<br>Yangyang obtains {4} Melody for every Heavy Attack <span class=\"text-highlight\">Zephyr Song</span> on hit.<br>Yangyang obtains {5} Melody for every Resonance Skill <span class=\"text-highlight\">Zephyr Domain</span> on hit.<br>Yangyang obtains {6} Melody upon casting Intro Skill <span class=\"text-highlight\">Cerulean Song</span>.",
+        "SkillTagList": null,
+        "SkillDetailNum": [
+          "3",
+          "3",
+          "3",
+          "1",
+          "1",
+          "1",
+          "1"
+        ]
+      },
+      {
+        "Id": 1000104,
+        "SkillGroupId": 1402,
+        "SkillType": "Inherent Skill",
+        "SkillName": "Compassion",
+        "SkillLevelGroupId": 1000104,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 1,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": null,
+        "Icon": "SP_IconYangyangD1",
+        "SortIndex": 6,
+        "SkillDescribe": "Yangyang recovers {0} STA after she casts a Mid-air Attack <span class=\"text-highlight\">Feather Release</span>.",
+        "SkillTagList": null,
+        "SkillDetailNum": [
+          "30"
+        ]
+      },
+      {
+        "Id": 1000105,
+        "SkillGroupId": 1402,
+        "SkillType": "Inherent Skill",
+        "SkillName": "Lazuline Mercy",
+        "SkillLevelGroupId": 1000105,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 1,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": null,
+        "Icon": "SP_IconYangyangD2",
+        "SortIndex": 6,
+        "SkillDescribe": "Yangyang's Aero DMG Bonus is increased by {0} for {1}s after casting Intro Skill <span class=\"text-highlight\">Cerulean Song</span>.",
+        "SkillTagList": null,
+        "SkillDetailNum": [
+          "8%",
+          "8"
+        ]
+      },
+      {
+        "Id": 1000108,
+        "SkillGroupId": 1402,
+        "SkillType": "Inherent Skill",
+        "SkillLevelGroupId": 1000108,
+        "LeftSkillEffect": 1,
+        "MaxSkillLevel": 1,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": null,
+        "Icon": "SP_IconRun",
+        "SortIndex": 7,
+        "SkillTagList": null,
+        "SkillDetailNum": null
+      },
+      {
+        "Id": 1000109,
+        "SkillGroupId": 1402,
+        "SkillType": "Outro Skill",
+        "SkillName": "Whispering Breeze",
+        "SkillLevelGroupId": 1000109,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 1,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": null,
+        "Icon": "SP_IconYangyangT",
+        "SortIndex": 8,
+        "SkillDescribe": "Yangyang recovers {0} Resonance Energy per second over {1}s for the incoming character (or a character on a nearby team that activates an Outro Skill).",
+        "SkillTagList": [
+          5
+        ],
+        "SkillDetailNum": [
+          "4",
+          "5"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1202,
+    "name": "Chixia",
+    "rating": 4,
+    "element": "Fusion",
+    "weaponType": 3,
+    "skills": [
+      {
+        "Id": 1000201,
+        "SkillGroupId": 1202,
+        "SkillType": "Normal Attack",
+        "SkillName": "POW POW",
+        "SkillLevelGroupId": 1000201,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 10,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": [
+          1202001001,
+          1202002001,
+          1202003001,
+          1202004001,
+          1202005001,
+          1202007001,
+          1202007002,
+          1202101001,
+          1202102001,
+          1202103001,
+          1202104001,
+          1202004003
+        ],
+        "Icon": "SP_IconNorGun",
+        "SortIndex": 1,
+        "SkillDescribe": "<span class=\"font-title\">Basic Attack</span><br>Chixia fires up to 4 consecutive shots, dealing <span class=\"text-fusion\">Fusion DMG</span>.<br> <br><span class=\"font-title\">Heavy Attack</span><br>Chixia enters the aiming state for a more powerful shot.<br>The aimed shot fired after charging finishes deals <span class=\"text-fusion\">Fusion DMG</span>.<br> <br><span class=\"font-title\">Mid-air Attack</span><br>Chixia consumes STA to perform consecutive shots at the target in mid-air, dealing <span class=\"text-fusion\">Fusion DMG</span>.<br> <br><span class=\"font-title\">Dodge Counter</span><br>Use <span class=\"text-highlight\">Basic Attack</span> after a successful <span class=\"text-highlight\">Dodge</span> to attack the target, dealing <span class=\"text-fusion\">Fusion DMG</span>.",
+        "SkillTagList": null,
+        "SkillDetailNum": null
+      },
+      {
+        "Id": 1000202,
+        "SkillGroupId": 1202,
+        "SkillType": "Resonance Skill",
+        "SkillName": "Whizzing Fight Spirit",
+        "SkillLevelGroupId": 1000202,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 10,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": [
+          1202008001
+        ],
+        "Icon": "SP_IconMaxiaofangB1",
+        "SortIndex": 2,
+        "SkillDescribe": "Chixia unleashes a flurry of shots, dealing <span class=\"text-fusion\">Fusion DMG</span>.\r<br> \r<br><span class=\"text-highlight\">Whizzing Fight Spirit</span> has 2 initial charges.",
+        "SkillTagList": null,
+        "SkillDetailNum": [
+          "2"
+        ]
+      },
+      {
+        "Id": 1000203,
+        "SkillGroupId": 1202,
+        "SkillType": "Resonance Liberation",
+        "SkillName": "Blazing Flames",
+        "SkillLevelGroupId": 1000203,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 10,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": [
+          1202011001,
+          1202011002
+        ],
+        "Icon": "SP_IconMaxiaofangC1",
+        "SortIndex": 3,
+        "SkillDescribe": "Chixia fires up fast shots at nearby enemies, dealing <span class=\"text-fusion\">Fusion DMG</span>.",
+        "SkillTagList": null,
+        "SkillDetailNum": null
+      },
+      {
+        "Id": 1000204,
+        "SkillGroupId": 1202,
+        "SkillType": "Inherent Skill",
+        "SkillName": "Scorching Magazine",
+        "SkillLevelGroupId": 1000204,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 1,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": null,
+        "Icon": "SP_IconMaxiaofangD1",
+        "SortIndex": 4,
+        "SkillDescribe": "Max \"Thermobaric Bullets\" is increased by {0} rounds. The damage of Resonance Skill <span class=\"text-highlight\">Boom Boom</span> is increased by {1}.",
+        "SkillTagList": null,
+        "SkillDetailNum": [
+          "10",
+          "50%"
+        ]
+      },
+      {
+        "Id": 1000205,
+        "SkillGroupId": 1202,
+        "SkillType": "Inherent Skill",
+        "SkillName": "Numbingly Spicy!",
+        "SkillLevelGroupId": 1000205,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 1,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": null,
+        "Icon": "SP_IconMaxiaofangD2",
+        "SortIndex": 5,
+        "SkillDescribe": "Each \"Thermobaric Bullets\" that hits a target during Resonance Skill <span class=\"text-highlight\">DAKA DAKA!</span> increases ATK by {0} for {1}s, stacking up to {2} times.",
+        "SkillTagList": null,
+        "SkillDetailNum": [
+          "1%",
+          "10",
+          "30"
+        ]
+      },
+      {
+        "Id": 1000206,
+        "SkillGroupId": 1202,
+        "SkillType": "Intro Skill",
+        "SkillName": "Grand Entrance",
+        "SkillLevelGroupId": 1000206,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 10,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": [
+          1202051001,
+          1202051002
+        ],
+        "Icon": "SP_IconMaxiaofangQTE",
+        "SortIndex": 6,
+        "SkillDescribe": "Chixia makes a heroic entrance and fires rapidly with her dual pistols at the target, dealing <span class=\"text-fusion\">Fusion DMG</span>.",
+        "SkillTagList": null,
+        "SkillDetailNum": null
+      },
+      {
+        "Id": 1000207,
+        "SkillGroupId": 1202,
+        "SkillType": "Forte Circuit",
+        "SkillName": "Heroic Bullets",
+        "SkillLevelGroupId": 1000207,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 10,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": [
+          1202009001,
+          1202009002
+        ],
+        "Icon": "SP_IconMaxiaofangY",
+        "SortIndex": 7,
+        "SkillDescribe": "<span class=\"font-title\">Resonance Skill: DAKA DAKA!</span><br>Hold Resonance Skill <span class=\"text-highlight\">Whizzing Fight Spirit</span> to enter <span class=\"text-highlight\">DAKA DAKA!</span>. In this state:<br>- Chixia continuously consumes \"Thermobaric Bullets\" to attack the target, dealing <span class=\"text-fusion\">Fusion DMG</span>, considered as Resonance Skill damage;<br>Tap <span class=\"text-highlight\">Basic Attack</span> to cast <span class=\"text-highlight\">Basic Attack 4</span>, dealing <span class=\"text-fusion\">Fusion DMG</span>, considered as Basic Attack damage. Then she exits the \"DAKA DAKA!\" state;<br>- If {0} \"Thermobaric Bullets\" have been fired when <span class=\"text-highlight\">Basic Attack</span> is activated, Chixia will cast Resonance Skill <span class=\"text-highlight\">Boom Boom</span> and terminate \"DAKA DAKA!\"<br>- Chixia exits the \"DAKA DAKA!\" state when all \"Thermobaric Bullets\" are consumed.<br> <br><span class=\"font-title\">Resonance Skill: Boom Boom</span><br>Deal <span class=\"text-fusion\">Fusion DMG</span>, considered as Resonance Skill damage.<br> <br><span class=\"font-title\">Thermobaric Bullets</span><br>Chixia can hold up to {1} \"Thermobaric Bullets\".<br>Inherent Skill <span class=\"text-highlight\">Scorching Magazine</span> increases Max \"Thermobaric Bullets\" by {2}.<br>Chixia obtains \"Thermobaric Bullets\" for every Normal Attack <span class=\"text-highlight\">POW POW</span> on hit.<br>Chixia obtains \"Thermobaric Bullets\" upon casting Intro Skill <span class=\"text-highlight\">Grand Entrance</span> and Resonance Skill <span class=\"text-highlight\">Whizzing Fight Spirit</span>.",
+        "SkillTagList": null,
+        "SkillDetailNum": [
+          "30",
+          "60",
+          "10"
+        ]
+      },
+      {
+        "Id": 1000208,
+        "SkillGroupId": 1202,
+        "SkillType": "Inherent Skill",
+        "SkillLevelGroupId": 1000208,
+        "LeftSkillEffect": 1,
+        "MaxSkillLevel": 1,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": null,
+        "Icon": "SP_IconRun",
+        "SortIndex": 8,
+        "SkillTagList": null,
+        "SkillDetailNum": null
+      },
+      {
+        "Id": 1000209,
+        "SkillGroupId": 1202,
+        "SkillType": "Outro Skill",
+        "SkillName": "Leaping Flames",
+        "SkillLevelGroupId": 1000209,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 1,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": null,
+        "Icon": "SP_IconMaxiaofangT",
+        "SortIndex": 9,
+        "SkillDescribe": "Chixia releases a shock wave surrounding the target, dealing <span class=\"text-fusion\">Fusion DMG</span> equal to {0} of Chixia's ATK to enemies within the range.",
+        "SkillTagList": [
+          112
+        ],
+        "SkillDetailNum": [
+          "530.00%"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1503,
+    "name": "Verina",
+    "rating": 5,
+    "element": "Spectro",
+    "weaponType": 5,
+    "skills": [
+      {
+        "Id": 1000301,
+        "SkillGroupId": 1503,
+        "SkillType": "Normal Attack",
+        "SkillName": "Cultivation",
+        "SkillLevelGroupId": 1000301,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 10,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": [
+          1503001002,
+          1503002002,
+          1503003002,
+          1503004002,
+          1503005002,
+          1503007002,
+          1503011101,
+          1503012101,
+          1503013101,
+          1503103001,
+          1503608011
+        ],
+        "Icon": "SP_IconNorMagic",
+        "SortIndex": 1,
+        "SkillDescribe": "<span class=\"font-title\">Basic Attack</span><br>Verina performs up to 5 consecutive attacks with vines, dealing <span class=\"text-spectro\">Spectro DMG</span>.<br> <br><span class=\"font-title\">Heavy Attack</span><br>Verina consumes STA to charge forward, dealing <span class=\"text-spectro\">Spectro DMG</span>.<br> <br><span class=\"font-title\">Mid-air Attack</span><br>Verina consumes STA to perform up to 3 consecutive attacks in mid-air, dealing <span class=\"text-spectro\">Spectro DMG</span>.<br> <br><span class=\"font-title\">Mid-air Heavy Attack</span><br>Hold <span class=\"text-highlight\">Basic Attack</span> to consume STA and perform a mid-air Plunging Attack, dealing <span class=\"text-spectro\">Spectro DMG</span>.<br> <br><span class=\"font-title\">Dodge Counter</span><br>Use <span class=\"text-highlight\">Basic Attack</span> after a successful <span class=\"text-highlight\">Dodge</span> to attack the target, dealing <span class=\"text-spectro\">Spectro DMG</span>.",
+        "SkillTagList": null,
+        "SkillDetailNum": null
+      },
+      {
+        "Id": 1000302,
+        "SkillGroupId": 1503,
+        "SkillType": "Resonance Skill",
+        "SkillName": "Botany Experiment",
+        "SkillLevelGroupId": 1000302,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 10,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": [
+          1503021002,
+          1503021003
+        ],
+        "Icon": "SP_IconJueyuanB1",
+        "SortIndex": 2,
+        "SkillDescribe": "Verina converges an energy field in front to grow foliage, dealing <span class=\"text-spectro\">Spectro DMG</span> within the range.",
+        "SkillTagList": null,
+        "SkillDetailNum": null
+      },
+      {
+        "Id": 1000303,
+        "SkillGroupId": 1503,
+        "SkillType": "Resonance Liberation",
+        "SkillName": "Arboreal Flourish",
+        "SkillLevelGroupId": 1000303,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 10,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": [
+          1503031101,
+          1503031014,
+          1503031004,
+          1503031013
+        ],
+        "Icon": "SP_IconJueyuanC1",
+        "SortIndex": 3,
+        "SkillDescribe": "Verina nourishes nearby foliage at rapid speed, dealing <span class=\"text-spectro\">Spectro DMG</span> while healing all Characters on teams nearby. A <span class=\"text-highlight\">Photosynthesis Mark</span> is applied to the target on hit.<br> <br><span class=\"font-title\">Photosynthesis Mark</span><br>Whenever a Character on a team nearby performs an attack on targets with a <span class=\"text-highlight\">Photosynthesis Mark</span>, Verina performs a Coordinated Attack, dealing <span class=\"text-spectro\">Spectro DMG</span> while healing the active Character dealing damage on a team nearby, triggered 1 time per second.",
+        "SkillTagList": null,
+        "SkillDetailNum": null
+      },
+      {
+        "Id": 1000304,
+        "SkillGroupId": 1503,
+        "SkillType": "Inherent Skill",
+        "SkillName": "Grace of Life",
+        "SkillLevelGroupId": 1000304,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 1,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": null,
+        "Icon": "SP_IconJueyuanD1",
+        "SortIndex": 4,
+        "SkillDescribe": "Verina protects a team member from fatal damage and grants a shield with strength equal to {0} of Verina's ATK, lasting for {1}s. This can be triggered 1 time every {2} minutes.",
+        "SkillTagList": null,
+        "SkillDetailNum": [
+          "120%",
+          "10",
+          "10"
+        ]
+      },
+      {
+        "Id": 1000305,
+        "SkillGroupId": 1503,
+        "SkillType": "Inherent Skill",
+        "SkillName": "Gift of Nature",
+        "SkillLevelGroupId": 1000305,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 1,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": null,
+        "Icon": "SP_IconJueyuanD2",
+        "SortIndex": 5,
+        "SkillDescribe": "When Verina casts Heavy Attack <span class=\"text-highlight\">Starflower Blooms</span>, Mid-air Attack <span class=\"text-highlight\">Starflower Blooms</span>, Resonance Liberation <span class=\"text-highlight\">Arboreal Flourish</span> or Outro Skill <span class=\"text-highlight\">Blossom</span>, all team members' ATK are increased by {0} for {1}s.",
+        "SkillTagList": null,
+        "SkillDetailNum": [
+          "20%",
+          "20"
+        ]
+      },
+      {
+        "Id": 1000306,
+        "SkillGroupId": 1503,
+        "SkillType": "Intro Skill",
+        "SkillName": "Verdant Growth",
+        "SkillLevelGroupId": 1000306,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 10,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": [
+          1503401011
+        ],
+        "Icon": "SP_IconJueyuanQTE",
+        "SortIndex": 6,
+        "SkillDescribe": "Verina attacks the target, dealing <span class=\"text-spectro\">Spectro DMG</span>.",
+        "SkillTagList": null,
+        "SkillDetailNum": null
+      },
+      {
+        "Id": 1000307,
+        "SkillGroupId": 1503,
+        "SkillType": "Forte Circuit",
+        "SkillName": "Starflower Blooms",
+        "SkillLevelGroupId": 1000307,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 10,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": [
+          1503608014,
+          1503608015,
+          1503608003,
+          1503011111,
+          1503012111,
+          1503013111
+        ],
+        "Icon": "SP_IconJueyuanY",
+        "SortIndex": 7,
+        "SkillDescribe": "<span class=\"font-title\">Heavy Attack: Starflower Blooms</span><br>When casting <span class=\"text-highlight\">Heavy Attack</span>, if Verina carries \"Photosynthesis Energy\", Verina consumes {0} stack of \"Photosynthesis Energy\" to recover Concerto Energy and heal all characters on a nearby team;<br><span class=\"text-highlight\">Heavy Attack: Starflower Blooms</span> deals <span class=\"text-spectro\">Spectro DMG</span>, considered as Heavy Attack damage.<br> <br><span class=\"font-title\">Mid-air Attack: Starflower Blooms</span><br>When casting <span class=\"text-highlight\">Mid-air Attack</span>, if Verina carries \"Photosynthesis Energy\", Verina consumes {0} stack of \"Photosynthesis Energy\" to recover Concerto Energy and heal all characters on a nearby team;<br><span class=\"text-highlight\">Mid-air Attack: Starflower Blooms</span> deals <span class=\"text-spectro\">Spectro DMG</span>, considered as Basic Attack damage.<br>Verina can cast <span class=\"text-highlight\">Mid-air Attack: Starflower Blooms</span> by using <span class=\"text-highlight\">Basic Attack</span> after casting <span class=\"text-highlight\">Heavy Attack: Starflower Blooms</span>.<br> <br><span class=\"font-title\">Photosynthesis Energy</span><br>Verina can hold up to {1} \"Photosynthesis Energy\".<br>Verina obtains {2} stack of \"Photosynthesis Energy\" for every <span class=\"text-highlight\">Basic Attack 5</span> on hit;<br>Verina obtains {3} stack of \"Photosynthesis Energy\" for every Resonance Skill <span class=\"text-highlight\">Botany Experiment</span> on hit;<br>Verina obtains {4} stack of \"Photosynthesis Energy\" for every Intro Skill <span class=\"text-highlight\">Verdant Growth</span> on hit.",
+        "SkillTagList": null,
+        "SkillDetailNum": [
+          "1",
+          "4",
+          "1",
+          "1",
+          "1"
+        ]
+      },
+      {
+        "Id": 1000308,
+        "SkillGroupId": 1503,
+        "SkillType": "Inherent Skill",
+        "SkillName": "Skillful Cooking",
+        "SkillLevelGroupId": 1000308,
+        "LeftSkillEffect": 1,
+        "MaxSkillLevel": 1,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": null,
+        "Icon": "SP_IconWorld3",
+        "SortIndex": 8,
+        "SkillDescribe": "Has a chance to produce special dishes when cooking",
+        "SkillTagList": null,
+        "SkillDetailNum": null
+      },
+      {
+        "Id": 1000309,
+        "SkillGroupId": 1503,
+        "SkillType": "Outro Skill",
+        "SkillName": "Blossom",
+        "SkillLevelGroupId": 1000309,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 1,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": null,
+        "Icon": "SP_IconJueyuanT",
+        "SortIndex": 9,
+        "SkillDescribe": "Verina heals the incoming Resonator (or Resonator on a nearby team that activates this Outro Skill) by {0} of her ATK per second for {1}s. All Resonators on nearby teams have their DMG Amplified by {2} for {3}s.",
+        "SkillTagList": [
+          1,
+          7
+        ],
+        "SkillDetailNum": [
+          "19%",
+          "6",
+          "15%",
+          "30"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1501,
+    "name": "Rover-Spectro",
+    "rating": 5,
+    "element": "Spectro",
+    "weaponType": 2,
+    "skills": [
+      {
+        "Id": 1000601,
+        "SkillGroupId": 1501,
+        "SkillType": "Normal Attack",
+        "SkillName": "Vibration Manifestation",
+        "SkillLevelGroupId": 1000601,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 10,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": [
+          1502001001,
+          1502002001,
+          1502003001,
+          1502004001,
+          1502008001,
+          1502009002,
+          1502006001,
+          1502007002,
+          1502007003
+        ],
+        "Icon": "SP_IconNorKnife",
+        "SortIndex": 1,
+        "SkillDescribe": "<span class=\"font-title\">Basic Attack</span><br>Rover performs up to 4 consecutive attacks, dealing <span class=\"text-spectro\">Spectro DMG</span>.<br> <br><span class=\"font-title\">Heavy Attack</span><br>Rover consumes STA to attack the target, dealing <span class=\"text-spectro\">Spectro DMG</span>.<br> <br><span class=\"font-title\">Heavy Attack: Resonance</span><br>After <span class=\"text-highlight\">Basic Attack 3</span> or <span class=\"text-highlight\">Heavy Attack</span>, press the <span class=\"text-highlight\">Basic Attack</span> button at the right time to perform Heavy Attack <span class=\"text-highlight\">Resonance</span>, dealing <span class=\"text-spectro\">Spectro DMG</span>.<br> <br><span class=\"font-title\">Heavy Attack: Aftertune</span><br>After Heavy Attack <span class=\"text-highlight\">Resonance</span> or <span class=\"text-highlight\">Dodge Counter</span> hits a target, press the <span class=\"text-highlight\">Basic Attack</span> button to perform Heavy Attack <span class=\"text-highlight\">Aftertune</span>, dealing <span class=\"text-spectro\">Spectro DMG</span>.<br> <br><span class=\"font-title\">Mid-air Attack</span><br>Rover consumes STA to perform a Mid-Air Plunging Attack, dealing <span class=\"text-spectro\">Spectro DMG</span>.<br> <br><span class=\"font-title\">Dodge Counter</span><br>Use <span class=\"text-highlight\">Basic Attack</span> after a successful <span class=\"text-highlight\">Dodge</span> to attack the target, dealing <span class=\"text-spectro\">Spectro DMG</span>.",
+        "SkillTagList": null,
+        "SkillDetailNum": null
+      },
+      {
+        "Id": 1000602,
+        "SkillGroupId": 1501,
+        "SkillType": "Resonance Skill",
+        "SkillName": "Resonating Slashes",
+        "SkillLevelGroupId": 1000602,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 10,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": [
+          1502100101
+        ],
+        "Icon": "SP_IconZhujueB1",
+        "SortIndex": 2,
+        "SkillDescribe": "Rover launches an attack forward, dealing <span class=\"text-spectro\">Spectro DMG</span>.",
+        "SkillTagList": null,
+        "SkillDetailNum": null
+      },
+      {
+        "Id": 1000603,
+        "SkillGroupId": 1501,
+        "SkillType": "Resonance Liberation",
+        "SkillName": "Echoing Orchestra",
+        "SkillLevelGroupId": 1000603,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 10,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": [
+          1502110101,
+          1502100303
+        ],
+        "Icon": "SP_IconZhujueC1",
+        "SortIndex": 3,
+        "SkillDescribe": "Rover converges Spectro energy to assail the target area, detonating it after a short delay and dealing <span class=\"text-spectro\">Spectro DMG</span>.",
+        "SkillTagList": null,
+        "SkillDetailNum": null
+      },
+      {
+        "Id": 1000606,
+        "SkillGroupId": 1501,
+        "SkillType": "Intro Skill",
+        "SkillName": "Waveshock",
+        "SkillLevelGroupId": 1000606,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 10,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": [
+          1502009003
+        ],
+        "Icon": "SP_IconZhujueQTE",
+        "SortIndex": 4,
+        "SkillDescribe": "Rover attacks the target, dealing <span class=\"text-spectro\">Spectro DMG</span>.",
+        "SkillTagList": null,
+        "SkillDetailNum": null
+      },
+      {
+        "Id": 1000609,
+        "SkillGroupId": 1501,
+        "SkillType": "Outro Skill",
+        "SkillName": "Instant",
+        "SkillLevelGroupId": 1000609,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 1,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": null,
+        "Icon": "SP_IconZhujueT",
+        "SortIndex": 4,
+        "SkillDescribe": "Generate an area of stasis surrounding the next character (or a character on a nearby team that activates an Outro Skill), lasting for {0}s.",
+        "SkillTagList": [
+          3
+        ],
+        "SkillDetailNum": [
+          "3"
+        ]
+      },
+      {
+        "Id": 1000607,
+        "SkillGroupId": 1501,
+        "SkillType": "Forte Circuit",
+        "SkillName": "World in a Grain of Sand",
+        "SkillLevelGroupId": 1000607,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 10,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": [
+          1502100201,
+          1502100205,
+          1502005001,
+          1502005002
+        ],
+        "Icon": "SP_IconZhujueY",
+        "SortIndex": 5,
+        "SkillDescribe": "<span class=\"font-title\">Resonance Skill: Resonating Spin</span><br>If \"Diminutive Sound\" exceeds {0} when <span class=\"text-highlight\">Resonance Skill</span> is used, Rover consumes {1} \"Diminutive Sound\" to cast <span class=\"text-highlight\">Resonating Spin</span>, dealing <span class=\"text-spectro\">Spectro DMG</span>, considered as Resonance Skill damage.<br> <br><span class=\"font-title\">Basic Attack: Resonating Echoes</span><br>After Resonance Skill <span class=\"text-highlight\">Resonating Spin</span> ends, Rover performs <span class=\"text-highlight\">Resonating Echoes</span> upon using <span class=\"text-highlight\">Basic Attack</span> button.<br>Launch attacks forward, dealing <span class=\"text-spectro\">Spectro DMG</span>, considered as Resonance Skill DMG.<br> <br><span class=\"font-title\">Diminutive Sound</span><br>Rover can hold up to {2} \"Diminutive Sounds\".<br>Rover obtains \"Diminutive Sound\" for every Normal Attack <span class=\"text-highlight\">Vibration Manifestation</span> on hit.<br>Rover obtains \"Diminutive Sound\" for every Heavy Attack <span class=\"text-highlight\"> Aftertune</span> on hit.<br>Rover obtains \"Diminutive Sound\" upon casting Intro Skill <span class=\"text-highlight\">Waveshock</span>.",
+        "SkillTagList": null,
+        "SkillDetailNum": [
+          "50",
+          "50",
+          "100"
+        ]
+      },
+      {
+        "Id": 1000604,
+        "SkillGroupId": 1501,
+        "SkillType": "Inherent Skill",
+        "SkillName": "Reticence",
+        "SkillLevelGroupId": 1000604,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 1,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": null,
+        "Icon": "SP_IconZhujueD1",
+        "SortIndex": 6,
+        "SkillDescribe": "DMG dealt by Rover's Basic Attack <span class=\"text-highlight\">Resonating Echoes</span> is increased by {0}.",
+        "SkillTagList": null,
+        "SkillDetailNum": [
+          "60%"
+        ]
+      },
+      {
+        "Id": 1000605,
+        "SkillGroupId": 1501,
+        "SkillType": "Inherent Skill",
+        "SkillName": "Silent Listener",
+        "SkillLevelGroupId": 1000605,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 1,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": null,
+        "Icon": "SP_IconZhujueD2",
+        "SortIndex": 7,
+        "SkillDescribe": "Rover gains {0} ATK increase for {1}s upon casting Heavy Attack <span class=\"text-highlight\">Resonance</span>.",
+        "SkillTagList": null,
+        "SkillDetailNum": [
+          "15%",
+          "5"
+        ]
+      },
+      {
+        "Id": 1000608,
+        "SkillGroupId": 1501,
+        "SkillType": "Inherent Skill",
+        "SkillName": "Solaris Voyager",
+        "SkillLevelGroupId": 1000608,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 1,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": null,
+        "Icon": "SP_IconRun",
+        "SortIndex": 8,
+        "SkillDescribe": "An error occurred. Please contact our Customer Service for assistance",
+        "SkillTagList": null,
+        "SkillDetailNum": null
+      }
+    ]
+  },
+  {
+    "id": 1102,
+    "name": "Sanhua",
+    "rating": 4,
+    "element": "Glacio",
+    "weaponType": 2,
+    "skills": [
+      {
+        "Id": 1000501,
+        "SkillGroupId": 1102,
+        "SkillType": "Normal Attack",
+        "SkillName": "Frigid Light",
+        "SkillLevelGroupId": 1000501,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 10,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": [
+          1102001001,
+          1102002001,
+          1102003001,
+          1102004001,
+          1102004002,
+          1102005002,
+          1102007001,
+          1102009001,
+          1102010001
+        ],
+        "Icon": "SP_IconNorKnife",
+        "SortIndex": 1,
+        "SkillDescribe": "<span class=\"font-title\">Basic Attack</span><br>Sanhua performs up to 5 consecutive attacks, dealing <span class=\"text-glacio\">Glacio DMG</span>.<br> <br><span class=\"font-title\">Heavy Attack</span><br>Sanhua consumes STA to launch attacks, dealing <span class=\"text-glacio\">Glacio DMG</span>.<br> <br><span class=\"font-title\">Mid-air Attack</span><br>Sanhua consumes STA to perform a Mid-Air Plunging Attack, dealing <span class=\"text-glacio\">Glacio DMG</span>.<br> <br><span class=\"font-title\">Dodge Counter</span><br>Use <span class=\"text-highlight\">Basic Attack</span> after a successful <span class=\"text-highlight\">Dodge</span> to attack the target, dealing <span class=\"text-glacio\">Glacio DMG</span>.",
+        "SkillTagList": null,
+        "SkillDetailNum": null
+      },
+      {
+        "Id": 1000502,
+        "SkillGroupId": 1102,
+        "SkillType": "Resonance Skill",
+        "SkillName": "Eternal Frost",
+        "SkillLevelGroupId": 1000502,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 10,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": [
+          1102020011
+        ],
+        "Icon": "SP_IconSanhuaB1",
+        "SortIndex": 2,
+        "SkillDescribe": "Sanhua sends an air blade to create {0} \"Ice Prism\" on the ground, dealing <span class=\"text-glacio\">Glacio DMG</span>.",
+        "SkillTagList": null,
+        "SkillDetailNum": [
+          "1"
+        ]
+      },
+      {
+        "Id": 1000503,
+        "SkillGroupId": 1102,
+        "SkillType": "Resonance Liberation",
+        "SkillName": "Glacial Gaze",
+        "SkillLevelGroupId": 1000503,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 10,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": [
+          1102030002
+        ],
+        "Icon": "SP_IconSanhuaC1",
+        "SortIndex": 3,
+        "SkillDescribe": "Sanhua deals <span class=\"text-glacio\">Glacio DMG</span> and creates {0} \"Glacier\".",
+        "SkillTagList": null,
+        "SkillDetailNum": [
+          "1",
+          "5"
+        ]
+      },
+      {
+        "Id": 1000506,
+        "SkillGroupId": 1102,
+        "SkillType": "Intro Skill",
+        "SkillName": "Freezing Thorns",
+        "SkillLevelGroupId": 1000506,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 10,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": [
+          1102040002
+        ],
+        "Icon": "SP_IconSanhuaQTE",
+        "SortIndex": 4,
+        "SkillDescribe": "Sanhua swings her blade downward and creates 1 \"Ice Thorn\", dealing <span class=\"text-glacio\">Glacio DMG</span>.",
+        "SkillTagList": null,
+        "SkillDetailNum": null
+      },
+      {
+        "Id": 1000509,
+        "SkillGroupId": 1102,
+        "SkillType": "Outro Skill",
+        "SkillName": "Silversnow",
+        "SkillLevelGroupId": 1000509,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 1,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": null,
+        "Icon": "SP_IconSanhuaT",
+        "SortIndex": 4,
+        "SkillDescribe": "The incoming Resonator (or Resonator on a nearby team that activates Outro Skill) has their Basic Attack DMG Amplified by {0} for {1}s or until they are switched off field.",
+        "SkillTagList": [
+          302
+        ],
+        "SkillDetailNum": [
+          "38%",
+          "14"
+        ]
+      },
+      {
+        "Id": 1000507,
+        "SkillGroupId": 1102,
+        "SkillType": "Forte Circuit",
+        "SkillName": "Clarity of Mind",
+        "SkillLevelGroupId": 1000507,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 10,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": [
+          1102011001,
+          1102020003,
+          1102030010,
+          1102040003
+        ],
+        "Icon": "SP_IconSanhuaY",
+        "SortIndex": 5,
+        "SkillDescribe": "<span class=\"font-title\">Heavy Attack: Detonate</span><br>When holding <span class=\"text-highlight\">Basic Attack</span>, a cursor moves back and forth on the Forte Gauge. Release <span class=\"text-highlight\">Basic Attack</span> while cursor falls in the \"Frostbite\" area, to perform Heavy Attack <span class=\"text-highlight\">Detonate</span>, dealing <span class=\"text-glacio\">Glacio DMG</span> considered as Heavy Attack damage.<br> <br><span class=\"font-title\">Ice Burst</span><br>Sanhua’s Heavy Attack <span class=\"text-highlight\">Detonate</span> detonates all \"Ice Thorns\", \"Ice Prisms\" and \"Glaciers\" within her attack range, dealing <span class=\"text-glacio\">Glacio DMG</span>. <span class=\"text-highlight\">Ice Burst</span> deals Resonance Skill DMG.<br> <br><span class=\"font-title\">Frostbite Area</span><br>The \"Frostbite\" area expands with every {0} stack of \"Clarity\". \"Clarity\" stacks up to {1} times.<br>Sanhua obtains {2} stack of \"Clarity\" upon performing <span class=\"text-highlight\">Basic Attack 5</span>.<br>Sanhua obtains {3} stack of \"Clarity\" upon casting Intro Skill <span class=\"text-highlight\">Freezing Thorns</span>.<br>Sanhua obtains {4} stack of \"Clarity\" upon casting Resonance Skill <span class=\"text-highlight\">Eternal Frost</span>.<br>Sanhua obtains {5} stack(s) of \"Clarity\" upon casting Resonance Liberation <span class=\"text-highlight\">Glacial Gaze</span>.<br>Upon casting Heavy Attack <span class=\"text-highlight\">Detonate</span>, all \"Clarity\" is removed.",
+        "SkillTagList": null,
+        "SkillDetailNum": [
+          "1",
+          "2",
+          "1",
+          "1",
+          "1",
+          "2",
+          "5"
+        ]
+      },
+      {
+        "Id": 1000504,
+        "SkillGroupId": 1102,
+        "SkillType": "Inherent Skill",
+        "SkillName": "Condensation",
+        "SkillLevelGroupId": 1000504,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 1,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": null,
+        "Icon": "SP_IconSanhuaD1",
+        "SortIndex": 6,
+        "SkillDescribe": "Damage dealt by Sanhua's Resonance Skill increased by {0} for {1}s after casting her Intro Skill.",
+        "SkillTagList": null,
+        "SkillDetailNum": [
+          "20%",
+          "8"
+        ]
+      },
+      {
+        "Id": 1000505,
+        "SkillGroupId": 1102,
+        "SkillType": "Inherent Skill",
+        "SkillName": "Avalanche",
+        "SkillLevelGroupId": 1000505,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 1,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": null,
+        "Icon": "SP_IconSanhuaD2",
+        "SortIndex": 7,
+        "SkillDescribe": "Damage dealt by Sanhua's Forte Circuit <span class=\"text-highlight\">Ice Burst</span> is increased by {0} for {1}s after casting <span class=\"text-highlight\">Basic Attack 5</span>.",
+        "SkillTagList": null,
+        "SkillDetailNum": [
+          "20%",
+          "8"
+        ]
+      },
+      {
+        "Id": 1000508,
+        "SkillGroupId": 1102,
+        "SkillType": "Inherent Skill",
+        "SkillLevelGroupId": 1000508,
+        "LeftSkillEffect": 1,
+        "MaxSkillLevel": 1,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": null,
+        "Icon": "SP_IconRun",
+        "SortIndex": 8,
+        "SkillTagList": null,
+        "SkillDetailNum": null
+      }
+    ]
+  },
+  {
+    "id": 1601,
+    "name": "Taoqi",
+    "rating": 4,
+    "element": "Havoc",
+    "weaponType": 1,
+    "skills": [
+      {
+        "Id": 1000901,
+        "SkillGroupId": 1601,
+        "SkillType": "Normal Attack",
+        "SkillName": "Concealed Edge",
+        "SkillLevelGroupId": 1000901,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 10,
+        "SkillInfoList": [
+          1601001,
+          1601002,
+          1601003,
+          1601004,
+          1601005,
+          1601010,
+          1601014,
+          1601012,
+          1601015,
+          1601011,
+          1601020,
+          1601021,
+          1601070,
+          1601071
+        ],
+        "BuffList": null,
+        "DamageList": [
+          1601001001,
+          1601002001,
+          1601002002,
+          1601003002,
+          1601003003,
+          1601004001,
+          1601005001,
+          1601011001,
+          1601022001
+        ],
+        "Icon": "SP_IconNorSword",
+        "SortIndex": 1,
+        "SkillDescribe": "<span class=\"font-title\">Basic Attack</span><br>Taoqi performs up to 4 continuous attacks, dealing <span class=\"text-havoc\">Havoc DMG</span>.<br> <br><span class=\"font-title\">Heavy Attack</span><br>Taoqi consumes STA to deal <span class=\"text-havoc\">Havoc DMG</span>.<br>If Basic Attack button is held, Taoqi enters <span class=\"text-highlight\">Rocksteady Defense</span> state.<br> <br><span class=\"font-title\">Rocksteady Defense</span><br>Taoqi's DMG taken is reduced by {0};<br>-When Taoqi is attacked during <span class=\"text-highlight\">Rocksteady Defense</span>, she will cast <span class=\"text-highlight\">Strategic Parry</span>;<br>-<span class=\"text-highlight\">Strategic Parry</span> is automatically cast after <span class=\"text-highlight\">Rocksteady Defense</span> lasts for {1}s;<br>If Taoqi is attacked when casting Resonance Skill <span class=\"text-highlight\">Rocksteady Shield</span>, <span class=\"text-highlight\">Strategic Parry</span> is automatically cast.<br> <br><span class=\"font-title\">Strategic Parry</span><br>Taoqi attacks the target, dealing <span class=\"text-havoc\">Havoc DMG</span>.<br> <br><span class=\"font-title\">Mid-air Attack</span><br>Taoqi consumes STA to perform a Mid-Air Plunging Attack, dealing <span class=\"text-havoc\">Havoc DMG</span>.<br> <br><span class=\"font-title\">Dodge Counter</span><br>Use <span class=\"text-highlight\">Basic Attack</span> after a successful <span class=\"text-highlight\">Dodge</span> to attack the target, dealing <span class=\"text-havoc\">Havoc DMG</span>.",
+        "SkillTagList": null,
+        "SkillDetailNum": [
+          "35%",
+          "3"
+        ]
+      },
+      {
+        "Id": 1000902,
+        "SkillGroupId": 1601,
+        "SkillType": "Resonance Skill",
+        "SkillName": "Fortified Defense",
+        "SkillLevelGroupId": 1000902,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 10,
+        "SkillInfoList": [
+          1601030,
+          1601031
+        ],
+        "BuffList": null,
+        "DamageList": [
+          1601030001,
+          1601030301
+        ],
+        "Icon": "SP_IconTaoHuaB1",
+        "SortIndex": 2,
+        "SkillDescribe": "Taoqi deals <span class=\"text-havoc\">Havoc DMG</span> to surrounding targets, generating {0} Rocksteady Shield and healing herself.<br>If attacked when casting <span class=\"text-highlight\">Fortified Defense</span>, <span class=\"text-highlight\">Strategic Parry</span> will be automatically cast.<br> <br><span class=\"font-title\">Rocksteady Shield</span><br>When the active character on the team is attacked, {1} <span class=\"text-highlight\">Rocksteady Shield</span> is consumed to reduce the damage taken.",
+        "SkillTagList": null,
+        "SkillDetailNum": [
+          "3",
+          "1"
+        ]
+      },
+      {
+        "Id": 1000903,
+        "SkillGroupId": 1601,
+        "SkillType": "Resonance Liberation",
+        "SkillName": "Unmovable",
+        "SkillLevelGroupId": 1000903,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 10,
+        "SkillInfoList": [
+          1601040
+        ],
+        "BuffList": null,
+        "DamageList": [
+          1601040001
+        ],
+        "Icon": "SP_IconTaoHuaC1",
+        "SortIndex": 3,
+        "SkillDescribe": "Launch an attack based on Taoqi's DEF to the target, dealing <span class=\"text-havoc\">Havoc DMG</span>.",
+        "SkillTagList": null,
+        "SkillDetailNum": [
+          "2"
+        ]
+      },
+      {
+        "Id": 1000906,
+        "SkillGroupId": 1601,
+        "SkillType": "Intro Skill",
+        "SkillName": "Defense Formation",
+        "SkillLevelGroupId": 1000906,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 10,
+        "SkillInfoList": [
+          1601060,
+          1601061,
+          1601062,
+          1601063
+        ],
+        "BuffList": [
+          1601061010
+        ],
+        "DamageList": [
+          1601061001
+        ],
+        "Icon": "SP_IconTaoHuaQTE",
+        "SortIndex": 4,
+        "SkillDescribe": "Attack the target, dealing <span class=\"text-havoc\">Havoc DMG</span>.",
+        "SkillTagList": null,
+        "SkillDetailNum": null
+      },
+      {
+        "Id": 1000909,
+        "SkillGroupId": 1601,
+        "SkillType": "Outro Skill",
+        "SkillName": "Iron Will",
+        "SkillLevelGroupId": 1000909,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 1,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": null,
+        "Icon": "SP_IconTaohuaT",
+        "SortIndex": 4,
+        "SkillDescribe": "The incoming Resonator (or Resonator on a nearby team that activates Outro Skill) has their Resonance Skill DMG Amplified by {0} for {1}s or until they are switched off field.",
+        "SkillTagList": [
+          301
+        ],
+        "SkillDetailNum": [
+          "38%",
+          "14"
+        ]
+      },
+      {
+        "Id": 1000907,
+        "SkillGroupId": 1601,
+        "SkillType": "Forte Circuit",
+        "SkillName": "Power Shift",
+        "SkillLevelGroupId": 1000907,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 10,
+        "SkillInfoList": [
+          1601025,
+          1601026,
+          1601027
+        ],
+        "BuffList": [
+          1601025101,
+          1601026101,
+          1601027101,
+          1601025102,
+          1601026102,
+          1601027102
+        ],
+        "DamageList": [
+          1601021001,
+          1601025001,
+          1601026001,
+          1601027001,
+          1601028001,
+          1601020010
+        ],
+        "Icon": "SP_IconTaoHuaY",
+        "SortIndex": 5,
+        "SkillDescribe": "<span class=\"font-title\">Timed Counters</span><br>When carrying \"Resolving Caliber\", use <span class=\"text-highlight\">Basic Attack</span> after Heavy Attack <span class=\"text-highlight\">Strategic Parry</span> or Intro Skill <span class=\"text-highlight\">Defense Formation</span> to cast <span class=\"text-highlight\">Timed Counters</span>, performing up to 3 consecutive attacks, dealing <span class=\"text-havoc\">Havoc DMG</span>, considered as Basic Attack damage.<br><span class=\"text-highlight\">Timed Counters</span> consume {0} \"Resolving Caliber\" upon hitting an enemy to grant a shield.<br>After casting the Intro Skill <span class=\"text-highlight\">Defense Formation</span>, use <span class=\"text-highlight\">Basic Attack</span> to directly cast <span class=\"text-highlight\">Timed Counters</span>.<br> <br><span class=\"font-title\">Resolving Caliber</span><br>Taoqi can hold up to {1} Resolving Caliber.<br><span class=\"text-highlight\">Basic Attack 4</span> will consume all of Taoqi's \"Rocksteady Shields\" to grant that many \"Resolving Caliber\".<br>While <span class=\"text-highlight\">Rocksteady Shield</span> exists, when the active character is attacked, {2} \"Rocksteady Shield\" will be consumed to recover \"Resolving Caliber\".<br>After <span class=\"text-highlight\">Rocksteady Shield</span> ends, all remaining \"Rocksteady Shield\" will be consumed to grant that many \"Resolving Caliber\".",
+        "SkillTagList": null,
+        "SkillDetailNum": [
+          "1",
+          "3",
+          "1"
+        ]
+      },
+      {
+        "Id": 1000904,
+        "SkillGroupId": 1601,
+        "SkillType": "Inherent Skill",
+        "SkillName": "Steadfast Protection",
+        "SkillLevelGroupId": 1000904,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 1,
+        "SkillInfoList": null,
+        "BuffList": [
+          1601951001
+        ],
+        "DamageList": null,
+        "Icon": "SP_IconTaoHuaD1",
+        "SortIndex": 6,
+        "SkillDescribe": "While Resonance Skill <span class=\"text-highlight\">Rocksteady Shield</span> lasts, the Character's DEF is increased by {0}.",
+        "SkillTagList": null,
+        "SkillDetailNum": [
+          "15%"
+        ]
+      },
+      {
+        "Id": 1000905,
+        "SkillGroupId": 1601,
+        "SkillType": "Inherent Skill",
+        "SkillName": "Unyielding",
+        "SkillLevelGroupId": 1000905,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 1,
+        "SkillInfoList": null,
+        "BuffList": [
+          1601952001
+        ],
+        "DamageList": null,
+        "Icon": "SP_IconTaoHuaD2",
+        "SortIndex": 7,
+        "SkillDescribe": "After Heavy Attack <span class=\"text-highlight\">Strategic Parry</span> is successfully triggered, {0} Stamina is recovered.",
+        "SkillTagList": null,
+        "SkillDetailNum": [
+          "25"
+        ]
+      },
+      {
+        "Id": 1000908,
+        "SkillGroupId": 1601,
+        "SkillType": "Inherent Skill",
+        "SkillLevelGroupId": 1000908,
+        "LeftSkillEffect": 1,
+        "MaxSkillLevel": 1,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": null,
+        "Icon": "SP_IconWorld4",
+        "SortIndex": 8,
+        "SkillTagList": null,
+        "SkillDetailNum": null
+      }
+    ]
+  },
+  {
+    "id": 1502,
+    "name": "Rover-Spectro",
+    "rating": 5,
+    "element": "Spectro",
+    "weaponType": 2,
+    "skills": []
+  },
+  {
+    "id": 1103,
+    "name": "Baizhi",
+    "rating": 4,
+    "element": "Glacio",
+    "weaponType": 5,
+    "skills": [
+      {
+        "Id": 1000401,
+        "SkillGroupId": 1103,
+        "SkillType": "Normal Attack",
+        "SkillName": "Destined Promise",
+        "SkillLevelGroupId": 1000401,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 10,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": [
+          1103100101,
+          1103100201,
+          1103100301,
+          1103100401,
+          1103110001,
+          1103100501,
+          1103120001,
+          11030100503
+        ],
+        "Icon": "SP_IconNorMagic",
+        "SortIndex": 1,
+        "SkillDescribe": "<span class=\"font-title\">Basic Attack</span><br>Baizhi instructs You'tan to perform up to 4 consecutive attacks, dealing <span class=\"text-glacio\">Glacio DMG</span>.<br> <br><span class=\"font-title\">Heavy Attack</span><br>Baizhi continuously consumes STA to command You'tan to attack enemies, dealing <span class=\"text-glacio\">Glacio DMG</span>. During Heavy Attack, Baizhi can command You'tan to move.<br> <br><span class=\"font-title\">Mid-air Attack</span><br>Baizhi consumes STA and summons You’tan in mid-air to perform a Plunging Attack, dealing <span class=\"text-glacio\">Glacio DMG</span>.<br> <br><span class=\"font-title\">Dodge Counter</span><br>Use <span class=\"text-highlight\">Basic Attack</span> after a successful <span class=\"text-highlight\">Dodge</span> to attack the target, dealing <span class=\"text-glacio\">Glacio DMG</span>.",
+        "SkillTagList": null,
+        "SkillDetailNum": null
+      },
+      {
+        "Id": 1000402,
+        "SkillGroupId": 1103,
+        "SkillType": "Resonance Skill",
+        "SkillName": "Emergency Plan",
+        "SkillLevelGroupId": 1000402,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 10,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": [
+          1103200002,
+          1103200012
+        ],
+        "Icon": "SP_IconBailianB1",
+        "SortIndex": 2,
+        "SkillDescribe": "Baizhi calls You'tan to attack the target, dealing <span class=\"text-glacio\">Glacio DMG</span> while immediately healing all characters on nearby teams.",
+        "SkillTagList": null,
+        "SkillDetailNum": null
+      },
+      {
+        "Id": 1000403,
+        "SkillGroupId": 1103,
+        "SkillType": "Resonance Liberation",
+        "SkillName": "Momentary Union",
+        "SkillLevelGroupId": 1000403,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 10,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": [
+          1103130001,
+          1103200003,
+          1103200001
+        ],
+        "Icon": "SP_IconBailianC1",
+        "SortIndex": 3,
+        "SkillDescribe": "Baizhi summons You'tan to heal all characters on nearby teams, generating {0} stacks of <span class=\"text-highlight\">Remnant Entities</span>.<br> <br><span class=\"font-title\">Remnant Entities</span><br>Remnant Entities follow the active team members. {2} stacks of <span class=\"text-highlight\">Remnant Entities</span> are automatically consumed to attack the targets every {1}s, dealing <span class=\"text-glacio\">Glacio DMG</span> on hit while healing the active character on a nearby team.",
+        "SkillTagList": null,
+        "SkillDetailNum": [
+          "4",
+          "2.5",
+          "1"
+        ]
+      },
+      {
+        "Id": 1000404,
+        "SkillGroupId": 1103,
+        "SkillType": "Inherent Skill",
+        "SkillName": "Harmonic Range",
+        "SkillLevelGroupId": 1000404,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 1,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": null,
+        "Icon": "SP_IconBailianD2",
+        "SortIndex": 4,
+        "SkillDescribe": "When Baizhi casts Resonance Skill <span class=\"text-highlight\">Emergency Plan</span>, You'tan generates a field of <span class=\"text-highlight\">Euphonia</span> that lasts for {0}s.<br> <br><span class=\"font-title\">Euphonia</span><br>ATK of the Resonators who picks up Euphonia is increased by {1} for {2}s.",
+        "SkillTagList": null,
+        "SkillDetailNum": [
+          "15",
+          "15%",
+          "20"
+        ]
+      },
+      {
+        "Id": 1000405,
+        "SkillGroupId": 1103,
+        "SkillType": "Inherent Skill",
+        "SkillName": "Stimulus Feedback",
+        "SkillLevelGroupId": 1000405,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 1,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": null,
+        "Icon": "SP_IconBailianD1",
+        "SortIndex": 5,
+        "SkillDescribe": "Baizhi's <span class=\"text-highlight\">Heavy Attack</span> on hit heals the character with the lowest HP on a nearby team by {0} of her Max HP.",
+        "SkillTagList": null,
+        "SkillDetailNum": [
+          "0.25%"
+        ]
+      },
+      {
+        "Id": 1000406,
+        "SkillGroupId": 1103,
+        "SkillType": "Intro Skill",
+        "SkillName": "Overflowing Frost",
+        "SkillLevelGroupId": 1000406,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 10,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": [
+          1103160001,
+          1103160002
+        ],
+        "Icon": "SP_IconBailianQTE",
+        "SortIndex": 6,
+        "SkillDescribe": "Baizhi calls You'tan to perform 1 plunging attack, dealing <span class=\"text-glacio\">Glacio DMG</span> while healing all characters on a nearby team.",
+        "SkillTagList": null,
+        "SkillDetailNum": null
+      },
+      {
+        "Id": 1000409,
+        "SkillGroupId": 1103,
+        "SkillType": "Outro Skill",
+        "SkillName": "Rejuvinating Flow",
+        "SkillLevelGroupId": 1000409,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 1,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": null,
+        "Icon": "SP_IconBailianT",
+        "SortIndex": 6,
+        "SkillDescribe": "Baizhi heals the incoming Resonator (or Resonator on a nearby team that activates Outro Skill) by {1} of her Max HP every {0}s for {2}s. The healed Resonator also has their Attribute DMG Amplified by {3} for {4}s.",
+        "SkillTagList": [
+          1,
+          7
+        ],
+        "SkillDetailNum": [
+          "3",
+          "1.54%",
+          "30",
+          "15%",
+          "6"
+        ]
+      },
+      {
+        "Id": 1000407,
+        "SkillGroupId": 1103,
+        "SkillType": "Forte Circuit",
+        "SkillName": "Cycle of Life",
+        "SkillLevelGroupId": 1000407,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 10,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": [
+          1103426000
+        ],
+        "Icon": "SP_IconBailianY",
+        "SortIndex": 7,
+        "SkillDescribe": "<span class=\"font-title\">You'tan</span><br>A Remnant Creature that answers to Baizhi’s mind and desires while sharing all her stats. You’tan goes back to Baizhi when Baizhi dodges.<br> <br><span class=\"font-title\">Concentration</span><br>Baizhi consumes all \"Concentrations\" when casting <span class=\"text-highlight\">Heavy Attack</span> or Resonance Skill <span class=\"text-highlight\">Emergency Plan</span> to continuously heal all characters on nearby teams. Each {0} \"Concentration\" consumed provides 1 healing. The healings happen every {2}s.<br>When Baizhi consumes \"Concentration\" to cast <span class=\"text-highlight\">Heavy Attack</span>, Baizhi additionally restores Concerto Energy and Resonance Energy;<br>When Baizhi consumes \"Concentration\" to cast Resonance Skill <span class=\"text-highlight\">Emergency Plan</span>, Baizhi additionally restores Concerto Energy.<br> <br><span class=\"font-title\">Forte Gauge: Concentration</span><br>Baizhi can hold up to {3} \"Concentrations\".<br>Baizhi obtains {4} \"Concentration\" for every <span class=\"text-highlight\">Basic Attack</span> on hit.",
+        "SkillTagList": null,
+        "SkillDetailNum": [
+          "1",
+          "1",
+          "2",
+          "4",
+          "1"
+        ]
+      },
+      {
+        "Id": 1000408,
+        "SkillGroupId": 1103,
+        "SkillType": "Inherent Skill",
+        "SkillName": "Skillful Cooking",
+        "SkillLevelGroupId": 1000408,
+        "LeftSkillEffect": 1,
+        "MaxSkillLevel": 1,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": null,
+        "Icon": "SP_IconWorld3",
+        "SortIndex": 8,
+        "SkillDescribe": "Has a chance to produce special dishes when cooking",
+        "SkillTagList": null,
+        "SkillDetailNum": null
+      }
+    ]
+  },
+  {
+    "id": 1203,
+    "name": "Encore",
+    "rating": 5,
+    "element": "Fusion",
+    "weaponType": 5,
+    "skills": [
+      {
+        "Id": 1000701,
+        "SkillGroupId": 1203,
+        "SkillType": "Normal Attack",
+        "SkillName": "Wooly Attack",
+        "SkillLevelGroupId": 1000701,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 10,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": [
+          1203600001,
+          1203600002,
+          1203600003,
+          1203600004,
+          1203003011,
+          1203900001,
+          1203100002,
+          1203007001,
+          1203600913,
+          1203600914
+        ],
+        "Icon": "SP_IconNorMagic",
+        "SortIndex": 1,
+        "SkillDescribe": "<span class=\"font-title\">Basic Attack</span><br>Encore performs up to 4 consecutive attacks, dealing <span class=\"text-fusion\">Fusion DMG</span>.<br> <br><span class=\"font-title\">Basic Attack: Wooly Strike</span><br>After <span class=\"text-highlight\">Basic Attack 4</span>, press the Basic Attack button to attack the target, dealing <span class=\"text-fusion\">Fusion DMG</span>.<br> <br><span class=\"font-title\">Heavy Attack</span><br>Encore consumes STA to attack the target, dealing <span class=\"text-fusion\">Fusion DMG</span>.<br> <br><span class=\"font-title\">Mid-air Attack</span><br>Encore consumes STA to perform a Mid-Air Plunging Attack, dealing <span class=\"text-fusion\">Fusion DMG</span>.<br> <br><span class=\"font-title\">Dodge Counter</span><br>Use <span class=\"text-highlight\">Basic Attack</span> after a successful <span class=\"text-highlight\">Dodge</span> to attack the target, dealing <span class=\"text-fusion\">Fusion DMG</span>.",
+        "SkillTagList": null,
+        "SkillDetailNum": null
+      },
+      {
+        "Id": 1000702,
+        "SkillGroupId": 1203,
+        "SkillType": "Resonance Skill",
+        "SkillName": "Flaming Woolies",
+        "SkillLevelGroupId": 1000702,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 10,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": [
+          1203001986,
+          1203201001
+        ],
+        "Icon": "SP_IconAnkeB1",
+        "SortIndex": 2,
+        "SkillDescribe": "<span class=\"font-title\">Flaming Woolies</span>\r<br>Encore summons Cloudy and Cosmos to attack with burning rays, dealing <span class=\"text-fusion\">Fusion DMG</span>.\r<br> \r<br><span class=\"font-title\">Energetic Welcome</span>\r<br>After casting <span class=\"text-highlight\">Flaming Woolies</span>, use <span class=\"text-highlight\">Resonance Skill</span> to perform <span class=\"text-highlight\">Energetic Welcome</span>, dealing <span class=\"text-fusion\">Fusion DMG</span>.",
+        "SkillTagList": null,
+        "SkillDetailNum": null
+      },
+      {
+        "Id": 1000703,
+        "SkillGroupId": 1203,
+        "SkillType": "Resonance Liberation",
+        "SkillName": "Cosmos Rave",
+        "SkillLevelGroupId": 1000703,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 10,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": [
+          1203301001,
+          1203301003,
+          1203302002,
+          1203302003,
+          1203302004,
+          1203304002,
+          1203304003,
+          1203304004,
+          1203304005,
+          1203305002,
+          1203305003,
+          1203305004,
+          1203110001,
+          1203303002,
+          1203303003,
+          1203303005,
+          1203408002,
+          1203408003,
+          1203408004,
+          1203408005
+        ],
+        "Icon": "SP_IconAnkeC1",
+        "SortIndex": 3,
+        "SkillDescribe": "As Encore loses control, Cosmos breaks free and wreaks havoc on its surroundings.<br> <br><span class=\"font-title\">Basic Attack: Cosmos - Frolicking</span><br>During Cosmos Rave, the <span class=\"text-highlight\">Basic Attack</span> is replaced with <span class=\"text-highlight\">Cosmos - Frolicking</span>, which performs up to 4 consecutive attacks, dealing <span class=\"text-fusion\">Fusion DMG</span>, considered as Basic Attack damage.<br> <br><span class=\"font-title\">Cosmos - Heavy Attack</span><br>During Cosmos Rave, the <span class=\"text-highlight\">Heavy Attack</span> is replaced with <span class=\"text-highlight\">Cosmos - Heavy Attack</span>, consuming STA to attack the target, dealing <span class=\"text-fusion\">Fusion DMG</span>, considered as Heavy Attack damage.<br> <br><span class=\"font-title\">Resonance Skill: Cosmos - Rampage</span><br>During Cosmos Rave, <span class=\"text-highlight\">Flaming Woolies</span> is replaced with <span class=\"text-highlight\">Cosmos - Rampage</span>, dealing <span class=\"text-fusion\">Fusion DMG</span>, considered as Resonance Skill damage.<br> <br><span class=\"font-title\">Cosmos - Dodge Counter</span><br>During Cosmos Rave, use <span class=\"text-highlight\">Basic Attack</span> after a successful <span class=\"text-highlight\">Dodge</span> to attack the target, dealing <span class=\"text-fusion\">Fusion DMG</span>, considered as Basic Attack damage.",
+        "SkillTagList": null,
+        "SkillDetailNum": null
+      },
+      {
+        "Id": 1000706,
+        "SkillGroupId": 1203,
+        "SkillType": "Intro Skill",
+        "SkillName": "Woolies Helpers",
+        "SkillLevelGroupId": 1000706,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 10,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": [
+          1203601002
+        ],
+        "Icon": "SP_IconAnkeQTE",
+        "SortIndex": 4,
+        "SkillDescribe": "Encore pounces at the enemies with Cosmos, dealing <span class=\"text-fusion\">Fusion DMG</span>.",
+        "SkillTagList": null,
+        "SkillDetailNum": null
+      },
+      {
+        "Id": 1000709,
+        "SkillGroupId": 1203,
+        "SkillType": "Outro Skill",
+        "SkillName": "Thermal Field",
+        "SkillLevelGroupId": 1000709,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 1,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": null,
+        "Icon": "SP_IconAnkeT",
+        "SortIndex": 4,
+        "SkillDescribe": "Encore generates a Thermal Field centered around skill target, with a radius of {0}m. Targets inside the Thermal Field are continuously burned, suffering <span class=\"text-fusion\">Fusion DMG</span> equal to {2} of Encore's ATK every {1}s for {3}s.",
+        "SkillTagList": [
+          112
+        ],
+        "SkillDetailNum": [
+          "3",
+          "1.5",
+          "176.76%",
+          "6"
+        ]
+      },
+      {
+        "Id": 1000707,
+        "SkillGroupId": 1203,
+        "SkillType": "Forte Circuit",
+        "SkillName": "Black & White Woolies",
+        "SkillLevelGroupId": 1000707,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 10,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": [
+          1203110002,
+          1203110102,
+          1203311001,
+          1203001990,
+          1203311101,
+          1203001991
+        ],
+        "Icon": "SP_IconAnkeY",
+        "SortIndex": 5,
+        "SkillDescribe": "<span class=\"font-title\">Heavy Attack: Cloudy Frenzy</span><br>When Encore's \"Mayhem\" is full, after casting a <span class=\"text-highlight\">Heavy Attack</span>, Encore will consume all \"Mayhem\" to enter the Mayhem state, reducing damage taken by {0}. Switching Characters does not interrupt the Mayhem state.<br>After the Mayhem state ends, Encore will cast <span class=\"text-highlight\">Cloudy Frenzy</span>, dealing <span class=\"text-fusion\">Fusion DMG</span>, considered as Resonance Liberation damage.<br> <br><span class=\"font-title\">Heavy Attack: Cosmos Rupture</span><br>During Cosmos Rave, when casting <span class=\"text-highlight\">Heavy Attack</span>, if \"Mayhem\" is full, Encore will consume all \"Mayhem\" to enter Cosmos' Mayhem state, reducing damage taken by {1}. Switching Characters does not interrupt the Cosmos' Mayhem state.<br>After Cosmos' Mayhem state ends, Encore will cast <span class=\"text-highlight\">Cosmos Rupture</span>, dealing <span class=\"text-fusion\">Fusion DMG</span>, considered as Resonance Liberation damage. <br><span class=\"font-title\">Mayhem</span><br>Encore can hold up to {2} \"Mayhem\".<br>When Normal Attack <span class=\"text-highlight\">Wooly Attack</span> hits a target, Encore restores \"Mayhem\".<br>When Resonance Skill <span class=\"text-highlight\">Flaming Woolies</span> hits a target, Encore restores \"Mayhem\".<br>When Resonance Skill <span class=\"text-highlight\">Energetic Welcome</span> hits a target, Encore restores \"Mayhem\".<br>When Intro Skill <span class=\"text-highlight\">Woolies Helpers</span> hits a target, Encore restores \"Mayhem\".<br>During the duration of Resonance Liberation <span class=\"text-highlight\">Cosmos Rave</span>, Encore restores \"Mayhem\" when hitting a target.",
+        "SkillTagList": null,
+        "SkillDetailNum": [
+          "70%",
+          "70%",
+          "100"
+        ]
+      },
+      {
+        "Id": 1000704,
+        "SkillGroupId": 1203,
+        "SkillType": "Inherent Skill",
+        "SkillName": "Angry Cosmos",
+        "SkillLevelGroupId": 1000704,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 1,
+        "SkillInfoList": null,
+        "BuffList": [
+          1203802001
+        ],
+        "DamageList": null,
+        "Icon": "SP_IconAnkeD1",
+        "SortIndex": 6,
+        "SkillDescribe": "During the Resonance Liberation <span class=\"text-highlight\">Cosmos Rave</span>, when Encore's HP is above {0}, DMG dealt is increased by {1}.",
+        "SkillTagList": null,
+        "SkillDetailNum": [
+          "70%",
+          "10%"
+        ]
+      },
+      {
+        "Id": 1000705,
+        "SkillGroupId": 1203,
+        "SkillType": "Inherent Skill",
+        "SkillName": "Woolies Cheer Dance",
+        "SkillLevelGroupId": 1000705,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 1,
+        "SkillInfoList": null,
+        "BuffList": [
+          1203801001
+        ],
+        "DamageList": null,
+        "Icon": "SP_IconAnkeD2",
+        "SortIndex": 7,
+        "SkillDescribe": "When Resonance Skill <span class=\"text-highlight\">Flaming Woolies</span> or Resonance Skill <span class=\"text-highlight\">Cosmos - Rampage</span> is cast, Encore's Fusion DMG Bonus is increased by {0} for {1}s.",
+        "SkillTagList": null,
+        "SkillDetailNum": [
+          "10%",
+          "10"
+        ]
+      },
+      {
+        "Id": 1000708,
+        "SkillGroupId": 1203,
+        "SkillType": "Inherent Skill",
+        "SkillName": "Skillful Cooking",
+        "SkillLevelGroupId": 1000708,
+        "LeftSkillEffect": 1,
+        "MaxSkillLevel": 1,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": null,
+        "Icon": "SP_IconWorld3",
+        "SortIndex": 7,
+        "SkillDescribe": "Has a chance to produce special dishes when cooking",
+        "SkillTagList": null,
+        "SkillDetailNum": null
+      }
+    ]
+  },
+  {
+    "id": 1602,
+    "name": "Danjin",
+    "rating": 4,
+    "element": "Havoc",
+    "weaponType": 2,
+    "skills": [
+      {
+        "Id": 1000801,
+        "SkillGroupId": 1602,
+        "SkillType": "Normal Attack",
+        "SkillName": "Execution",
+        "SkillLevelGroupId": 1000801,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 10,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": [
+          1602001001,
+          1602001002,
+          1602001003,
+          1602100001,
+          1602003023,
+          1602003024,
+          1602003025,
+          1602021001
+        ],
+        "Icon": "SP_IconNorKnife",
+        "SortIndex": 1,
+        "SkillDescribe": "<span class=\"font-title\">Basic Attack</span><br>Danjin performs up to 3 consecutive attacks, dealing <span class=\"text-havoc\">Havoc DMG</span>.<br> <br><span class=\"font-title\">Heavy Attack</span><br>Danjin consumes STA to launch consecutive attacks, dealing <span class=\"text-havoc\">Havoc DMG</span>.<br> <br><span class=\"font-title\">Mid-air Attack</span><br>Consume STA to perform a Mid-air Plunging Attack, dealing <span class=\"text-havoc\">Havoc DMG</span>.<br> <br><span class=\"font-title\">Dodge Counter</span><br>Use <span class=\"text-highlight\">Basic Attack</span> after a successful <span class=\"text-highlight\">Dodge</span> to launch an attack, dealing <span class=\"text-havoc\">Havoc DMG</span>.<br> <br><span class=\"font-title\">Dodge Counter: Ruby Shades</span><br>After a successful Dodge Counter, Danjin can use Resonance Skill <span class=\"text-highlight\">Crimson Fragment</span> to perform Resonance Skill: <span class=\"text-highlight\">Crimson Erosion</span>.",
+        "SkillTagList": null,
+        "SkillDetailNum": null
+      },
+      {
+        "Id": 1000802,
+        "SkillGroupId": 1602,
+        "SkillType": "Resonance Skill",
+        "SkillName": "Crimson Fragment",
+        "SkillLevelGroupId": 1000802,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 10,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": [
+          1602201001,
+          1602201002,
+          1602202001,
+          1602202002,
+          1602203001,
+          1602204001,
+          1602204002,
+          1602205001,
+          1602205002,
+          1602205003,
+          1602206001,
+          1602206002,
+          1602206003
+        ],
+        "Icon": "SP_IconMicaiB1",
+        "SortIndex": 2,
+        "SkillDescribe": "When casting <span class=\"text-highlight\">Crimson Fragment</span>, each attack consumes {0} of Danjin's max HP. When Danjin's HP is less than {1}, this no longer consumes HP.<br> <br><span class=\"font-title\">Carmine Gleam</span><br>Danjin attacks the target, dealing <span class=\"text-havoc\">Havoc DMG</span>.<br> <br><span class=\"font-title\">Crimson Erosion</span><br>After <span class=\"text-highlight\">Basic Attack 2</span>, <span class=\"text-highlight\">Dodge Counter</span> or Intro Skill <span class=\"text-highlight\">Vindication</span>, use <span class=\"text-highlight\">Resonance Skill</span> to perform up to 2 consecutive strikes, dealing <span class=\"text-havoc\">Havoc DMG</span>.<br>When <span class=\"text-highlight\">Crimson Erosion 2</span> hits a target, apply <span class=\"text-highlight\">Incinerating Will</span> to it.<br> <br><span class=\"font-title\">Incinerating Will</span><br>Danjin's damage dealt to targets marked with <span class=\"text-highlight\">Incinerating Will</span> is increased by {2}.<br> <br><span class=\"font-title\">Sanguine Pulse</span><br>Use <span class=\"text-highlight\">Resonance Skill</span> after <span class=\"text-highlight\">Basic Attack 3</span> to perform up to 3 consecutive attacks, dealing <span class=\"text-havoc\">Havoc DMG</span>.",
+        "SkillTagList": null,
+        "SkillDetailNum": [
+          "3%",
+          "1%",
+          "20%"
+        ]
+      },
+      {
+        "Id": 1000803,
+        "SkillGroupId": 1602,
+        "SkillType": "Resonance Liberation",
+        "SkillName": "Crimson Bloom",
+        "SkillLevelGroupId": 1000803,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 10,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": [
+          1602301001,
+          1602301002
+        ],
+        "Icon": "SP_IconMicaiC1",
+        "SortIndex": 3,
+        "SkillDescribe": "Danjin's anger intensifies as she frantically swings her dual blades, performing multiple rapid consecutive attacks, and {0} Scarlet Burst attack(s), dealing <span class=\"text-havoc\">Havoc DMG</span>.",
+        "SkillTagList": null,
+        "SkillDetailNum": [
+          "1"
+        ]
+      },
+      {
+        "Id": 1000806,
+        "SkillGroupId": 1602,
+        "SkillType": "Intro Skill",
+        "SkillName": "Vindication",
+        "SkillLevelGroupId": 1000806,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 10,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": [
+          1602004001,
+          1602004002
+        ],
+        "Icon": "SP_IconMicaiQTE",
+        "SortIndex": 4,
+        "SkillDescribe": "With unwavering determination, Danjin unleashes a strike, dealing <span class=\"text-havoc\">Havoc DMG</span>.",
+        "SkillTagList": null,
+        "SkillDetailNum": null
+      },
+      {
+        "Id": 1000809,
+        "SkillGroupId": 1602,
+        "SkillType": "Outro Skill",
+        "SkillName": "Duality",
+        "SkillLevelGroupId": 1000809,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 1,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": null,
+        "Icon": "SP_IconMicaiT",
+        "SortIndex": 4,
+        "SkillDescribe": "The incoming Resonator (or Resonator on a nearby team that activates Outro Skill) has their Havoc DMG Amplified by {0} for {1}s or until they are switched off field.",
+        "SkillTagList": [
+          106
+        ],
+        "SkillDetailNum": [
+          "23%",
+          "14"
+        ]
+      },
+      {
+        "Id": 1000807,
+        "SkillGroupId": 1602,
+        "SkillType": "Forte Circuit",
+        "SkillName": "Serene Vigil",
+        "SkillLevelGroupId": 1000807,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 10,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": [
+          1602101001,
+          1602101002,
+          1602102001,
+          1602101004,
+          1602101005,
+          1602102002
+        ],
+        "Icon": "SP_IconMicaiY",
+        "SortIndex": 5,
+        "SkillDescribe": "<span class=\"font-title\">Heavy Attack: Chaoscleave</span><br>After accumulating {0} \"Ruby Blossom\", long press <span class=\"text-highlight\">Basic Attack</span> to consume all \"Ruby Blossom\" to cast <span class=\"text-highlight\">Chaoscleave</span>, dealing <span class=\"text-havoc\">Havoc DMG</span>, considered as Heavy Attack damage, and healing Danjin.<br>If current \"Ruby Blossom\" reaches over {1}, {2} \"Ruby Blossom\" is consumed instead to increase the DMG multiplier of <span class=\"text-highlight\">Chaoscleave</span> and <span class=\"text-highlight\">Scatterbloom</span> performed this time.<br> <br><span class=\"font-title\">Heavy Attack: Scatterbloom</span><br>Use <span class=\"text-highlight\">Basic Attack</span> after Heavy Attack <span class=\"text-highlight\">Chaoscleave</span> to cast <span class=\"text-highlight\">Scatterbloom</span> to attack the target, dealing <span class=\"text-havoc\">Havoc DMG</span>, considered as Heavy Attack damage.<br> <br><span class=\"font-title\">Ruby Blossom</span><br>Danjin can hold up to {3} Ruby Blossom.<br>Danjin obtains \"Ruby Blossom\" when using Resonance Skill <span class=\"text-highlight\">Crimson Fragment</span>.",
+        "SkillTagList": null,
+        "SkillDetailNum": [
+          "60",
+          "120",
+          "120",
+          "120"
+        ]
+      },
+      {
+        "Id": 1000804,
+        "SkillGroupId": 1602,
+        "SkillType": "Inherent Skill",
+        "SkillName": "Crimson Light",
+        "SkillLevelGroupId": 1000804,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 1,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": null,
+        "Icon": "SP_IconMicaiD1",
+        "SortIndex": 6,
+        "SkillDescribe": "Damage of Resonance Skill <span class=\"text-highlight\">Crimson Erosion</span> triggered by <span class=\"text-highlight\">Dodge Counter: Ruby Shades</span> is increased by {0}. The HP cost and stacks of \"Ruby Blossom\" recovered are doubled.",
+        "SkillTagList": null,
+        "SkillDetailNum": [
+          "20%"
+        ]
+      },
+      {
+        "Id": 1000805,
+        "SkillGroupId": 1602,
+        "SkillType": "Inherent Skill",
+        "SkillName": "Overflow",
+        "SkillLevelGroupId": 1000805,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 1,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": null,
+        "Icon": "SP_IconMicaiD2",
+        "SortIndex": 7,
+        "SkillDescribe": "After casting the Resonance Skill <span class=\"text-highlight\">Sanguine Pulse</span>, Danjin's Heavy Attack damage is increased by {0} for {1}s.",
+        "SkillTagList": null,
+        "SkillDetailNum": [
+          "30%",
+          "5"
+        ]
+      },
+      {
+        "Id": 1000808,
+        "SkillGroupId": 1602,
+        "SkillType": "Inherent Skill",
+        "SkillName": "Skillful Cooking",
+        "SkillLevelGroupId": 1000808,
+        "LeftSkillEffect": 1,
+        "MaxSkillLevel": 1,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": null,
+        "Icon": "SP_IconWorld3",
+        "SortIndex": 8,
+        "SkillDescribe": "Has a chance to produce special dishes when cooking",
+        "SkillTagList": null,
+        "SkillDetailNum": null
+      }
+    ]
+  },
+  {
+    "id": 1403,
+    "name": "Aalto",
+    "rating": 4,
+    "element": "Aero",
+    "weaponType": 3,
+    "skills": [
+      {
+        "Id": 1001001,
+        "SkillGroupId": 1403,
+        "SkillType": "Normal Attack",
+        "SkillName": "Half Truths",
+        "SkillLevelGroupId": 1001001,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 10,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": [
+          1403001001,
+          1403002001,
+          1403003001,
+          1403003002,
+          1403004001,
+          1403004002,
+          1403005001,
+          1403005010,
+          1403005011,
+          1403005012,
+          1403020001,
+          1403020002,
+          1403020011,
+          1403020012,
+          1403020021,
+          1403020022,
+          1403020031,
+          1403020032,
+          1403040006,
+          1403060001,
+          1403060002,
+          1403001010,
+          1403001011,
+          1403001012,
+          1403002020,
+          1403002021,
+          1403002022,
+          1403040001,
+          1403060010,
+          1403060011,
+          1403060012,
+          1403003011,
+          1403003012,
+          1403003013,
+          1403003021,
+          1403003022,
+          1403003023,
+          1403004011,
+          1403004012,
+          1403004013,
+          1403004021,
+          1403004022,
+          1403004023,
+          1403009001,
+          1403009011,
+          1403009012,
+          1403009013,
+          1403040003
+        ],
+        "Icon": "SP_IconNorGun",
+        "SortIndex": 1,
+        "SkillDescribe": "<span class=\"font-title\">Basic Attack</span><br>Aalto fires up to 5 consecutive shots, dealing <span class=\"text-aero\">Aero DMG</span>. Basic Attack 4 will spread the \"Mist\" forward, which lasts for {0}s.<br> <br><span class=\"font-title\">Heavy Attack</span><br>Aalto enters the aiming state for a more powerful shot.<br>The aimed shot fired after charging finishes deals <span class=\"text-aero\">Aero DMG</span>.<br> <br><span class=\"font-title\">Mid-air Attack</span><br>Aalto consumes STA to perform consecutive shots at the target in mid-air, dealing <span class=\"text-aero\">Aero DMG</span>.<br> <br><span class=\"font-title\">Dodge Counter</span><br>Use <span class=\"text-highlight\">Basic Attack</span> after a successful <span class=\"text-highlight\">Dodge</span> to attack the target, dealing <span class=\"text-aero\">Aero DMG</span>.",
+        "SkillTagList": null,
+        "SkillDetailNum": [
+          "1.5"
+        ]
+      },
+      {
+        "Id": 1001002,
+        "SkillGroupId": 1403,
+        "SkillType": "Resonance Skill",
+        "SkillName": "Shift Trick",
+        "SkillLevelGroupId": 1001002,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 10,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": [
+          1403030111
+        ],
+        "Icon": "SP_IconQiushuiB1",
+        "SortIndex": 2,
+        "SkillDescribe": "<span class=\"font-title\">Mist Avatar</span><br>Casts \"Mist\" and {0} \"Mist Avatar(s)\" to taunt the surrounding targets. The avatars inherit a portion of Aalto's HP and generate {1} Mist Bullets around them, dealing <span class=\"text-aero\">Aero DMG</span>.<br> <br><span class=\"font-title\">Mist Bullets</span><br>Deals <span class=\"text-aero\">Aero DMG</span>, considered as Resonance Skill damage.",
+        "SkillTagList": null,
+        "SkillDetailNum": [
+          "1",
+          "6"
+        ]
+      },
+      {
+        "Id": 1001003,
+        "SkillGroupId": 1403,
+        "SkillType": "Resonance Liberation",
+        "SkillName": "Flower in the Mist",
+        "SkillLevelGroupId": 1001003,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 10,
+        "SkillInfoList": [
+          1403080
+        ],
+        "BuffList": [
+          1403080001
+        ],
+        "DamageList": null,
+        "Icon": "SP_IconQiushuiC1",
+        "SortIndex": 3,
+        "SkillDescribe": "Generate a \"Gate of Quandary\" in front, dealing <span class=\"text-aero\">Aero DMG</span>. When bullets pass through the \"Gate of Quandary\", they deal increased DMG. \"Gate of Quandary\" lasts for {0}s.",
+        "SkillTagList": null,
+        "SkillDetailNum": [
+          "10"
+        ]
+      },
+      {
+        "Id": 1001006,
+        "SkillGroupId": 1403,
+        "SkillType": "Intro Skill",
+        "SkillName": "Feint Shot",
+        "SkillLevelGroupId": 1001006,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 10,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": [
+          1403070001,
+          1403070002,
+          1403070003
+        ],
+        "Icon": "SP_IconQiushuiQTE",
+        "SortIndex": 4,
+        "SkillDescribe": "Aalto shows up out of thin air to perform rapid continuous shooting, dealing <span class=\"text-aero\">Aero DMG</span>.",
+        "SkillTagList": null,
+        "SkillDetailNum": null
+      },
+      {
+        "Id": 1001009,
+        "SkillGroupId": 1403,
+        "SkillType": "Outro Skill",
+        "SkillName": "Dissolving Mist",
+        "SkillLevelGroupId": 1001009,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 1,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": null,
+        "Icon": "SP_IconQiushuiT",
+        "SortIndex": 4,
+        "SkillDescribe": "The incoming Resonator (or Resonator on a nearby team that activates Outro Skill) has their Aero DMG Amplified by {0} for {1}s or until they are switched off field.",
+        "SkillTagList": [
+          103
+        ],
+        "SkillDetailNum": [
+          "23%",
+          "14"
+        ]
+      },
+      {
+        "Id": 1001007,
+        "SkillGroupId": 1403,
+        "SkillType": "Forte Circuit",
+        "SkillName": "Misty Cover",
+        "SkillLevelGroupId": 1001007,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 10,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": [
+          1403030030
+        ],
+        "Icon": "SP_IconQiushuiY",
+        "SortIndex": 5,
+        "SkillDescribe": "When Aalto passes through \"Mist\" or \"Gate of Quandary\", he enters the <span class=\"text-highlight\">Mistcloak Dash</span>.<br> <br><span class=\"font-title\">Mistcloak Dash</span><br>-Movement speed increased;<br>-During this period, \"Mist Drops\" are continuously consumed, and for each {0} \"Mist Drop\" consumed, {1} Mist Bullet(s) is generated.<br> <br><span class=\"font-title\">Mist Drops</span><br>Aalto can hold up to {2} \"Mist Drops\".<br>When <span class=\"text-highlight\">Basic Attack</span> or <span class=\"text-highlight\">Mid-air Attack</span> passes through \"Mist\" and hits the target, {3} \"Mist Drop\" is recovered.",
+        "SkillTagList": null,
+        "SkillDetailNum": [
+          "1",
+          "1",
+          "6",
+          "1"
+        ]
+      },
+      {
+        "Id": 1001004,
+        "SkillGroupId": 1403,
+        "SkillType": "Inherent Skill",
+        "SkillName": "Perfect Performance",
+        "SkillLevelGroupId": 1001004,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 1,
+        "SkillInfoList": null,
+        "BuffList": [
+          1403907001
+        ],
+        "DamageList": null,
+        "Icon": "SP_IconQiushuiD1",
+        "SortIndex": 6,
+        "SkillDescribe": "Aalto's <span class=\"text-highlight\">Heavy Attack</span> will always critically hit, triggered once every {0}s.",
+        "SkillTagList": null,
+        "SkillDetailNum": [
+          "30"
+        ]
+      },
+      {
+        "Id": 1001005,
+        "SkillGroupId": 1403,
+        "SkillType": "Inherent Skill",
+        "SkillName": "Mid-game Break",
+        "SkillLevelGroupId": 1001005,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 1,
+        "SkillInfoList": null,
+        "BuffList": [
+          1403907101
+        ],
+        "DamageList": null,
+        "Icon": "SP_IconQiushuiD2",
+        "SortIndex": 7,
+        "SkillDescribe": "Aalto will continuously recover Stamina when he is in the Forte Circuit <span class=\"text-highlight\">Miscloak Dash</span> state.",
+        "SkillTagList": null,
+        "SkillDetailNum": null
+      },
+      {
+        "Id": 1001008,
+        "SkillGroupId": 1403,
+        "SkillType": "Inherent Skill",
+        "SkillLevelGroupId": 1001008,
+        "LeftSkillEffect": 1,
+        "MaxSkillLevel": 1,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": null,
+        "Icon": "SP_IconWorld4",
+        "SortIndex": 8,
+        "SkillTagList": null,
+        "SkillDetailNum": null
+      }
+    ]
+  },
+  {
+    "id": 1404,
+    "name": "Jiyan",
+    "rating": 5,
+    "element": "Aero",
+    "weaponType": 1,
+    "skills": [
+      {
+        "Id": 1001101,
+        "SkillGroupId": 1404,
+        "SkillType": "Normal Attack",
+        "SkillName": "Lone Lance",
+        "SkillLevelGroupId": 1001101,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 10,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": [
+          1404001001,
+          1404002001,
+          1404003004,
+          1404004001,
+          1404004002,
+          1404005003,
+          1404005001,
+          1404005002,
+          1404005004,
+          1404005005,
+          1404005006,
+          1404100001,
+          1404100002,
+          1404100003,
+          1404100004,
+          1404100006,
+          1404100005,
+          1404100007,
+          1404009001,
+          1404009002,
+          1404100008,
+          1404003005
+        ],
+        "Icon": "SP_IconNorSword",
+        "SortIndex": 1,
+        "SkillDescribe": "<span class=\"font-title\">Basic Attack</span><br>Jiyan performs up to 5 consecutive attacks, dealing <span class=\"text-aero\">Aero DMG</span>.<br> <br><span class=\"font-title\">Heavy Attack</span><br>Jiyan consumes STA to thrust forward, dealing <span class=\"text-aero\">Aero DMG</span>.<br> <br><span class=\"font-title\">Heavy Attack: Windborne Strike</span><br>Hold the <span class=\"text-highlight\">Basic Attack</span> during <span class=\"text-highlight\">Heavy Attack</span> to cast <span class=\"text-highlight\">Windborne Strike</span> after the <span class=\"text-highlight\">Heavy Attack</span> ends, dealing <span class=\"text-aero\">Aero DMG</span>.<br> <br><span class=\"font-title\">Heavy Attack: Abyssal Slash</span><br>Release the <span class=\"text-highlight\">Basic Attack</span> during the <span class=\"text-highlight\">Heavy Attack</span> to cast <span class=\"text-highlight\">Abyssal Slash</span> after the <span class=\"text-highlight\">Heavy Attack</span> ends, dealing <span class=\"text-aero\">Aero DMG</span>.<br> <br><span class=\"font-title\">Mid-air Attack</span><br>Jiyan consumes STA to perform a Mid-Air Plunging Attack, dealing <span class=\"text-aero\">Aero DMG</span>.<br>After the <span class=\"text-highlight\">Plunging Attack</span>, use <span class=\"text-highlight\">Basic Attack</span> to perform a follow-up attack, dealing <span class=\"text-aero\">Aero DMG</span>.<br> <br><span class=\"font-title\">Mid-air Attack: Banner of Triumph</span><br>After casting the Heavy Attack <span class=\"text-highlight\">Windborne Strike</span> or the Resonance Skill <span class=\"text-highlight\">Windqueller</span> in the air, Jiyan can perform a mid-air attack, dealing <span class=\"text-aero\">Aero DMG</span>.<br> <br><span class=\"font-title\">Dodge Counter</span><br>Use a <span class=\"text-highlight\">Basic Attack</span> after a successful <span class=\"text-highlight\">Dodge</span> to attack the target, dealing <span class=\"text-aero\">Aero DMG</span>.",
+        "SkillTagList": null,
+        "SkillDetailNum": null
+      },
+      {
+        "Id": 1001102,
+        "SkillGroupId": 1404,
+        "SkillType": "Resonance Skill",
+        "SkillName": "Windqueller",
+        "SkillLevelGroupId": 1001102,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 10,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": [
+          1404200001,
+          1404200002
+        ],
+        "Icon": "SP_IconJiyanB1",
+        "SortIndex": 2,
+        "SkillDescribe": "Dash forward a certain distance, dealing <span class=\"text-aero\">Aero DMG</span>.\r<br> \r<br>Can be cast in the air.",
+        "SkillTagList": null,
+        "SkillDetailNum": null
+      },
+      {
+        "Id": 1001103,
+        "SkillGroupId": 1404,
+        "SkillType": "Resonance Liberation",
+        "SkillName": "Emerald Storm - Prelude",
+        "SkillLevelGroupId": 1001103,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 10,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": [
+          1404301001,
+          1404301002,
+          1404301003,
+          1404301004,
+          1404301005,
+          1404301006,
+          1404301009,
+          1404301008,
+          1404301007
+        ],
+        "Icon": "SP_IconJiyanC1",
+        "SortIndex": 3,
+        "SkillDescribe": "After releasing Emerald Storm - Prelude, Jiyan enters <span class=\"text-highlight\">Qingloong Mode</span>.<br> <br><span class=\"font-title\">Qingloong Mode</span><br>Jiyan has increased resistance to interruption;<br><span class=\"text-highlight\">Basic Attack</span>, <span class=\"text-highlight\">Heavy Attack</span> and <span class=\"text-highlight\">Dodge Counter</span> are replaced with Heavy Attack <span class=\"text-highlight\">Lance of Qingloong</span>.<br> <br><span class=\"font-title\">Heavy Attack: Lance of Qingloong</span><br>Perform up to 3 continuous attacks, dealing <span class=\"text-aero\">Aero DMG</span>, considered as Heavy Attack damage.",
+        "SkillTagList": null,
+        "SkillDetailNum": [
+          "10"
+        ]
+      },
+      {
+        "Id": 1001106,
+        "SkillGroupId": 1404,
+        "SkillType": "Intro Skill",
+        "SkillName": "Tactical Strike",
+        "SkillLevelGroupId": 1001106,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 10,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": [
+          1404009008,
+          1404009009
+        ],
+        "Icon": "SP_IconJiyanQTE",
+        "SortIndex": 4,
+        "SkillDescribe": "Jiyan pierces the target in mid-air, dealing <span class=\"text-aero\">Aero DMG</span>.",
+        "SkillTagList": null,
+        "SkillDetailNum": null
+      },
+      {
+        "Id": 1001109,
+        "SkillGroupId": 1404,
+        "SkillType": "Outro Skill",
+        "SkillName": "Discipline",
+        "SkillLevelGroupId": 1001109,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 1,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": [
+          1404009014,
+          1404009015
+        ],
+        "Icon": "SP_IconJiyanT",
+        "SortIndex": 4,
+        "SkillDescribe": "When the incoming character's (or a character on a nearby team that activates an Outro Skill) Heavy Attack hits a target, Jiyan will summon Qingloong to launch a Coordinated Attack, dealing <span class=\"text-aero\">Aero DMG</span> equal to {0} of Jiyan's ATK. This attack lasts for {1}s and can be triggered once every {2}s, up to 2 times.",
+        "SkillTagList": [
+          113
+        ],
+        "SkillDetailNum": [
+          "313.40%",
+          "8",
+          "1"
+        ]
+      },
+      {
+        "Id": 1001107,
+        "SkillGroupId": 1404,
+        "SkillType": "Forte Circuit",
+        "SkillName": "Qingloong at War",
+        "SkillLevelGroupId": 1001107,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 10,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": [
+          1404302001,
+          1404302003,
+          1404302011,
+          1404302012,
+          1404302013,
+          1404302021,
+          1404302022,
+          1404302023,
+          1404302002
+        ],
+        "Icon": "SP_IconJiyanY",
+        "SortIndex": 5,
+        "SkillDescribe": "When casting Resonance Skill <span class=\"text-highlight\">Windqueller</span>, if Jiyan has {0} or more \"Resolve\", he consumes {1} \"Resolve\" to increase the DMG of this Resonance Skill <span class=\"text-highlight\">Windqueller</span> by {2}.<br>When Jiyan is in <span class=\"text-highlight\">Qingloong Mode</span>, DMG of Resonance Skill <span class=\"text-highlight\">Windqueller</span> is increased by {3} and no longer consumes \"Resolve\".<br> <br><span class=\"font-title\">Resonance Liberation: Emerald Storm - Finale</span><br>When casting Resonance Liberation <span class=\"text-highlight\">Emerald Storm - Prelude</span>, if Jiyan has {4} \"Resolve\" or more, he will consume {5} \"Resolve\" to cast Emerald Storm - Finale, dealing <span class=\"text-aero\">Aero DMG</span>, considered as Heavy Attack damage.<br>Emerald Storm: Finale can be cast in mid-air at low altitude.<br> <br><span class=\"font-title\">Resolve</span><br>Jiyan can hold up to {6} Resolve.<br>Jiyan gains \"Resolve\" when his Normal Attack <span class=\"text-highlight\">Lone Lance</span> hits the target.<br>Jiyan gains \"Resolve\" when the Intro Skill <span class=\"text-highlight\">Tactical Strike</span> hits the target.<br>\"Resolve\" will gradually decrease if Jiyan does not hit a target within {7}s.",
+        "SkillTagList": null,
+        "SkillDetailNum": [
+          "30",
+          "30",
+          "20%",
+          "20%",
+          "30",
+          "30",
+          "60",
+          "15"
+        ]
+      },
+      {
+        "Id": 1001104,
+        "SkillGroupId": 1404,
+        "SkillType": "Inherent Skill",
+        "SkillName": "Heavenly Balance",
+        "SkillLevelGroupId": 1001104,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 1,
+        "SkillInfoList": null,
+        "BuffList": [
+          1404801001
+        ],
+        "DamageList": null,
+        "Icon": "SP_IconJiyanD1",
+        "SortIndex": 6,
+        "SkillDescribe": "After casting the Intro Skill <span class=\"text-highlight\">Tactical Strike</span>, Jiyan's ATK is increased by {0} for {1}s.",
+        "SkillTagList": null,
+        "SkillDetailNum": [
+          "10%",
+          "15"
+        ]
+      },
+      {
+        "Id": 1001105,
+        "SkillGroupId": 1404,
+        "SkillType": "Inherent Skill",
+        "SkillName": "Tempest Taming",
+        "SkillLevelGroupId": 1001105,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 1,
+        "SkillInfoList": null,
+        "BuffList": [
+          1404802002
+        ],
+        "DamageList": null,
+        "Icon": "SP_IconJiyanD2",
+        "SortIndex": 7,
+        "SkillDescribe": "When Jiyan's attacks hit a target, Jiyan's Crit. DMG is increased by {0} for {1}s.",
+        "SkillTagList": null,
+        "SkillDetailNum": [
+          "12%",
+          "8"
+        ]
+      },
+      {
+        "Id": 1001108,
+        "SkillGroupId": 1404,
+        "SkillType": "Inherent Skill",
+        "SkillLevelGroupId": 1001108,
+        "LeftSkillEffect": 1,
+        "MaxSkillLevel": 1,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": null,
+        "Icon": "SP_IconWorld4",
+        "SortIndex": 7,
+        "SkillTagList": null,
+        "SkillDetailNum": null
+      }
+    ]
+  },
+  {
+    "id": 1204,
+    "name": "Mortefi",
+    "rating": 4,
+    "element": "Fusion",
+    "weaponType": 3,
+    "skills": [
+      {
+        "Id": 1001201,
+        "SkillGroupId": 1204,
+        "SkillType": "Normal Attack",
+        "SkillName": "Impromptu Show",
+        "SkillLevelGroupId": 1001201,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 10,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": [
+          1204001001,
+          1204002001,
+          1204002002,
+          1204003001,
+          1204004001,
+          1204004002,
+          1204004003,
+          1204004004,
+          1204004005,
+          1204005001,
+          1204005002,
+          1204008023,
+          1204008024,
+          1204003002
+        ],
+        "Icon": "SP_IconNorGun",
+        "SortIndex": 1,
+        "SkillDescribe": "<span class=\"font-title\">Basic Attack</span><br>Mortefi uses his dual pistols and flames to perform up to 4 consecutive shots, dealing <span class=\"text-fusion\">Fusion DMG</span>.<br> <br><span class=\"font-title\">Heavy Attack</span><br>Mortefi enters the aiming state for a more powerful shot.<br>The aimed shot fired after charging finishes deals <span class=\"text-fusion\">Fusion DMG</span>.<br> <br><span class=\"font-title\">Mid-air Attack</span><br>Mortefi consumes STA to perform consecutive shots at the target in mid-air, dealing <span class=\"text-fusion\">Fusion DMG</span>.<br> <br><span class=\"font-title\">Dodge Counter</span><br>Use <span class=\"text-highlight\">Basic Attack</span> after a successful <span class=\"text-highlight\">Dodge</span> to attack the target, dealing <span class=\"text-fusion\">Fusion DMG</span>.",
+        "SkillTagList": null,
+        "SkillDetailNum": null
+      },
+      {
+        "Id": 1001202,
+        "SkillGroupId": 1204,
+        "SkillType": "Resonance Skill",
+        "SkillName": "Passionate Variation",
+        "SkillLevelGroupId": 1001202,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 10,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": [
+          1204006010
+        ],
+        "Icon": "SP_IconMotefeiB1",
+        "SortIndex": 2,
+        "SkillDescribe": "Launch a flashing lightning of flames forward, dealing <span class=\"text-fusion\">Fusion DMG</span>.",
+        "SkillTagList": null,
+        "SkillDetailNum": null
+      },
+      {
+        "Id": 1001203,
+        "SkillGroupId": 1204,
+        "SkillType": "Resonance Liberation",
+        "SkillName": "Violent Finale",
+        "SkillLevelGroupId": 1001203,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 10,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": [
+          1204030015,
+          1204020010
+        ],
+        "Icon": "SP_IconMotefeiC1",
+        "SortIndex": 3,
+        "SkillDescribe": "Deal <span class=\"text-fusion\">Fusion DMG</span>, and apply <span class=\"text-highlight\">Burning Rhapsody</span> to all characters on the team.<br> <br><span class=\"font-title\">Burning Rhapsody</span><br>When the active character's <span class=\"text-highlight\">Basic Attack</span> hits the target, Mortefi launches a Coordinated Attack, firing {0} <span class=\"text-highlight\">Marcato</span>.<br>When the active character's <span class=\"text-highlight\">Heavy Attack</span> hits the target, Mortefi launches a Coordinated Attack, firing {1} <span class=\"text-highlight\">Marcato</span>.<br>Mortefi can launch one Coordinated Attack every {2}s.<br> <br><span class=\"font-title\">Marcato</span><br>Deals <span class=\"text-fusion\">Fusion DMG</span>.",
+        "SkillTagList": null,
+        "SkillDetailNum": [
+          "1",
+          "2",
+          "0.35"
+        ]
+      },
+      {
+        "Id": 1001204,
+        "SkillGroupId": 1204,
+        "SkillType": "Inherent Skill",
+        "SkillName": "Harmonic Control",
+        "SkillLevelGroupId": 1001204,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 1,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": null,
+        "Icon": "SP_IconMotefeiD1",
+        "SortIndex": 4,
+        "SkillDescribe": "After casting Resonance Skill <span class=\"text-highlight\">Passionate Variation</span>, the damage of Resonance Skill <span class=\"text-highlight\">Fury Fugue</span> is increased by {1} for {0}s.",
+        "SkillTagList": null,
+        "SkillDetailNum": [
+          "8",
+          "25%"
+        ]
+      },
+      {
+        "Id": 1001205,
+        "SkillGroupId": 1204,
+        "SkillType": "Inherent Skill",
+        "SkillName": "Rhythmic Vibrato",
+        "SkillLevelGroupId": 1001205,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 1,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": null,
+        "Icon": "SP_IconMotefeiD2",
+        "SortIndex": 5,
+        "SkillDescribe": "During Resonance Liberation <span class=\"text-highlight\">Burning Rhapsody</span>, each hit of Resonance Liberation <span class=\"text-highlight\">Marcato</span> will increase the DMG of the next Resonance Liberation <span class=\"text-highlight\">Marcato</span> by {0}, which can be triggered once every {1}s, stacking up to {2} times.<br>The effect will be reset after Resonance Liberation <span class=\"text-highlight\">Burning Rhapsody</span> ends.",
+        "SkillTagList": null,
+        "SkillDetailNum": [
+          "1.5%",
+          "0.35",
+          "50"
+        ]
+      },
+      {
+        "Id": 1001206,
+        "SkillGroupId": 1204,
+        "SkillType": "Intro Skill",
+        "SkillName": "Dissonance",
+        "SkillLevelGroupId": 1001206,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 10,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": [
+          1204010001
+        ],
+        "Icon": "SP_IconMotefeiQTE",
+        "SortIndex": 6,
+        "SkillDescribe": "Attack the target, dealing <span class=\"text-fusion\">Fusion DMG</span>.",
+        "SkillTagList": null,
+        "SkillDetailNum": null
+      },
+      {
+        "Id": 1001209,
+        "SkillGroupId": 1204,
+        "SkillType": "Outro Skill",
+        "SkillName": "Rage Transposition",
+        "SkillLevelGroupId": 1001209,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 1,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": null,
+        "Icon": "SP_IconMotefeiT",
+        "SortIndex": 6,
+        "SkillDescribe": "The incoming Resonator (or Resonator on a nearby team that activates Outro Skill) has their Heavy Attack DMG Amplified by {0} for {1}s or until they are switched off field.",
+        "SkillTagList": [
+          304
+        ],
+        "SkillDetailNum": [
+          "38%",
+          "14"
+        ]
+      },
+      {
+        "Id": 1001207,
+        "SkillGroupId": 1204,
+        "SkillType": "Forte Circuit",
+        "SkillName": "Fury Fugue",
+        "SkillLevelGroupId": 1001207,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 10,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": [
+          1204006020
+        ],
+        "Icon": "SP_IconMotefeiY",
+        "SortIndex": 7,
+        "SkillDescribe": "<span class=\"font-title\">Resonance Skill: Fury Fugue</span><br>When Mortefi's \"Annoyance\" reaches {0}, his <span class=\"text-highlight\">Resonance Skill</span> is replaced with <span class=\"text-highlight\">Fury Fudge</span>.<br>When casting Fury Fudge, Mortefi consumes all \"Annoyance\" to unleash high-speed flame lightning, dealing <span class=\"text-fusion\">Fusion DMG</span>, considered as Resonance Skill damage.<br> <br><span class=\"font-title\">Annoyance</span><br>Mortefi can hold up to {1} Annoyance.<br>When Normal Attack <span class=\"text-highlight\">Impromptu Show</span> hits the target, “Annoyance” is restored.<br>When Intro Skill <span class=\"text-highlight\">Dissonance</span> hits the target, “Annoyance” is restored.<br>When Resonance Skill <span class=\"text-highlight\">Passionate Variation</span> hits the target, “Annoyance” is restored.<br>Within {2}s after casting <span class=\"text-highlight\">Passionate Variation</span>, Basic Attack <span class=\"text-highlight\">Impromptu Show</span> that hits the target additionally restores “Annoyance”.",
+        "SkillTagList": null,
+        "SkillDetailNum": [
+          "100",
+          "100",
+          "5"
+        ]
+      },
+      {
+        "Id": 1001208,
+        "SkillGroupId": 1204,
+        "SkillType": "Inherent Skill",
+        "SkillLevelGroupId": 1001208,
+        "LeftSkillEffect": 1,
+        "MaxSkillLevel": 1,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": null,
+        "Icon": "SP_IconWorld4",
+        "SortIndex": 8,
+        "SkillTagList": null,
+        "SkillDetailNum": null
+      }
+    ]
+  },
+  {
+    "id": 1301,
+    "name": "Calcharo",
+    "rating": 5,
+    "element": "Electro",
+    "weaponType": 1,
+    "skills": [
+      {
+        "Id": 1001401,
+        "SkillGroupId": 1301,
+        "SkillType": "Normal Attack",
+        "SkillName": "Gnawing Fangs",
+        "SkillLevelGroupId": 1001401,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 10,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": [
+          1301001001,
+          1301001002,
+          1301002001,
+          1301003001,
+          1301003002,
+          1301004001,
+          1301004011,
+          1301004012,
+          1301006001,
+          1301700001,
+          1301004003,
+          1301004004,
+          1301500001,
+          1301200901,
+          1301200902,
+          1301200903,
+          1301200904,
+          1301200905
+        ],
+        "Icon": "SP_IconNorSword",
+        "SortIndex": 1,
+        "SkillDescribe": "<span class=\"font-title\">Basic Attack</span><br>Calcharo performs up to 4 consecutive attacks, dealing <span class=\"text-electro\">Electro DMG</span>.<br> <br><span class=\"font-title\">Heavy Attack</span><br>Consumes STA to attack the target, dealing <span class=\"text-electro\">Electro DMG</span>.<br> <br><span class=\"font-title\">Mid-air Attack</span><br>Consumes STA to perform a Mid-Air Plunging Attack, dealing <span class=\"text-electro\">Electro DMG</span>.<br> <br><span class=\"font-title\">Dodge Counter</span><br>Use <span class=\"text-highlight\">Basic Attack</span> after a successful <span class=\"text-highlight\">Dodge</span> to attack the target, dealing <span class=\"text-electro\">Electro DMG</span>.",
+        "SkillTagList": null,
+        "SkillDetailNum": null
+      },
+      {
+        "Id": 1001402,
+        "SkillGroupId": 1301,
+        "SkillType": "Resonance Skill",
+        "SkillName": "Extermination Order",
+        "SkillLevelGroupId": 1001402,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 10,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": [
+          1301011001,
+          1301011011,
+          1301011021,
+          1301011002,
+          1301011003,
+          1301011004,
+          1301011005,
+          1301011006
+        ],
+        "Icon": "SP_IconKakaluoB1",
+        "SortIndex": 2,
+        "SkillDescribe": "Calcharo performs up to 3 consecutive attacks, dealing <span class=\"text-electro\">Electro DMG</span>.<br>If Calcharo is switched off field, or if Resonance Skill <span class=\"text-highlight\">Extermination Order</span> is not activated again in a while, this skill will enter Cooldown.<br>Resonance Skill <span class=\"text-highlight\">Extermination Order</span> does not interrupt Calcharo's Basic Attack cycle.",
+        "SkillTagList": null,
+        "SkillDetailNum": null
+      },
+      {
+        "Id": 1001403,
+        "SkillGroupId": 1301,
+        "SkillType": "Resonance Liberation",
+        "SkillName": "Phantom Etching",
+        "SkillLevelGroupId": 1001403,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 10,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": [
+          1301400001,
+          1301401001,
+          1301402001,
+          1301402002,
+          1301902001,
+          1301902002,
+          1301403001,
+          1301404001,
+          1301404002,
+          1301404003,
+          1301404004,
+          1301405001,
+          1301704001,
+          1301704002,
+          1301704003,
+          1301704004,
+          1301200906,
+          1301200907,
+          1301200908,
+          1301200909,
+          1301200910,
+          1301410001,
+          1301410002
+        ],
+        "Icon": "SP_IconKakaluoC1",
+        "SortIndex": 3,
+        "SkillDescribe": "Calcharo attacks the target, dealing <span class=\"text-electro\">Electro DMG</span> and enters <span class=\"text-highlight\">Deathblade Gear</span> state. After <span class=\"text-highlight\">Deathblade Gear</span> state ends, Calcharo's next Intro Skill is replaced with Intro Skill <span class=\"text-highlight\">\"Necessary Means\"</span>, which deals <span class=\"text-electro\">Electro DMG</span>, considered as Intro Skill damage.<br> <br><span class=\"font-title\">Deathblade Gear</span><br>-<span class=\"text-highlight\">Basic Attack</span> is replaced with Basic Attack <span class=\"text-highlight\">Hounds Roar</span>;<br>-<span class=\"text-highlight\">Heavy Attack</span> deals increased DMG, considered as Resonance Liberation DMG;<br>-<span class=\"text-highlight\">Dodge Counter</span> deals increased DMG, considered as Resonance Liberation DMG.<br> <br><span class=\"font-title\">Basic Attack: Hounds Roar</span><br>Calcharo performs up to 5 consecutive attacks, dealing <span class=\"text-electro\">Electro DMG</span>, considered as Basic Attack Damage.",
+        "SkillTagList": null,
+        "SkillDetailNum": null
+      },
+      {
+        "Id": 1001404,
+        "SkillGroupId": 1301,
+        "SkillType": "Inherent Skill",
+        "SkillName": "Bloodshed Awaken",
+        "SkillLevelGroupId": 1001404,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 1,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": null,
+        "Icon": "SP_IconKakaluoD1",
+        "SortIndex": 4,
+        "SkillDescribe": "When casting Heavy Attack <span class=\"text-highlight\">\"Mercy\"</span>, Calcharo's Resonance Liberation DMG Bonus is increased by {0} for {1}s.",
+        "SkillTagList": null,
+        "SkillDetailNum": [
+          "10%",
+          "15"
+        ]
+      },
+      {
+        "Id": 1001405,
+        "SkillGroupId": 1301,
+        "SkillType": "Inherent Skill",
+        "SkillName": "Revenant Rush",
+        "SkillLevelGroupId": 1001405,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 1,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": null,
+        "Icon": "SP_IconKakaluoD2",
+        "SortIndex": 5,
+        "SkillDescribe": "When Heavy Attack <span class=\"text-highlight\">\"Death Messenger\"</span> hits the target, the damage taken by Calcharo is reduced by {0} for {1}s.",
+        "SkillTagList": null,
+        "SkillDetailNum": [
+          "15%",
+          "5"
+        ]
+      },
+      {
+        "Id": 1001406,
+        "SkillGroupId": 1301,
+        "SkillType": "Intro Skill",
+        "SkillName": "Wanted Outlaw",
+        "SkillLevelGroupId": 1001406,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 10,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": [
+          1301600001,
+          1301600002,
+          1301600011,
+          1301600012
+        ],
+        "Icon": "SP_IconKakaluoQTE",
+        "SortIndex": 6,
+        "SkillDescribe": "Attack the target, dealing <span class=\"text-electro\">Electro DMG</span>.",
+        "SkillTagList": null,
+        "SkillDetailNum": null
+      },
+      {
+        "Id": 1001409,
+        "SkillGroupId": 1301,
+        "SkillType": "Outro Skill",
+        "SkillName": "Shadowy Raid",
+        "SkillLevelGroupId": 1001409,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 1,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": null,
+        "Icon": "SP_IconKakaluoT",
+        "SortIndex": 6,
+        "SkillDescribe": "Calcharo summons <span class=\"text-highlight\">Phantom</span> to support the active Resonator, clearing the targets in front with a slash. The <span class=\"text-highlight\">Phantom's</span> attack deals <span class=\"text-electro\">Electro DMG</span> equal to {0} of Calcharo's ATK.",
+        "SkillTagList": [
+          114
+        ],
+        "SkillDetailNum": [
+          "195.98%+391.96%"
+        ]
+      },
+      {
+        "Id": 1001407,
+        "SkillGroupId": 1301,
+        "SkillType": "Forte Circuit",
+        "SkillName": "Hunting Mission",
+        "SkillLevelGroupId": 1001407,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 10,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": [
+          1301200001,
+          1301200002,
+          1301200003,
+          1301200009,
+          1301200010,
+          1301200008,
+          1301200004,
+          1301200005,
+          1301200006,
+          1301220001,
+          1301220002,
+          1301220003,
+          1301220009,
+          1301220010,
+          1301220008,
+          1301220004,
+          1301220005,
+          1301220006
+        ],
+        "Icon": "SP_IconKakaluoY",
+        "SortIndex": 7,
+        "SkillDescribe": "<span class=\"font-title\">Heavy Attack: \"Mercy\"</span><br>When Calcharo has {0} \"Cruelty\", his <span class=\"text-highlight\">Heavy Attack</span> is replaced with Heavy Attack <span class=\"text-highlight\">\"Mercy\"</span>.<br>When casting Heavy Attack <span class=\"text-highlight\">\"Mercy\"</span>, Calcharo consumes {1} \"Cruelty\" to deal <span class=\"text-electro\">Electro DMG</span>, considered as Heavy Attack damage, and recovers Resonance Energy and Concerto Energy.<br> <br><span class=\"font-title\">\"Cruelty\"</span><br>Calcharo can hold up to {2} \"Cruelty\".<br>Under Resonance Liberation <span class=\"text-highlight\">Deathblade Gear</span> state, \"Cruelty\" cannot be acquired.<br>When Resonance Skill <span class=\"text-highlight\">Extermination Order</span> hits the target, gain {3} \"Cruelty\".<br> <br><span class=\"font-title\">Heavy Attack: \"Death Messenger\"</span><br>When Calcharo has {4} \"Killing Intent\", his <span class=\"text-highlight\">Basic Attack</span> is replaced with Heavy Attack <span class=\"text-highlight\">\"Death Messenger\"</span>.<br>When casting Heavy Attack <span class=\"text-highlight\">\"Death Messenger\"</span>, Calcharo consumes {5} \"Killing Intent\" to deal <span class=\"text-electro\">Electro DMG</span>, considered as Resonance Liberation damage, and recovers Resonance Energy and Concerto Energy.<br> <br><span class=\"font-title\">\"Killing Intent\"</span><br>Under Resonance Liberation <span class=\"text-highlight\">Deathblade Gear</span> state, Calcharo's Forte Gauge is replaced with \"Killing Intent\", stacking up to {6}.<br>When Basic Attack <span class=\"text-highlight\">Hounds Roar</span> hits the target, Calcharo gains 1 \"Killing Intent\".",
+        "SkillTagList": null,
+        "SkillDetailNum": [
+          "3",
+          "3",
+          "3",
+          "1",
+          "5",
+          "5",
+          "5"
+        ]
+      },
+      {
+        "Id": 1001408,
+        "SkillGroupId": 1301,
+        "SkillType": "Inherent Skill",
+        "SkillName": "Skillful Cooking",
+        "SkillLevelGroupId": 1001408,
+        "LeftSkillEffect": 1,
+        "MaxSkillLevel": 1,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": null,
+        "Icon": "SP_IconWorld3",
+        "SortIndex": 8,
+        "SkillDescribe": "Has a chance to produce special dishes when cooking",
+        "SkillTagList": null,
+        "SkillDetailNum": null
+      }
+    ]
+  },
+  {
+    "id": 1302,
+    "name": "Yinlin",
+    "rating": 5,
+    "element": "Electro",
+    "weaponType": 5,
+    "skills": [
+      {
+        "Id": 1001501,
+        "SkillGroupId": 1302,
+        "SkillType": "Normal Attack",
+        "SkillName": "Zapstring's Dance",
+        "SkillLevelGroupId": 1001501,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 10,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": [
+          1302001001,
+          1302002001,
+          1302002002,
+          1302003001,
+          1302003002,
+          1302003003,
+          1302003004,
+          1302003005,
+          1302003006,
+          1302003007,
+          1302004001,
+          1302010001,
+          1302010002,
+          1302060001,
+          1302070001,
+          1302070002,
+          1302070003,
+          1302070004,
+          1302070005,
+          1302070006,
+          1302070007
+        ],
+        "Icon": "SP_IconNorMagic",
+        "SortIndex": 1,
+        "SkillDescribe": "<span class=\"font-title\">Basic Attack</span><br>Yinlin controls the puppet \"Zapstring\" to perform up to 4 attacks, dealing <span class=\"text-electro\">Electro DMG</span>.<br> <br><span class=\"font-title\">Heavy Attack</span><br>Yinlin consumes STA to control \"Zapstring\", dealing <span class=\"text-electro\">Electro DMG</span>.<br> <br><span class=\"font-title\">Mid-air Attack</span><br>Yinlin consumes STA to control \"Zapstring\" to perform a Mid-air Plunging Attack, dealing <span class=\"text-electro\">Electro DMG</span>.<br> <br><span class=\"font-title\">Dodge Counter</span><br>Use <span class=\"text-highlight\">Basic Attack</span> after a successful <span class=\"text-highlight\">Dodge</span> to attack the target, dealing <span class=\"text-electro\">Electro DMG</span>.",
+        "SkillTagList": null,
+        "SkillDetailNum": null
+      },
+      {
+        "Id": 1001502,
+        "SkillGroupId": 1302,
+        "SkillType": "Resonance Skill",
+        "SkillName": "Magnetic Roar",
+        "SkillLevelGroupId": 1001502,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 10,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": [
+          1302020001,
+          1302021001,
+          1302021010,
+          1302020030
+        ],
+        "Icon": "SP_IconYinlinB1",
+        "SortIndex": 2,
+        "SkillDescribe": "<span class=\"font-title\">Magnetic Roar</span><br>The puppet \"Zapstring\" deals <span class=\"text-electro\">Electro DMG</span> to the target, and puts Yinlin in Resonance Skill <span class=\"text-highlight\">Execution Mode</span>.<br> <br><span class=\"font-title\">Execution Mode</span><br><span class=\"text-highlight\">Basic Attack</span> and <span class=\"text-highlight\">Dodge Counter</span> will trigger 1 <span class=\"text-highlight\">Electromagnetic Blast</span> when hitting a target.<br>Each stage of <span class=\"text-highlight\">Basic Attack</span> or <span class=\"text-highlight\">Dodge Counter</span> can only trigger 1 <span class=\"text-highlight\">Electromagnetic Blast</span>, up to 4 times.<br> <br><span class=\"font-title\">Electromagnetic Blast</span><br>Attack all targets marked with Forte Circuit <span class=\"text-highlight\">Sinner's Mark</span>, dealing <span class=\"text-electro\">Electro DMG</span>.<br> <br><span class=\"font-title\">Lightning Execution</span><br>Use Resonance Skill after casting Resonance Skill <span class=\"text-highlight\">Magnetic Roar</span> to cast <span class=\"text-highlight\">Lightning Execution</span> to attack the target, dealing <span class=\"text-electro\">Electro DMG</span>.<br>If Resonance Skill <span class=\"text-highlight\">Lightning Execution</span> is not activated in a while or this Character is switched, this Skill will be put on Cooldown.",
+        "SkillTagList": null,
+        "SkillDetailNum": [
+          "8"
+        ]
+      },
+      {
+        "Id": 1001503,
+        "SkillGroupId": 1302,
+        "SkillType": "Resonance Liberation",
+        "SkillName": "Thundering Wrath",
+        "SkillLevelGroupId": 1001503,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 10,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": [
+          1302040002
+        ],
+        "Icon": "SP_IconYinlinC1",
+        "SortIndex": 3,
+        "SkillDescribe": "Command \"Zapstring\" to call for thunder to fall upon a large range, dealing <span class=\"text-electro\">Electro DMG</span>.",
+        "SkillTagList": null,
+        "SkillDetailNum": null
+      },
+      {
+        "Id": 1001506,
+        "SkillGroupId": 1302,
+        "SkillType": "Intro Skill",
+        "SkillName": "Raging Storm",
+        "SkillLevelGroupId": 1001506,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 10,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": [
+          1302050010,
+          1302050011
+        ],
+        "Icon": "SP_IconYinlinQTE",
+        "SortIndex": 4,
+        "SkillDescribe": "Command puppet \"Zapstring\" to attack, dealing <span class=\"text-electro\">Electro DMG</span> in a large range.",
+        "SkillTagList": null,
+        "SkillDetailNum": null
+      },
+      {
+        "Id": 1001509,
+        "SkillGroupId": 1302,
+        "SkillType": "Outro Skill",
+        "SkillName": "Strategist",
+        "SkillLevelGroupId": 1001509,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 1,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": null,
+        "Icon": "SP_IconYinlinT",
+        "SortIndex": 4,
+        "SkillDescribe": "The incoming Resonator (or Resonator on a nearby team that activates Outro Skill) has their Electro DMG Amplified by {0} and Resonance Liberation DMG Amplified by {1} for {2}s or until they are switched off field.",
+        "SkillTagList": [
+          104,
+          303
+        ],
+        "SkillDetailNum": [
+          "20%",
+          "25%",
+          "14"
+        ]
+      },
+      {
+        "Id": 1001507,
+        "SkillGroupId": 1302,
+        "SkillType": "Forte Circuit",
+        "SkillName": "Chameleon Cipher",
+        "SkillLevelGroupId": 1001507,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 10,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": [
+          1302020041,
+          1302013010,
+          1302013011,
+          1302020043
+        ],
+        "Icon": "SP_IconYinlinY",
+        "SortIndex": 5,
+        "SkillDescribe": "<span class=\"font-title\">Chameleon Cipher</span><br>When Yinlin's \"Judgment Points\" is full, her <span class=\"text-highlight\">Heavy Attack</span> is replaced with <span class=\"text-highlight\">Chameleon Cipher</span>, which consumes all \"Judgment Points\" to attack the target, dealing <span class=\"text-electro\">Electro DMG</span>. When it hits a target marked with <span class=\"text-highlight\">Sinner's Mark</span>, the <span class=\"text-highlight\">Sinner's Mark</span> is replaced with <span class=\"text-highlight\">Punishment Mark</span>, lasting for {0}s.<br> <br><span class=\"font-title\">Sinner's Mark</span><br>Basic Attack <span class=\"text-highlight\">Zapstring's Dance</span>, Resonance Liberation <span class=\"text-highlight\">Thundering Wrath</span>, and Intro Skill <span class=\"text-highlight\">Roaring Storm</span> will apply <span class=\"text-highlight\">Sinner's Mark</span> on hit.<br><span class=\"text-highlight\">Sinner's Mark</span> is removed when Yinlin exits.<br> <br><span class=\"font-title\">\"Punishment Mark\"</span><br>When a target marked with <span class=\"text-highlight\">Punishment Mark</span> is damaged, <span class=\"text-highlight\">Judgement Strike</span> will fall, dealing <span class=\"text-electro\">Electro DMG</span> to all targets marked with <span class=\"text-highlight\">Punishment Mark</span>. This can be triggered up to once per second.<br> <br><span class=\"font-title\">Judgment Points</span><br>Yinlin can hold up to {1} Judgement Points.<br>When Normal Attack <span class=\"text-highlight\">Zapstring's Dance</span> hits a target, restore \"Judgment Points\".<br>When casting Resonance Skill <span class=\"text-highlight\">Magnetic Roar</span> hits a target, restore \"Judgment Points\".<br>When Resonance Skill <span class=\"text-highlight\">Electromagnetic Blast</span> hits a target, restores \"Judgment Points\".<br>When casting Resonance Skill <span class=\"text-highlight\">Magnetic Roar</span> hits a target, restore \"Judgment Points\".",
+        "SkillTagList": null,
+        "SkillDetailNum": [
+          "18",
+          "100"
+        ]
+      },
+      {
+        "Id": 1001504,
+        "SkillGroupId": 1302,
+        "SkillType": "Inherent Skill",
+        "SkillName": "Pain Immersion",
+        "SkillLevelGroupId": 1001504,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 1,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": null,
+        "Icon": "SP_IconYinlinD1",
+        "SortIndex": 6,
+        "SkillDescribe": "After using Resonance Skill <span class=\"text-highlight\">Magnetic Roar</span>, Yinlin's Crit. Rate is increased by {0} for {1}s.",
+        "SkillTagList": null,
+        "SkillDetailNum": [
+          "15%",
+          "5"
+        ]
+      },
+      {
+        "Id": 1001505,
+        "SkillGroupId": 1302,
+        "SkillType": "Inherent Skill",
+        "SkillName": "Deadly Focus",
+        "SkillLevelGroupId": 1001505,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 1,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": null,
+        "Icon": "SP_IconYinlinD2",
+        "SortIndex": 6,
+        "SkillDescribe": "The damage of Resonance Skill <span class=\"text-highlight\">Lightning Execution</span> is increased by {0} when hitting targets marked with <span class=\"text-highlight\">Sinner's Mark</span>, and Yinlin's ATK is increased by {1} for {2}s when this is triggered.",
+        "SkillTagList": null,
+        "SkillDetailNum": [
+          "10%",
+          "10%",
+          "4"
+        ]
+      },
+      {
+        "Id": 1001508,
+        "SkillGroupId": 1302,
+        "SkillType": "Inherent Skill",
+        "SkillLevelGroupId": 1001508,
+        "LeftSkillEffect": 1,
+        "MaxSkillLevel": 1,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": null,
+        "Icon": "SP_IconWorld4",
+        "SortIndex": 7,
+        "SkillTagList": null,
+        "SkillDetailNum": null
+      }
+    ]
+  },
+  {
+    "id": 1104,
+    "name": "Lingyang",
+    "rating": 5,
+    "element": "Glacio",
+    "weaponType": 4,
+    "skills": [
+      {
+        "Id": 1001801,
+        "SkillGroupId": 1104,
+        "SkillType": "Normal Attack",
+        "SkillName": "Majestic Fists",
+        "SkillLevelGroupId": 1001801,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 10,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": [
+          1104001001,
+          1104002001,
+          1104003001,
+          1104003002,
+          1104004001,
+          1104004002,
+          1104005001,
+          1104011001,
+          1104080001,
+          1104080002,
+          1104015001,
+          1104005101,
+          1104005102
+        ],
+        "Icon": "SP_IconNorFist",
+        "SortIndex": 1,
+        "SkillDescribe": "<span class=\"font-title\">Basic Attack</span><br>Lingyang performs up to 5 consecutive attacks, dealing <span class=\"text-glacio\">Glacio DMG</span>.<br> <br><span class=\"font-title\">Basic Attack: Feral Roars</span><br>After Resonance Skill <span class=\"text-highlight\">Furious Punches</span> is cast, <span class=\"text-highlight\">Basic Attack 5</span> is replaced with <span class=\"text-highlight\">Feral Roars</span>, dealing <span class=\"text-glacio\">Glacio DMG</span>.<br> <br><span class=\"font-title\">Heavy Attack</span><br>Lingyang consumes STA to attack the target, dealing <span class=\"text-glacio\">Glacio DMG</span>.<br> <br><span class=\"font-title\">Mid-air Attack</span><br>Lingyang consumes STA to perform a Mid-air Plunging Attack, dealing <span class=\"text-glacio\">Glacio DMG</span>.<br> <br><span class=\"font-title\">Dodge Counter</span><br>Use <span class=\"text-highlight\">Basic Attack</span> after a successful <span class=\"text-highlight\">Dodge</span> to attack the target, dealing <span class=\"text-glacio\">Glacio DMG</span>.",
+        "SkillTagList": null,
+        "SkillDetailNum": null
+      },
+      {
+        "Id": 1001802,
+        "SkillGroupId": 1104,
+        "SkillType": "Resonance Skill",
+        "SkillName": "Ancient Arts",
+        "SkillLevelGroupId": 1001802,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 10,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": [
+          1104044001,
+          1104044011
+        ],
+        "Icon": "SP_IconLingyangB1",
+        "SortIndex": 2,
+        "SkillDescribe": "<span class=\"font-title\">Ancient Arts</span><br>Attack the target, dealing <span class=\"text-glacio\">Glacio DMG</span>.<br> <br><span class=\"font-title\">Furious Punches</span><br>When <span class=\"text-highlight\">Basic Attacks 3, 4, or 5</span> or Basic Attack <span class=\"text-highlight\">Feral Roars</span> hits the target, Resonance Skill <span class=\"text-highlight\">Ancient Arts</span> is replaced with Resonance Skill <span class=\"text-highlight\">Furious Punches</span>.<br>Lingyang's <span class=\"text-highlight\">Basic Attack</span> cycle starts from <span class=\"text-highlight\">Basic Attack 3</span> after casting Basic Attack <span class=\"text-highlight\">Feral Roars</span> and Resonance Skill <span class=\"text-highlight\">Furious Punches</span> in turn.<br> <br>Lingyang's Resonance Skill does not reset his Basic Attack cycle.",
+        "SkillTagList": null,
+        "SkillDetailNum": null
+      },
+      {
+        "Id": 1001803,
+        "SkillGroupId": 1104,
+        "SkillType": "Resonance Liberation",
+        "SkillName": "Strive: Lion's Vigor",
+        "SkillLevelGroupId": 1001803,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 10,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": [
+          1104060001
+        ],
+        "Icon": "SP_IconLingyangC1",
+        "SortIndex": 3,
+        "SkillDescribe": "Attack the target, dealing <span class=\"text-glacio\">Glacio DMG</span>, and receive the blessing of <span class=\"text-highlight\">Lion's Vigor</span>.<br> <br><span class=\"font-title\">Lion's Vigor</span><br>Lingyang's <span class=\"text-glacio\">Glacio DMG Bonus</span> is increased by {0};",
+        "SkillTagList": null,
+        "SkillDetailNum": [
+          "50%"
+        ]
+      },
+      {
+        "Id": 1001804,
+        "SkillGroupId": 1104,
+        "SkillType": "Inherent Skill",
+        "SkillName": "Lion's Pride",
+        "SkillLevelGroupId": 1001804,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 1,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": null,
+        "Icon": "SP_IconLingyangD1",
+        "SortIndex": 4,
+        "SkillDescribe": "DMG of the Intro Skill <span class=\"text-highlight\">Lion Awakens</span> is increased by {0}.",
+        "SkillTagList": null,
+        "SkillDetailNum": [
+          "50%"
+        ]
+      },
+      {
+        "Id": 1001805,
+        "SkillGroupId": 1104,
+        "SkillType": "Inherent Skill",
+        "SkillName": "Diligent Practice",
+        "SkillLevelGroupId": 1001805,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 1,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": null,
+        "Icon": "SP_IconLingyangD2",
+        "SortIndex": 5,
+        "SkillDescribe": "Under the Forte Circuit <span class=\"text-highlight\">Striding Lion</span> state, within {0}s after each <span class=\"text-highlight\">Basic Attack</span>, the next Forte Circuit <span class=\"text-highlight\">Mountain Roamer</span> will deal an additional <span class=\"text-glacio\">Glacio DMG</span>, equal to {1} of <span class=\"text-highlight\">Mountain Roamer</span> damage, considered as Resonance Skill damage.",
+        "SkillTagList": null,
+        "SkillDetailNum": [
+          "3",
+          "150%"
+        ]
+      },
+      {
+        "Id": 1001806,
+        "SkillGroupId": 1104,
+        "SkillType": "Intro Skill",
+        "SkillName": "Lion Awakens",
+        "SkillLevelGroupId": 1001806,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 10,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": [
+          1104091001
+        ],
+        "Icon": "SP_IconLingyangQTE",
+        "SortIndex": 6,
+        "SkillDescribe": "Lingyang enters the battlefield, dealing <span class=\"text-glacio\">Glacio DMG</span>.",
+        "SkillTagList": null,
+        "SkillDetailNum": null
+      },
+      {
+        "Id": 1001809,
+        "SkillGroupId": 1104,
+        "SkillType": "Outro Skill",
+        "SkillName": "Frosty Marks",
+        "SkillLevelGroupId": 1001809,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 1,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": null,
+        "Icon": "SP_IconLingyangT",
+        "SortIndex": 6,
+        "SkillDescribe": "Lingyang releases a shock wave centered on the skill target, dealing <span class=\"text-glacio\">Glacio DMG</span> equal to {0} of Lingyang's ATK to targets within the range.",
+        "SkillTagList": [
+          111
+        ],
+        "SkillDetailNum": [
+          "587.94%"
+        ]
+      },
+      {
+        "Id": 1001807,
+        "SkillGroupId": 1104,
+        "SkillType": "Forte Circuit",
+        "SkillName": "Unification of Spirits",
+        "SkillLevelGroupId": 1001807,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 10,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": [
+          1104021001,
+          1104021002,
+          1104021003,
+          1104022001,
+          1104022002,
+          1104023001,
+          1104023002,
+          1104023003,
+          1104033001,
+          1104016001,
+          1104044021,
+          1104010001
+        ],
+        "Icon": "SP_IconLingyangY",
+        "SortIndex": 7,
+        "SkillDescribe": "<span class=\"font-title\">Heavy Attack: Glorious Plunge</span><br>When \"Lion's Spirit\" is full, use <span class=\"text-highlight\">Heavy Attack</span> to perform <span class=\"text-highlight\">Glorious Plunge</span>, dealing <span class=\"text-glacio\">Glacio DMG</span>.<br> <br><span class=\"font-title\">Mid-air Attack: Tail Strike</span><br>When \"Lion's Spirit\" is not full, use <span class=\"text-highlight\">Basic Attack</span> after <span class=\"text-highlight\">Heavy Attack</span> to perform <span class=\"text-highlight\">Tail Strike</span>, dealing <span class=\"text-glacio\">Glacio DMG</span>.<br> <br><span class=\"font-title\">Striding Lion</span><br>After casting Heavy Attack <span class=\"text-highlight\">Glorious Plunge</span>, enter <span class=\"text-highlight\">Striding Lion</span> state;<br>After casting Intro Skill <span class=\"text-highlight\">Lion Awakens</span> or Resonance Liberation <span class=\"text-highlight\">Strive: Lion's Vigor</span>, if \"Lion's Spirit\" is full, use <span class=\"text-highlight\">Basic Attack</span> to enter <span class=\"text-highlight\">Striding Lion</span> state.<br>In the <span class=\"text-highlight\">Striding Lion</span> state:<br>-Attacks can be launched in mid-air. If Lingyang is on the ground, use Heavy Attack <span class=\"text-highlight\">Glorious Plunge</span> to get back in the air.<br>-\"Lion's Spirit\" is continuously consumed before running out in {0}s, and when it runs out, <span class=\"text-highlight\">Striding Lion</span> ends;<br>- If Lingyang is in the Resonance Liberation <span class=\"text-highlight\">Lion's Vigor</span> state, the consumption speed of \"Lion's Spirit\" is reduced by {1}, extending <span class=\"text-highlight\">Striding Lion</span> state by up to {2}s.<br>-Lingyang's <span class=\"text-highlight\">Basic Attack</span> is replaced with Basic Attack <span class=\"text-highlight\">Feral Gyrate</span>, which performs up to 2 consecutive attacks, dealing <span class=\"text-glacio\">Glacio DMG</span>;<br>-Lingyang's <span class=\"text-highlight\">Resonance Skill</span> is replaced with <span class=\"text-highlight\">Mountain Roamer</span>, dealing <span class=\"text-glacio\">Glacio DMG</span>;<br>-When \"Lion's Spirit\" is less than {3}, use <span class=\"text-highlight\">Basic Attack</span> to perform <span class=\"text-highlight\">Stormy Kicks</span>, dealing <span class=\"text-glacio\">Glacio DMG</span>; after performing Basic Attack <span class=\"text-highlight\">Stormy Kicks</span>, the Mid-air Attack <span class=\"text-highlight\">Tail Strike</span> becomes available.<br>Concerto Energy is restored when \"Lion's Spirit\" is consumed.<br> <br><span class=\"font-title\">Lion's Spirit</span><br>Lingyang can hold up to {4} \"Lion's Spirit\".<br>When casting Resonance Skill <span class=\"text-highlight\">Furious Punches</span>, \"Lion's Spirit\" is restored.<br>When casting Intro Skill <span class=\"text-highlight\">Lion Awakens</span>, \"Lion's Spirit\" is restored.<br>When casting Resonance Liberation <span class=\"text-highlight\">Strive: Lion's Vigor</span>, \"Lion's Spirit\" is restored.",
+        "SkillTagList": null,
+        "SkillDetailNum": [
+          "5",
+          "50%",
+          "10",
+          "10",
+          "100"
+        ]
+      },
+      {
+        "Id": 1001808,
+        "SkillGroupId": 1104,
+        "SkillType": "Inherent Skill",
+        "SkillName": "Skillful Cooking",
+        "SkillLevelGroupId": 1001808,
+        "LeftSkillEffect": 1,
+        "MaxSkillLevel": 1,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": null,
+        "Icon": "SP_IconWorld3",
+        "SortIndex": 8,
+        "SkillDescribe": "Has a chance to produce special dishes when cooking",
+        "SkillTagList": null,
+        "SkillDetailNum": null
+      }
+    ]
+  },
+  {
+    "id": 1303,
+    "name": "Yuanwu",
+    "rating": 4,
+    "element": "Electro",
+    "weaponType": 4,
+    "skills": [
+      {
+        "Id": 1001601,
+        "SkillGroupId": 1303,
+        "SkillType": "Normal Attack",
+        "SkillName": "Leihuangquan",
+        "SkillLevelGroupId": 1001601,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 10,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": [
+          1303001001,
+          1303002001,
+          1303002002,
+          1303003001,
+          1303003002,
+          1303003003,
+          1303004001,
+          1303004002,
+          1303005001,
+          1303005002,
+          1303006001,
+          1303400004,
+          1303400005,
+          1303100001
+        ],
+        "Icon": "SP_IconNorFist",
+        "SortIndex": 1,
+        "SkillDescribe": "<span class=\"font-title\">Basic Attack</span><br>Yuanwu performs up to 5 consecutive attacks, dealing <span class=\"text-electro\">Electro DMG</span>.<br> <br><span class=\"font-title\">Heavy Attack</span><br>Yuanwu consumes STA to attack the target, dealing <span class=\"text-electro\">Electro DMG</span>.<br> <br><span class=\"font-title\">Mid-air Attack</span><br>Yuanwu consumes STA to launch a Mid-air Plunging Attack, dealing <span class=\"text-electro\">Electro DMG</span>.<br> <br><span class=\"font-title\">Dodge Counter</span><br>Use <span class=\"text-highlight\">Basic Attack</span> after a successful <span class=\"text-highlight\">Dodge</span> to attack the target, dealing <span class=\"text-electro\">Electro DMG</span>.",
+        "SkillTagList": null,
+        "SkillDetailNum": null
+      },
+      {
+        "Id": 1001602,
+        "SkillGroupId": 1303,
+        "SkillType": "Resonance Skill",
+        "SkillName": "Leihuang Master",
+        "SkillLevelGroupId": 1001602,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 10,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": [
+          1303200001,
+          1303210001,
+          1303201001,
+          1303904003
+        ],
+        "Icon": "SP_IconYuanwuB1",
+        "SortIndex": 2,
+        "SkillDescribe": "<span class=\"font-title\">Thunder Wedge</span><br>Yuanwu summons <span class=\"text-highlight\">Thunder Wedge</span>, dealing <span class=\"text-electro\">Electro DMG</span>, and forms a <span class=\"text-highlight\">Thunder Field</span> centered on the <span class=\"text-highlight\">Thunder Wedge</span>. <span class=\"text-highlight\">Thunder Wedge</span> lasts for {0}s.<br>Forte Circuit <span class=\"text-highlight\">Rumbling Spark</span> and Resonance Liberation <span class=\"text-highlight\">Blazing Might</span> will immediately detonate Resonance Skill <span class=\"text-highlight\">Thunder Wedge</span> on the field, dealing <span class=\"text-electro\">Electro DMG</span>, considered as Resonance Skill Damage.<br> <br><span class=\"font-title\">Thunder Field</span><br>The active character gains the effects below when in the <span class=\"text-highlight\">Thunder Field</span>: a Coordinated Attack from Resonance Skill <span class=\"text-highlight\">Thunder Wedge</span> is triggered when attacks hit a target, dealing <span class=\"text-electro\">Electro DMG</span>. This can be triggered once every {1}s. The effect lasts for {2}s.",
+        "SkillTagList": null,
+        "SkillDetailNum": [
+          "12",
+          "1.2",
+          "1.5"
+        ]
+      },
+      {
+        "Id": 1001603,
+        "SkillGroupId": 1303,
+        "SkillType": "Resonance Liberation",
+        "SkillName": "Blazing Might",
+        "SkillLevelGroupId": 1001603,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 10,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": [
+          1303300001,
+          1303300002
+        ],
+        "Icon": "SP_IconYuanwuC1",
+        "SortIndex": 3,
+        "SkillDescribe": "Awaken the power of thunder and provide Forte Circuit <span class=\"text-highlight\">Lightning Infused</span> status to all characters on a nearby team for {0}s, then perform a powerful blow that deals <span class=\"text-electro\">Electro DMG</span>.<br> ",
+        "SkillTagList": null,
+        "SkillDetailNum": [
+          "10"
+        ]
+      },
+      {
+        "Id": 1001604,
+        "SkillGroupId": 1303,
+        "SkillType": "Inherent Skill",
+        "SkillName": "Thunderous Determination",
+        "SkillLevelGroupId": 1001604,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 1,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": null,
+        "Icon": "SP_IconYuanwuD1",
+        "SortIndex": 4,
+        "SkillDescribe": "The DMG multiplier of Resonance Skill <span class=\"text-highlight\">Thunder Uprising</span> is increased by {0}, and its reduction efficiency of enemy Vibration Strength is enhanced.",
+        "SkillTagList": null,
+        "SkillDetailNum": [
+          "40%"
+        ]
+      },
+      {
+        "Id": 1001605,
+        "SkillGroupId": 1303,
+        "SkillType": "Inherent Skill",
+        "SkillName": "Reserved Confidence",
+        "SkillLevelGroupId": 1001605,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 1,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": null,
+        "Icon": "SP_IconYuanwuD2",
+        "SortIndex": 5,
+        "SkillDescribe": "The ranges of the Resonance Skills <span class=\"text-highlight\">Thunder Field</span> and <span class=\"text-highlight\">Thunder Uprising</span> are greatly expanded. When exiting during combat, if \"Readiness\" is not full, Yuanwu will automatically leave {0} Resonance Skill <span class=\"text-highlight\">Thunder Wedge</span> in place.",
+        "SkillTagList": null,
+        "SkillDetailNum": [
+          "1"
+        ]
+      },
+      {
+        "Id": 1001606,
+        "SkillGroupId": 1303,
+        "SkillType": "Intro Skill",
+        "SkillName": "Thunder Bombardment",
+        "SkillLevelGroupId": 1001606,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 10,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": [
+          1303600002
+        ],
+        "Icon": "SP_IconYuanwuQTE",
+        "SortIndex": 6,
+        "SkillDescribe": "Attack the target, dealing <span class=\"text-electro\">Electro DMG</span>.",
+        "SkillTagList": null,
+        "SkillDetailNum": null
+      },
+      {
+        "Id": 1001609,
+        "SkillGroupId": 1303,
+        "SkillType": "Outro Skill",
+        "SkillName": "Lightning Manipulation",
+        "SkillLevelGroupId": 1001609,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 1,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": null,
+        "Icon": "SP_IconYuanwuT",
+        "SortIndex": 6,
+        "SkillDescribe": "Yuanwu unleashes thunderbolts in an area centered around the skill target, greatly reducing the Vibration Strength of enemies upon impact.",
+        "SkillTagList": [
+          4
+        ],
+        "SkillDetailNum": null
+      },
+      {
+        "Id": 1001607,
+        "SkillGroupId": 1303,
+        "SkillType": "Forte Circuit",
+        "SkillName": "Unassuming Blade",
+        "SkillLevelGroupId": 1001607,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 10,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": [
+          1303001101,
+          1303001102,
+          1303001103,
+          1303001104,
+          1303001105,
+          1303001106,
+          1303001107,
+          1303001108,
+          1303001109,
+          1303001110,
+          1303001111,
+          1303001112,
+          1303001113,
+          1303001114,
+          1303400001,
+          1303400002,
+          1303400003,
+          1303100011,
+          1303100002,
+          1303100003,
+          1303100004,
+          1303904005,
+          1303904015
+        ],
+        "Icon": "SP_IconYuanwuY",
+        "SortIndex": 7,
+        "SkillDescribe": "<span class=\"font-title\">Rumbling Spark</span><br>When \"Readiness\" is full, long press <span class=\"text-highlight\">Resonance Skill</span> to consume all \"Readiness\" and cast <span class=\"text-highlight\">Rumbling Spark</span>, dealing <span class=\"text-electro\">Electro DMG</span> and entering the <span class=\"text-highlight\">Lightning Infused</span> state.<br> <br><span class=\"font-title\">Thunder Uprising</span><br>When \"Readiness\" is full, Resonance Skill <span class=\"text-highlight\">Thunder Wedge</span> will be replaced with <span class=\"text-highlight\">Thunder Uprising</span>, dealing <span class=\"text-electro\">Electro DMG</span>.<br> <br><span class=\"font-title\">Lightning Infused</span><br>The character in <span class=\"text-highlight\">Lightning Infused</span> state has a greatly increased resistance to interruption.<br>When Yuanwu is in this state:<br>-<span class=\"text-highlight\">Basic Attacks</span>: Hit targets in a larger range, reduce enemy Vibration Strength with increased efficiency;<br>-<span class=\"text-highlight\">Heavy Attacks</span>: Have increased attack speed, reduce enemy Vibration Strength with increased efficiency;<br>-<span class=\"text-highlight\">Dodge Counters</span>: Have increased attack speed, reduce enemy Vibration Strength with increased efficiency.<br>-Use <span class=\"text-highlight\">Basic Attack</span> within {0}s after casting a <span class=\"text-highlight\">Heavy Attack</span> or a successful <span class=\"text-highlight\">Counterattack</span> to cast <span class=\"text-highlight\">Thunderweaver</span>, dealing <span class=\"text-electro\">Electro DMG</span>, considered as Basic Attack damage;<br>-Does not recover \"Readiness\".<br> <br><span class=\"font-title\">Readiness</span><br>Yuanwu can hold up to {1} \"Readiness\".<br>When Resonance Skill <span class=\"text-highlight\">Thunder Wedge</span> is on the field, Yuanwu gains {2} \"Readiness\" every second, even when he is not the active character;<br>When Resonance Skill <span class=\"text-highlight\">Thunder Wedge</span> hits a target with a Coordinated Attack, Yuanwu gains {3} \"Readiness\".",
+        "SkillTagList": null,
+        "SkillDetailNum": [
+          "3",
+          "100",
+          "6",
+          "5"
+        ]
+      },
+      {
+        "Id": 1001608,
+        "SkillGroupId": 1303,
+        "SkillType": "Inherent Skill",
+        "SkillName": "Skillful Cooking",
+        "SkillLevelGroupId": 1001608,
+        "LeftSkillEffect": 1,
+        "MaxSkillLevel": 1,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": null,
+        "Icon": "SP_IconWorld3",
+        "SortIndex": 8,
+        "SkillDescribe": "Has a chance to produce special dishes when cooking",
+        "SkillTagList": null,
+        "SkillDetailNum": null
+      }
+    ]
+  },
+  {
+    "id": 1604,
+    "name": "Rover-Havoc",
+    "rating": 5,
+    "element": "Havoc",
+    "weaponType": 2,
+    "skills": [
+      {
+        "Id": 1001701,
+        "SkillGroupId": 1604,
+        "SkillType": "Normal Attack",
+        "SkillName": "Tuneslayer",
+        "SkillLevelGroupId": 1001701,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 10,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": [
+          1604001001,
+          1604002001,
+          1604002002,
+          1604003001,
+          1604003002,
+          1604003003,
+          1604003005,
+          1604003006,
+          1604003007,
+          1604006001,
+          1604007001,
+          1604009001
+        ],
+        "Icon": "SP_IconNorKnife",
+        "SortIndex": 1,
+        "SkillDescribe": "<span class=\"font-title\">Basic Attack</span><br>Rover-Havoc performs up to 5 consecutive attacks, dealing <span class=\"text-havoc\">Havoc DMG</span>.<br> <br><span class=\"font-title\">Heavy Attack</span><br>Rover-Havoc consumes STA to attack, dealing <span class=\"text-havoc\">Havoc DMG</span>.<br>Use <span class=\"text-highlight\">Basic Attack</span> after casting Heavy Attack to cast Basic Attack 4.<br> <br><span class=\"font-title\">Mid-air Attack</span><br>Rover-Havoc consumes STA to cast a Mid-Air Plunging Attack, dealing <span class=\"text-havoc\">Havoc DMG</span>.<br> <br><span class=\"font-title\">Dodge Counter</span><br>Use <span class=\"text-highlight\">Basic Attack</span> after a successful Dodge to attack the target, dealing <span class=\"text-havoc\">Havoc DMG</span>.",
+        "SkillTagList": null,
+        "SkillDetailNum": null
+      },
+      {
+        "Id": 1001702,
+        "SkillGroupId": 1604,
+        "SkillType": "Resonance Skill",
+        "SkillName": "Wingblade",
+        "SkillLevelGroupId": 1001702,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 10,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": [
+          1604005001,
+          1604005002
+        ],
+        "Icon": "SP_IconZhujueDarkB1",
+        "SortIndex": 2,
+        "SkillDescribe": "Transform sound into feathers, dealing <span class=\"text-havoc\">Havoc DMG</span>.",
+        "SkillTagList": null,
+        "SkillDetailNum": null
+      },
+      {
+        "Id": 1001703,
+        "SkillGroupId": 1604,
+        "SkillType": "Resonance Liberation",
+        "SkillName": "Deadening Abyss",
+        "SkillLevelGroupId": 1001703,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 10,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": [
+          1604007004
+        ],
+        "Icon": "SP_IconZhujueDarkC1",
+        "SortIndex": 3,
+        "SkillDescribe": "Rover gathers resonating sounds to attack a target, dealing <span class=\"text-havoc\">Havoc DMG</span>.",
+        "SkillTagList": null,
+        "SkillDetailNum": null
+      },
+      {
+        "Id": 1001706,
+        "SkillGroupId": 1604,
+        "SkillType": "Intro Skill",
+        "SkillName": "Instant of Annihilation",
+        "SkillLevelGroupId": 1001706,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 10,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": [
+          1604009003
+        ],
+        "Icon": "SP_IconZhujueDarkQTE",
+        "SortIndex": 4,
+        "SkillDescribe": "Attack the target, dealing <span class=\"text-havoc\">Havoc DMG</span>.",
+        "SkillTagList": null,
+        "SkillDetailNum": null
+      },
+      {
+        "Id": 1001709,
+        "SkillGroupId": 1604,
+        "SkillType": "Outro Skill",
+        "SkillName": "Soundweaver",
+        "SkillLevelGroupId": 1001709,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 1,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": null,
+        "Icon": "SP_IconZhujueDarkT",
+        "SortIndex": 4,
+        "SkillDescribe": "Rover summons a Havoc Field, dealing <span class=\"text-havoc\">Havoc DMG</span> of {1} of Rover's ATK to all targets within the range every {0}s for {2}s.",
+        "SkillTagList": [
+          116
+        ],
+        "SkillDetailNum": [
+          "2",
+          "143.3%",
+          "6"
+        ]
+      },
+      {
+        "Id": 1001707,
+        "SkillGroupId": 1604,
+        "SkillType": "Forte Circuit",
+        "SkillName": "Umbra Eclipse",
+        "SkillLevelGroupId": 1001707,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 10,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": [
+          1604001010,
+          1604002010,
+          1604003004,
+          1604003010,
+          1604003011,
+          1604003012,
+          1604004010,
+          1604006002,
+          1604007101,
+          1604007002,
+          1604007007,
+          1604007008,
+          1604007010,
+          1604007011,
+          1604007003,
+          1604009002,
+          1604004011,
+          1604004012,
+          1604005010
+        ],
+        "Icon": "SP_IconZhujueDarkY",
+        "SortIndex": 5,
+        "SkillDescribe": "<span class=\"font-title\">Devastation</span><br>When \"Umbra\" is full, hold <span class=\"text-highlight\">Basic Attack</span> to cast <span class=\"text-highlight\">Devastation</span> to attack the target, dealing <span class=\"text-havoc\">Havoc DMG</span>, considered as Heavy Attack damage.<br> <br><span class=\"font-title\">Dark Surge</span><br>After casting <span class=\"text-highlight\">Devastation</span>, Rover enters the <span class=\"text-highlight\">Dark Surge</span> state. In this state:<br><span class=\"text-highlight\">Basic Attack</span> is replaced with <span class=\"text-highlight\">Enhanced Basic Attack</span>, which performs up to 5 consecutive attacks, dealing <span class=\"text-havoc\">Havoc DMG</span>;<br><span class=\"text-highlight\">Heavy Attack</span> is replaced with <span class=\"text-highlight\">Enhanced Heavy Attack</span>;<br>Use <span class=\"text-highlight\">Basic Attack</span> after casting <span class=\"text-highlight\">Enhanced Heavy Attack</span> to cast Heavy Attack <span class=\"text-highlight\">Thwackblade</span> to attack the target, dealing <span class=\"text-havoc\">Havoc DMG</span>, considered as Heavy Attack damage;<br>Use <span class=\"text-highlight\">Basic Attack</span> after casting Heavy Attack <span class=\"text-highlight\">Thwackblade</span> to cast <span class=\"text-highlight\"> Enhanced Basic Attack 3</span> to attack the target, dealing <span class=\"text-havoc\">Havoc DMG</span>;<br>Resonance Skill <span class=\"text-highlight\">Wingblade</span> is replaced with Resonance Skill <span class=\"text-highlight\">Lifetaker</span>, transforming sounds into blades to attack the target, dealing <span class=\"text-havoc\">Havoc DMG</span>.<br> <br><span class=\"font-title\">Umbra</span><br>Rover can hold up to 100 points of Umbra.<br>Normal Attack <span class=\"text-highlight\">Tuneslayer</span> recovers Umbra on hit.<br>Resonance Skill <span class=\"text-highlight\">Wingblade</span> recovers Umbra when cast.<br>Resonance Skill <span class=\"text-highlight\">Lifetaker</span> recovers Umbra when cast.<br>Intro Skill <span class=\"text-highlight\">Instant of Annihilation</span> recovers Umbra when cast.",
+        "SkillTagList": null,
+        "SkillDetailNum": null
+      },
+      {
+        "Id": 1001704,
+        "SkillGroupId": 1604,
+        "SkillType": "Inherent Skill",
+        "SkillName": "Metamorph",
+        "SkillLevelGroupId": 1001704,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 1,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": null,
+        "Icon": "SP_IconZhujueDarkD1",
+        "SortIndex": 6,
+        "SkillDescribe": "In the <span class=\"text-highlight\">Dark Surge</span> state, Havoc DMG Bonus is increased by {0}.",
+        "SkillTagList": null,
+        "SkillDetailNum": [
+          "20%"
+        ]
+      },
+      {
+        "Id": 1001705,
+        "SkillGroupId": 1604,
+        "SkillType": "Inherent Skill",
+        "SkillName": "Bleak Crescendo",
+        "SkillLevelGroupId": 1001705,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 1,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": null,
+        "Icon": "SP_IconZhujueDarkD2",
+        "SortIndex": 7,
+        "SkillDescribe": "While in the <span class=\"text-highlight\">Dark Surge</span> state, <span class=\"text-highlight\">Basic Attack</span> recovers {0} extra Resonance Energy when it hits a target, and this effect can be triggered 1 time per second.",
+        "SkillTagList": null,
+        "SkillDetailNum": [
+          "1"
+        ]
+      },
+      {
+        "Id": 1001708,
+        "SkillGroupId": 1604,
+        "SkillType": "Inherent Skill",
+        "SkillName": "An error occurred. Please contact our Customer Service for assistance",
+        "SkillLevelGroupId": 1001708,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 1,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": null,
+        "Icon": "SP_IconWorld3",
+        "SortIndex": 8,
+        "SkillDescribe": "An error occurred. Please contact our Customer Service for assistance",
+        "SkillTagList": null,
+        "SkillDetailNum": null
+      }
+    ]
+  },
+  {
+    "id": 1605,
+    "name": "Rover-Havoc",
+    "rating": 5,
+    "element": "Havoc",
+    "weaponType": 2,
+    "skills": []
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+    "id": 1405,
+    "name": "Jianxin",
+    "rating": 5,
+    "element": "Aero",
+    "weaponType": 4,
+    "skills": [
+      {
+        "Id": 1001901,
+        "SkillGroupId": 1405,
+        "SkillType": "Normal Attack",
+        "SkillName": "Fengyiquan",
+        "SkillLevelGroupId": 1001901,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 10,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": [
+          1405001001,
+          1405002001,
+          1405002002,
+          1405003001,
+          1405004001,
+          1405014001,
+          1405032001,
+          1405006001,
+          1405006002
+        ],
+        "Icon": "SP_IconNorFist",
+        "SortIndex": 1,
+        "SkillDescribe": "<span class=\"font-title\">Basic Attack</span><br>Jianxin performs up to 4 consecutive attacks, dealing <span class=\"text-aero\">Aero DMG</span>.<br> <br><span class=\"font-title\">Heavy Attack</span><br>Jianxin consumes STA to attack the target, dealing <span class=\"text-aero\">Aero DMG</span>.<br> <br><span class=\"font-title\">Mid-air Attack</span><br>Jianxin consumes STA to plunge and unleash a powerful kick, dealing <span class=\"text-aero\">Aero DMG</span>.<br> <br><span class=\"font-title\">Dodge Counter</span><br>Use <span class=\"text-highlight\">Basic Attack</span> after a successful <span class=\"text-highlight\">Dodge</span> to attack the target, dealing <span class=\"text-aero\">Aero DMG</span>.",
+        "SkillTagList": null,
+        "SkillDetailNum": null
+      },
+      {
+        "Id": 1001902,
+        "SkillGroupId": 1405,
+        "SkillType": "Resonance Skill",
+        "SkillName": "Calming Air",
+        "SkillLevelGroupId": 1001902,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 10,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": [
+          1405021001,
+          1405022001,
+          1405023001
+        ],
+        "Icon": "SP_IconJianxinB1",
+        "SortIndex": 2,
+        "SkillDescribe": "Hold <span class=\"text-highlight\">Resonance Skill</span> to enter <span class=\"text-highlight\">Parry Stance</span>.<br> <br><span class=\"font-title\">Chi Counter</span><br>When Jianxin is attacked in the <span class=\"text-highlight\">Parry Stance</span>, she does not take damage and immediately performs <span class=\"text-highlight\">Chi Counter</span>, dealing <span class=\"text-aero\">Aero DMG</span>.<br> <br><span class=\"font-title\">Chi Parry</span><br>Release the <span class=\"text-highlight\">Resonance Skill</span> button during <span class=\"text-highlight\">Parry Stance</span> to interrupt <span class=\"text-highlight\">Parry Stance</span> and perform <span class=\"text-highlight\">Chi Parry</span>, dealing <span class=\"text-aero\">Aero DMG</span>.",
+        "SkillTagList": null,
+        "SkillDetailNum": null
+      },
+      {
+        "Id": 1001903,
+        "SkillGroupId": 1405,
+        "SkillType": "Resonance Liberation",
+        "SkillName": "Purification Force Field",
+        "SkillLevelGroupId": 1001903,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 10,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": [
+          1405041001,
+          1405042001
+        ],
+        "Icon": "SP_IconJianxinC1",
+        "SortIndex": 3,
+        "SkillDescribe": "Create a strong wind field, continuously pulling targets within the wind field to the center and dealing <span class=\"text-aero\">Aero DMG</span>. When the wind field disappears, it will trigger an explosion to deal <span class=\"text-aero\">Aero DMG</span> to all targets within the range again.",
+        "SkillTagList": null,
+        "SkillDetailNum": null
+      },
+      {
+        "Id": 1001904,
+        "SkillGroupId": 1405,
+        "SkillType": "Inherent Skill",
+        "SkillName": "Formless Release",
+        "SkillLevelGroupId": 1001904,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 1,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": null,
+        "Icon": "SP_IconJianxinD1",
+        "SortIndex": 4,
+        "SkillDescribe": "Damage of Resonance Liberation <span class=\"text-highlight\">Purification Force Field</span> is increased by {0}.",
+        "SkillTagList": null,
+        "SkillDetailNum": [
+          "20%"
+        ]
+      },
+      {
+        "Id": 1001905,
+        "SkillGroupId": 1405,
+        "SkillType": "Inherent Skill",
+        "SkillName": "Reflection",
+        "SkillLevelGroupId": 1001905,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 1,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": null,
+        "Icon": "SP_IconJianxinD2",
+        "SortIndex": 5,
+        "SkillDescribe": "The Shield obtained with Heavy Attack <span class=\"text-highlight\">Primordial Chi Spiral</span> is increased by {0}.",
+        "SkillTagList": null,
+        "SkillDetailNum": [
+          "20%"
+        ]
+      },
+      {
+        "Id": 1001906,
+        "SkillGroupId": 1405,
+        "SkillType": "Intro Skill",
+        "SkillName": "Essence of Tao",
+        "SkillLevelGroupId": 1001906,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 10,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": [
+          1405051001,
+          1405051002
+        ],
+        "Icon": "SP_IconJianxinQTE",
+        "SortIndex": 6,
+        "SkillDescribe": "Pull in targets within the range, dealing <span class=\"text-aero\">Aero DMG</span>.",
+        "SkillTagList": null,
+        "SkillDetailNum": null
+      },
+      {
+        "Id": 1001909,
+        "SkillGroupId": 1405,
+        "SkillType": "Outro Skill",
+        "SkillName": "Transcendence",
+        "SkillLevelGroupId": 1001909,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 1,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": null,
+        "Icon": "SP_IconJianxinT",
+        "SortIndex": 6,
+        "SkillDescribe": "The incoming character (or a character on a nearby team that activates Outro Skill) has their Resonance Liberation DMG Amplified by {0} for {1}s or until they are switched off field.",
+        "SkillTagList": [
+          303
+        ],
+        "SkillDetailNum": [
+          "38%",
+          "14"
+        ]
+      },
+      {
+        "Id": 1001907,
+        "SkillGroupId": 1405,
+        "SkillType": "Forte Circuit",
+        "SkillName": "Primordial Chi Spiral",
+        "SkillLevelGroupId": 1001907,
+        "LeftSkillEffect": 0,
+        "MaxSkillLevel": 10,
+        "SkillInfoList": null,
+        "BuffList": [
+          1405001005,
+          1405001006,
+          1405001007,
+          1405001015,
+          1405000021,
+          1405000022,
+          1405000023,
+          1405000024,
+          1405060004,
+          1405060005
+        ],
+        "DamageList": [
+          1405011001,
+          1405012001,
+          1405013001,
+          1405015001,
+          1405016001,
+          1405017001,
+          1405010001
+        ],
+        "Icon": "SP_IconJianxinY",
+        "SortIndex": 7,
+        "SkillDescribe": "<span class=\"font-title\">Heavy Attack: Primordial Chi Spiral</span><br>When \"Chi\" reaches max stacks, hold <span class=\"text-highlight\">Heavy Attack</span> to cast <span class=\"text-highlight\">Primordial Chi Spiral</span> and start <span class=\"text-highlight\">Zhoutian Progress</span>.<br> <br><span class=\"font-title\">Zhoutian Progress</span><br>Jianxin's resistance to interruption is increased, and her the damage taken is reduced by {0}:<br>Jianxin continuously consumes \"Chi\" and casts <span class=\"text-highlight\">Chi Strike</span> to attack targets nearby, dealing <span class=\"text-aero\">Aero DMG</span>.<br>As <span class=\"text-highlight\">Zhoutian Progress</span> accumulates, Jianxin reaches different Zhoutian and gain effects accordingly.<br>-Before Minor Zhoutian: Gain Zhoutian Progress 1 shield. When <span class=\"text-highlight\">Zhoutian Progress</span> is interrupted, cast <span class=\"text-highlight\">Pushing Punch</span> to attack the target, dealing <span class=\"text-aero\">Aero DMG</span>.<br>-Minor Zhoutian: Gain Zhoutian Progress 2 shield and cast <span class=\"text-highlight\">Shock</span> to attack the target, dealing <span class=\"text-aero\">Aero DMG</span>.  When <span class=\"text-highlight\">Zhoutian Progress</span> is interrupted, cast <span class=\"text-highlight\">Yielding Pull</span> to attack the target, dealing <span class=\"text-aero\">Aero DMG</span>.<br>-Major Zhoutian - Inner: Gain Zhoutian Progress 3 shield and cast <span class=\"text-highlight\">Shock</span> to attack the target, dealing <span class=\"text-aero\">Aero DMG</span>. When <span class=\"text-highlight\">Zhoutian Progress</span> is interrupted, cast <span class=\"text-highlight\">Yielding Pull</span> to attack the target, dealing <span class=\"text-aero\">Aero DMG</span>.<br>-Major Zhoutian - Outer: Gain Zhoutian Progress 3 shield and cast <span class=\"text-highlight\">Shock</span> to attack the target, dealing <span class=\"text-aero\">Aero DMG</span>.<br>-When <span class=\"text-highlight\">Basic Attack</span> button is released, interrupt <span class=\"text-highlight\">Zhoutian Progress</span> and lose all \"Chi\";<br>-When all \"Chi\" is consumed, end <span class=\"text-highlight\">Zhoutian Progress</span>.<br> <br>When <span class=\"text-highlight\">Zhoutian Progress</span> ends, regain a shield according to the Zhoutian Progress reached;<br>As the shield provided by <span class=\"text-highlight\">Heavy Attack: Primordial Chi Spiral</span> persists, the active character is healed once every {1}s.<br> <br><span class=\"font-title\">Chi</span><br>Jianxin can hold up to {2} Chi.<br>Chi is obtained when Normal Attack <span class=\"text-highlight\">Fengyiquan</span> hits the target.<br>Chi is obtained when the Resonance Skill <span class=\"text-highlight\">Calming Air</span> is cast.<br>Chi is obtained when the Resonance Skills <span class=\"text-highlight\">Chi Counter</span> or <span class=\"text-highlight\">Chi Parry</span> hits the target.<br>Chi is obtained when the Intro Skill <span class=\"text-highlight\">Essence of Tao</span> hits the target.",
+        "SkillTagList": null,
+        "SkillDetailNum": [
+          "50%",
+          "6",
+          "120"
+        ]
+      },
+      {
+        "Id": 1001908,
+        "SkillGroupId": 1405,
+        "SkillType": "Inherent Skill",
+        "SkillName": "An error occurred. Please contact our Customer Service for assistance",
+        "SkillLevelGroupId": 1001908,
+        "LeftSkillEffect": 1,
+        "MaxSkillLevel": 1,
+        "SkillInfoList": null,
+        "BuffList": null,
+        "DamageList": null,
+        "Icon": "SP_IconWorld3",
+        "SortIndex": 8,
+        "SkillDescribe": "Has a chance to produce special dishes when cooking",
+        "SkillTagList": null,
+        "SkillDetailNum": null
+      }
+    ]
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null
+]
