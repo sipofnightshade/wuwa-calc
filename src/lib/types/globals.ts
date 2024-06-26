@@ -11,3 +11,4 @@ export type WW_Forte_labels =
   | 'Resonance Liberation'
   | 'Intro Skill'
   | 'Outro Skill';
+export type WW_Rating = 5 | 4 | 3 | 2 | 1;
