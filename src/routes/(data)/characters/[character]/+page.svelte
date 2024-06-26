@@ -25,17 +25,17 @@
   });
 
   let activatedInherentSkills: Record<number, boolean> = $state({
-    0: false,
-    1: false
+    1: false,
+    2: false
   });
 
   let activatedWavebands: Record<number, boolean> = $state({
-    0: false,
     1: false,
     2: false,
     3: false,
     4: false,
-    5: false
+    5: false,
+    6: false
   });
 
   const skills = [
@@ -76,33 +76,33 @@
 
   const wavebands = [
     {
-      id: 0,
-      name: 'C1',
-      src: '/temp/T_IconDevice_JiyanM6_UI.png'
-    },
-    {
       id: 1,
-      name: 'C2',
+      name: 'Chain 1',
       src: '/temp/T_IconDevice_JiyanM6_UI.png'
     },
     {
       id: 2,
-      name: 'C3',
+      name: 'Chain 2',
       src: '/temp/T_IconDevice_JiyanM6_UI.png'
     },
     {
       id: 3,
-      name: 'C4',
+      name: 'Chain 3',
       src: '/temp/T_IconDevice_JiyanM6_UI.png'
     },
     {
       id: 4,
-      name: 'C5',
+      name: 'Chain 4',
       src: '/temp/T_IconDevice_JiyanM6_UI.png'
     },
     {
       id: 5,
-      name: 'C6',
+      name: 'Chain 5',
+      src: '/temp/T_IconDevice_JiyanM6_UI.png'
+    },
+    {
+      id: 6,
+      name: 'Chain 6',
       src: '/temp/T_IconDevice_JiyanM6_UI.png'
     }
   ];
@@ -188,7 +188,7 @@
     </div>
   </div>
 
-  {#each skills as skill, i}
+  {#each skills as skill}
     <div class="grid grid-cols-2 gap-12 border-t border-zinc-700 pt-6">
       {@render SkillHeader(skill)}
 
