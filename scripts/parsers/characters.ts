@@ -9,6 +9,7 @@ async function main() {
   const characters = roleInfo
     .map((role) => {
       if (role.RoleType === 1) {
+        if (role.Id === 1502 || role.Id === 1605) return;
         return {
           Id: role.Id,
           Name: parseText('RoleInfo_', role.Id, '_Name'),
