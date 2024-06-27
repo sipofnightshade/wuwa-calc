@@ -1,8 +1,9 @@
 <script lang="ts">
+  import type { WW_Rating } from '$lib/types/globals';
   import type { Snippet } from 'svelte';
 
   type Props = {
-    rating: 1 | 2 | 3 | 4 | 5;
+    rating: number;
     children: Snippet;
   };
 
@@ -18,7 +19,7 @@
 </script>
 
 {#if children}
-  <div class="p-[1px] {gradients[rating]}">
+  <div class="p-[1px] {gradients[rating as WW_Rating] ?? ''}">
     <div class="bg-gradient-to-tl from-zinc-950 via-zinc-900 to-zinc-800">
       {@render children()}
     </div>
