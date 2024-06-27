@@ -1,4 +1,5 @@
 import roleInfo from '../../WutheringData/ConfigDB/RoleInfo.json';
+import { getIcon } from '../processors/getIcon';
 import { getSkills } from '../processors/getSkills';
 import { getStats } from '../processors/getStats';
 
@@ -15,7 +16,12 @@ async function main() {
           Element: parseText('ElementInfo_', role.ElementId, '_Name'),
           WeaponType: role.WeaponType,
           Stats: getStats(role.Id),
-          Skills: getSkills(role.Id)
+          Skills: getSkills(role.Id),
+          Icon: {
+            Head: getIcon(role.RoleHeadIconLarge),
+            HeadCircle: getIcon(role.RoleHeadIconCircle),
+            Card: getIcon(role.FormationRoleCard)
+          }
         };
       }
     })
@@ -26,8 +32,10 @@ async function main() {
     return a.Id - b.Id;
   });
 
-  const output = Bun.file('./scripts/output/output.json');
+  const output = Bun.file('./scripts/output/characters.json');
+  const output2 = Bun.file('./src/lib/data/characters.json');
   await Bun.write(output, JSON.stringify(characters, null, 2));
+  await Bun.write(output2, JSON.stringify(characters, null, 2));
 
   // for (const char of characters) {
   //   if (char && char.Name) {

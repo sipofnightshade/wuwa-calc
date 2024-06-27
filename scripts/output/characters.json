@@ -1068,7 +1068,12 @@
         "SkillDetailNum": null,
         "SkillDetails": []
       }
-    ]
+    ],
+    "Icon": {
+      "Head": "T_IconRoleHead256_7_UI",
+      "HeadCircle": "T_IconRoleHeadCircle256_7_UI",
+      "Card": "T_IconRole_Pile_shanhua_UI"
+    }
   },
   {
     "Id": 1103,
@@ -2043,7 +2048,12 @@
         "SkillDetailNum": null,
         "SkillDetails": []
       }
-    ]
+    ],
+    "Icon": {
+      "Head": "T_IconRoleHead256_6_UI",
+      "HeadCircle": "T_IconRoleHeadCircle256_6_UI",
+      "Card": "T_IconRole_Pile_bailian_UI"
+    }
   },
   {
     "Id": 1104,
@@ -3091,7 +3101,12 @@
         "SkillDetailNum": null,
         "SkillDetails": []
       }
-    ]
+    ],
+    "Icon": {
+      "Head": "T_IconRoleHead256_14_UI",
+      "HeadCircle": "T_IconRoleHeadCircle256_14_UI",
+      "Card": "T_IconRole_Pile_lingyang_UI"
+    }
   },
   {
     "Id": 1202,
@@ -3942,7 +3957,12 @@
         ],
         "SkillDetails": []
       }
-    ]
+    ],
+    "Icon": {
+      "Head": "T_IconRoleHead256_2_UI",
+      "HeadCircle": "T_IconRoleHeadCircle256_2_UI",
+      "Card": "T_IconRole_Pile_maxiaofang_UI"
+    }
   },
   {
     "Id": 1203,
@@ -5163,7 +5183,12 @@
         "SkillDetailNum": null,
         "SkillDetails": []
       }
-    ]
+    ],
+    "Icon": {
+      "Head": "T_IconRoleHead256_8_UI",
+      "HeadCircle": "T_IconRoleHeadCircle256_8_UI",
+      "Card": "T_IconRole_Pile_anke_UI"
+    }
   },
   {
     "Id": 1204,
@@ -6055,7 +6080,12 @@
         "SkillDetailNum": null,
         "SkillDetails": []
       }
-    ]
+    ],
+    "Icon": {
+      "Head": "T_IconRoleHead256_13_UI",
+      "HeadCircle": "T_IconRoleHeadCircle256_13_UI",
+      "Card": "T_IconRole_Pile_baer_UI"
+    }
   },
   {
     "Id": 1301,
@@ -7356,7 +7386,12 @@
         "SkillDetailNum": null,
         "SkillDetails": []
       }
-    ]
+    ],
+    "Icon": {
+      "Head": "T_IconRoleHead256_18_UI",
+      "HeadCircle": "T_IconRoleHeadCircle256_18_UI",
+      "Card": "T_IconRole_Pile_kakaluo_UI"
+    }
   },
   {
     "Id": 1302,
@@ -8312,7 +8347,12 @@
         "SkillDetailNum": null,
         "SkillDetails": []
       }
-    ]
+    ],
+    "Icon": {
+      "Head": "T_IconRoleHead256_17_UI",
+      "HeadCircle": "T_IconRoleHeadCircle256_17_UI",
+      "Card": "T_IconRole_Pile_yinlin_UI"
+    }
   },
   {
     "Id": 1303,
@@ -9551,7 +9591,12 @@
         "SkillDetailNum": null,
         "SkillDetails": []
       }
-    ]
+    ],
+    "Icon": {
+      "Head": "T_IconRoleHead256_15_UI",
+      "HeadCircle": "T_IconRoleHeadCircle256_15_UI",
+      "Card": "T_IconRole_Pile_yuanwu_UI"
+    }
   },
   {
     "Id": 1402,
@@ -10425,7 +10470,12 @@
         ],
         "SkillDetails": []
       }
-    ]
+    ],
+    "Icon": {
+      "Head": "T_IconRoleHead256_1_UI",
+      "HeadCircle": "T_IconRoleHeadCircle256_1_UI",
+      "Card": "T_IconRole_Pile_yangyang_UI"
+    }
   },
   {
     "Id": 1403,
@@ -11394,7 +11444,12 @@
         "SkillDetailNum": null,
         "SkillDetails": []
       }
-    ]
+    ],
+    "Icon": {
+      "Head": "T_IconRoleHead256_12_UI",
+      "HeadCircle": "T_IconRoleHeadCircle256_12_UI",
+      "Card": "T_IconRole_Pile_qiushui_UI"
+    }
   },
   {
     "Id": 1404,
@@ -12425,7 +12480,12 @@
         "SkillDetailNum": null,
         "SkillDetails": []
       }
-    ]
+    ],
+    "Icon": {
+      "Head": "T_IconRoleHead256_11_UI",
+      "HeadCircle": "T_IconRoleHeadCircle256_11_UI",
+      "Card": "T_IconRole_Pile_jiyan_UI"
+    }
   },
   {
     "Id": 1405,
@@ -13778,7 +13838,12 @@
         "SkillDetailNum": null,
         "SkillDetails": []
       }
-    ]
+    ],
+    "Icon": {
+      "Head": "T_IconRoleHead256_23_UI",
+      "HeadCircle": "T_IconRoleHeadCircle256_23_UI",
+      "Card": "T_IconRole_Pile_jiexin_UI"
+    }
   },
   {
     "Id": 1501,
@@ -14739,7 +14804,12 @@
         "SkillDetailNum": null,
         "SkillDetails": []
       }
-    ]
+    ],
+    "Icon": {
+      "Head": "T_IconRoleHead256_4_UI",
+      "HeadCircle": "T_IconRoleHeadCircle256_4_UI",
+      "Card": "T_IconRole_Pile_zhujuenan_UI"
+    }
   },
   {
     "Id": 1502,
@@ -14765,7 +14835,12 @@
       "SpecialEnergy": 0,
       "SpecialEnergyMax": 0
     },
-    "Skills": []
+    "Skills": [],
+    "Icon": {
+      "Head": "T_IconRoleHead256_5_UI",
+      "HeadCircle": "T_IconRoleHeadCircle256_5_UI",
+      "Card": "T_IconRole_Pile_zhujue_UI"
+    }
   },
   {
     "Id": 1503,
@@ -15952,7 +16027,12 @@
         ],
         "SkillDetails": []
       }
-    ]
+    ],
+    "Icon": {
+      "Head": "T_IconRoleHead256_3_UI",
+      "HeadCircle": "T_IconRoleHeadCircle256_3_UI",
+      "Card": "T_IconRole_Pile_jueyuan_UI"
+    }
   },
   {
     "Id": 1601,
@@ -17021,7 +17101,12 @@
         "SkillDetailNum": null,
         "SkillDetails": []
       }
-    ]
+    ],
+    "Icon": {
+      "Head": "T_IconRoleHead256_9_UI",
+      "HeadCircle": "T_IconRoleHeadCircle256_9_UI",
+      "Card": "T_IconRole_Pile_taohua_UI"
+    }
   },
   {
     "Id": 1602,
@@ -18091,7 +18176,12 @@
         "SkillDetailNum": null,
         "SkillDetails": []
       }
-    ]
+    ],
+    "Icon": {
+      "Head": "T_IconRoleHead256_10_UI",
+      "HeadCircle": "T_IconRoleHeadCircle256_10_UI",
+      "Card": "T_IconRole_Pile_micai_UI"
+    }
   },
   {
     "Id": 1604,
@@ -19294,7 +19384,12 @@
         "SkillDetailNum": null,
         "SkillDetails": []
       }
-    ]
+    ],
+    "Icon": {
+      "Head": "T_IconRoleHead256_5_UI",
+      "HeadCircle": "T_IconRoleHeadCircle256_5_UI",
+      "Card": "T_IconRole_Pile_zhujue_UI"
+    }
   },
   {
     "Id": 1605,
@@ -19320,6 +19415,11 @@
       "SpecialEnergy": 0,
       "SpecialEnergyMax": 0
     },
-    "Skills": []
+    "Skills": [],
+    "Icon": {
+      "Head": "T_IconRoleHead256_4_UI",
+      "HeadCircle": "T_IconRoleHeadCircle256_4_UI",
+      "Card": "T_IconRole_Pile_zhujuenan_UI"
+    }
   }
 ]
