@@ -4,37 +4,37 @@ export const elementFilters: FilterItem[] = [
   {
     id: 1,
     name: 'Glacio',
-    imageUrl: '/elements/T_IconElementIce1.webp',
+    imageUrl: '/elements/T_IconElementIce1_UI.webp',
     color: 'border-glacio'
   },
   {
     id: 2,
     name: 'Fusion',
-    imageUrl: '/elements/T_IconElementFire1.webp',
+    imageUrl: '/elements/T_IconElementFire1_UI.webp',
     color: 'border-fusion'
   },
   {
     id: 3,
     name: 'Electro',
-    imageUrl: '/elements/T_IconElementThunder1.webp',
+    imageUrl: '/elements/T_IconElementThunder1_UI.webp',
     color: 'border-electro'
   },
   {
     id: 4,
     name: 'Aero',
-    imageUrl: '/elements/T_IconElementWind1.webp',
+    imageUrl: '/elements/T_IconElementWind1_UI.webp',
     color: 'border-aero'
   },
   {
     id: 5,
     name: 'Spectro',
-    imageUrl: '/elements/T_IconElementLight1.webp',
+    imageUrl: '/elements/T_IconElementLight1_UI.webp',
     color: 'border-spectro'
   },
   {
     id: 6,
     name: 'Havoc',
-    imageUrl: '/elements/T_IconElementDark1.webp',
+    imageUrl: '/elements/T_IconElementDark1_UI.webp',
     color: 'border-havoc'
   }
 ];
@@ -42,28 +42,28 @@ export const elementFilters: FilterItem[] = [
 export const weaponFilters: FilterItem[] = [
   {
     id: 1,
-    name: 'Sword',
-    imageUrl: '/weapons/T_IconWeaponSword1.webp'
+    name: 'Broadblade',
+    imageUrl: '/ui/SP_IconNorSword.png'
   },
   {
     id: 2,
-    name: 'Broadblade',
-    imageUrl: '/weapons/T_IconWeaponCatalyst1.webp'
+    name: 'Sword',
+    imageUrl: '/ui/SP_IconNorKnife.png'
   },
   {
     id: 3,
-    name: 'Rectifier',
-    imageUrl: '/weapons/T_IconWeaponPolearm1.webp'
+    name: 'Pistols',
+    imageUrl: '/ui/SP_IconNorGun.png'
   },
   {
     id: 4,
-    name: 'Pistols',
-    imageUrl: '/weapons/T_IconWeaponPolearm1.webp'
+    name: 'Gauntlets',
+    imageUrl: '/ui/SP_IconNorFist.png'
   },
   {
     id: 5,
-    name: 'Gauntlets',
-    imageUrl: '/weapons/T_IconWeaponPolearm1.webp'
+    name: 'Rectifier',
+    imageUrl: '/ui/SP_IconNorMagic.png'
   }
 ];
 

@@ -1,4 +1,4 @@
-import type { elements } from './elements';
+import type { elements } from './primitives';
 
 type ElementIcons = Record<keyof typeof elements, { color: string; white: string }>;
 

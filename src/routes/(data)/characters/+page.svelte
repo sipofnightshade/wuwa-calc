@@ -6,9 +6,8 @@
     ratingFilters,
     weaponFilters
   } from '$lib/components/feature/Filter/constants';
-  import type { FilterHandler, SelectedFilterGroup } from '$lib/components/feature/Filter/types';
   import { elementIcons } from '$lib/data/elementIcons';
-  import type { WW_Elements } from '$lib/types/globals';
+  import type { FilterHandler, SelectedFilterGroup } from '$lib/components/feature/Filter/types';
   import type { PageData } from './$types';
 
   let { data }: { data: PageData } = $props();
@@ -26,10 +25,29 @@
       selectedFilters[type] = null;
       return;
     }
+
     selectedFilters[type] = selected;
   };
 
-  // $inspect('characters', data);
+  let filteredList = $derived.by(() => {
+    let list = data.characters;
+
+    if (selectedFilters.element) {
+      list = list.filter((character) => character.element === selectedFilters.element);
+    }
+
+    if (selectedFilters.weapon) {
+      list = list.filter((character) => character.weaponType === selectedFilters.weapon);
+    }
+
+    if (selectedFilters.rating) {
+      list = list.filter((character) => character.rating === selectedFilters.rating);
+    }
+
+    return list;
+  });
+
+  $inspect('characters', data);
 </script>
 
 <div class="flex flex-col gap-y-8">
@@ -44,6 +62,12 @@
       {handleFilter}
     />
     <Filter
+      filters={weaponFilters}
+      selected={selectedFilters.weapon}
+      type="weapon"
+      {handleFilter}
+    />
+    <Filter
       filters={customRatingFilters}
       selected={selectedFilters.rating}
       type="rating"
@@ -53,7 +77,7 @@
 
   <!-- characters -->
   <div class="grid grid-cols-8 gap-2">
-    {#each data.characters as character}
+    {#each filteredList as character}
       <a class="flex flex-col items-center gap-1" href="/characters/{character.slug}">
         <ImageContainer rating={character.rating}>
           <div class="relative">
@@ -64,8 +88,8 @@
             />
             <img
               class="absolute right-0 top-0 h-6 w-6 lg:h-8 lg:w-8"
-              src="/elements/{elementIcons[character.element as WW_Elements].white}.webp"
-              alt={character.element}
+              src="/elements/{elementIcons[character.element].white}.webp"
+              alt="element"
             />
           </div>
         </ImageContainer>
