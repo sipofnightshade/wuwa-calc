@@ -1,5 +1,5 @@
 export type WW_Elements = 'Aero' | 'Electro' | 'Glacio' | 'Fusion' | 'Havoc' | 'Spectro';
-export type WW_Weapons = 'Sword' | 'Pistols' | 'Broadsword' | 'Rectifier' | 'Gauntlets';
+export type WW_Weapons = 'Sword' | 'Pistols' | 'Broadblade' | 'Rectifier' | 'Gauntlets';
 export type WW_Forte_labels =
   | 'Normal Attack'
   | 'Basic Attack'

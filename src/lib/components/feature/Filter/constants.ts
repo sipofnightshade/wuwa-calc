@@ -1,4 +1,6 @@
-export const elementFilters = [
+import type { FilterItem } from './types';
+
+export const elementFilters: FilterItem[] = [
   {
     id: 1,
     name: 'Glacio',
@@ -37,7 +39,7 @@ export const elementFilters = [
   }
 ];
 
-export const weaponFilters = [
+export const weaponFilters: FilterItem[] = [
   {
     id: 1,
     name: 'Sword',
@@ -52,37 +54,47 @@ export const weaponFilters = [
     id: 3,
     name: 'Rectifier',
     imageUrl: '/weapons/T_IconWeaponPolearm1.webp'
+  },
+  {
+    id: 4,
+    name: 'Pistols',
+    imageUrl: '/weapons/T_IconWeaponPolearm1.webp'
+  },
+  {
+    id: 5,
+    name: 'Gauntlets',
+    imageUrl: '/weapons/T_IconWeaponPolearm1.webp'
   }
 ];
 
-export const ratingFilters = [
+export const ratingFilters: FilterItem[] = [
   {
-    id: 1,
-    name: 'Five Star',
+    id: 5,
+    name: 5,
     imageUrl: '/rating/Five_Star.svg',
     color: 'border-fiveStar'
   },
   {
-    id: 2,
-    name: 'Four Star',
+    id: 4,
+    name: 4,
     imageUrl: '/rating/Four_Star.svg',
     color: 'border-fourStar'
   },
   {
     id: 3,
-    name: 'Three Star',
+    name: 3,
     imageUrl: '/rating/Three_Star.svg',
     color: 'border-threeStar'
   },
   {
-    id: 4,
-    name: 'Two Star',
+    id: 2,
+    name: 2,
     imageUrl: '/rating/Two_Star.svg',
     color: 'border-twoStar'
   },
   {
-    id: 5,
-    name: 'One Star',
+    id: 1,
+    name: 1,
     imageUrl: '/rating/One_Star.svg',
     color: 'border-oneStar'
   }

@@ -2,6 +2,7 @@ import roleInfo from '../../WutheringData/ConfigDB/RoleInfo.json';
 import { getIcon } from '../processors/getIcon';
 import { getSkills } from '../processors/getSkills';
 import { getStats } from '../processors/getStats';
+import { getWeaponType } from '../processors/getWeaponType';
 
 import { parseText } from '../utils/parseText';
 
@@ -15,7 +16,7 @@ async function main() {
           Name: parseText('RoleInfo_', role.Id, '_Name'),
           Rating: role.QualityId,
           Element: parseText('ElementInfo_', role.ElementId, '_Name'),
-          WeaponType: role.WeaponType,
+          WeaponType: getWeaponType(role.WeaponType),
           Stats: getStats(role.Id),
           Skills: getSkills(role.Id),
           Icon: {

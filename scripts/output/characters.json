@@ -4,7 +4,7 @@
     "Name": "Sanhua",
     "Rating": 4,
     "Element": "Glacio",
-    "WeaponType": 2,
+    "WeaponType": "Sword",
     "Stats": {
       "Life": 805,
       "Atk": 22,
@@ -1080,7 +1080,7 @@
     "Name": "Baizhi",
     "Rating": 4,
     "Element": "Glacio",
-    "WeaponType": 5,
+    "WeaponType": "Rectifier",
     "Stats": {
       "Life": 1025,
       "Atk": 17,
@@ -2060,7 +2060,7 @@
     "Name": "Lingyang",
     "Rating": 5,
     "Element": "Glacio",
-    "WeaponType": 4,
+    "WeaponType": "Gauntlets",
     "Stats": {
       "Life": 831,
       "Atk": 35,
@@ -3113,7 +3113,7 @@
     "Name": "Chixia",
     "Rating": 4,
     "Element": "Fusion",
-    "WeaponType": 3,
+    "WeaponType": "Pistols",
     "Stats": {
       "Life": 727,
       "Atk": 24,
@@ -3969,7 +3969,7 @@
     "Name": "Encore",
     "Rating": 5,
     "Element": "Fusion",
-    "WeaponType": 5,
+    "WeaponType": "Rectifier",
     "Stats": {
       "Life": 841,
       "Atk": 34,
@@ -5195,7 +5195,7 @@
     "Name": "Mortefi",
     "Rating": 4,
     "Element": "Fusion",
-    "WeaponType": 3,
+    "WeaponType": "Pistols",
     "Stats": {
       "Life": 802,
       "Atk": 20,
@@ -6092,7 +6092,7 @@
     "Name": "Calcharo",
     "Rating": 5,
     "Element": "Electro",
-    "WeaponType": 1,
+    "WeaponType": "Broadblade",
     "Stats": {
       "Life": 840,
       "Atk": 35,
@@ -7398,7 +7398,7 @@
     "Name": "Yinlin",
     "Rating": 5,
     "Element": "Electro",
-    "WeaponType": 5,
+    "WeaponType": "Rectifier",
     "Stats": {
       "Life": 880,
       "Atk": 32,
@@ -8359,7 +8359,7 @@
     "Name": "Yuanwu",
     "Rating": 4,
     "Element": "Electro",
-    "WeaponType": 4,
+    "WeaponType": "Gauntlets",
     "Stats": {
       "Life": 682,
       "Atk": 18,
@@ -9603,7 +9603,7 @@
     "Name": "Yangyang",
     "Rating": 4,
     "Element": "Aero",
-    "WeaponType": 2,
+    "WeaponType": "Sword",
     "Stats": {
       "Life": 816,
       "Atk": 20,
@@ -10482,7 +10482,7 @@
     "Name": "Aalto",
     "Rating": 4,
     "Element": "Aero",
-    "WeaponType": 3,
+    "WeaponType": "Pistols",
     "Stats": {
       "Life": 788,
       "Atk": 21,
@@ -11456,7 +11456,7 @@
     "Name": "Jiyan",
     "Rating": 5,
     "Element": "Aero",
-    "WeaponType": 1,
+    "WeaponType": "Broadblade",
     "Stats": {
       "Life": 839,
       "Atk": 35,
@@ -12492,7 +12492,7 @@
     "Name": "Jianxin",
     "Rating": 5,
     "Element": "Aero",
-    "WeaponType": 4,
+    "WeaponType": "Gauntlets",
     "Stats": {
       "Life": 1129,
       "Atk": 27,
@@ -13850,7 +13850,7 @@
     "Name": "Rover-Spectro",
     "Rating": 5,
     "Element": "Spectro",
-    "WeaponType": 2,
+    "WeaponType": "Sword",
     "Stats": {
       "Life": 912,
       "Atk": 30,
@@ -14816,7 +14816,7 @@
     "Name": "Verina",
     "Rating": 5,
     "Element": "Spectro",
-    "WeaponType": 5,
+    "WeaponType": "Rectifier",
     "Stats": {
       "Life": 1139,
       "Atk": 27,
@@ -16008,7 +16008,7 @@
     "Name": "Taoqi",
     "Rating": 4,
     "Element": "Havoc",
-    "WeaponType": 1,
+    "WeaponType": "Broadblade",
     "Stats": {
       "Life": 716,
       "Atk": 18,
@@ -17082,7 +17082,7 @@
     "Name": "Danjin",
     "Rating": 4,
     "Element": "Havoc",
-    "WeaponType": 2,
+    "WeaponType": "Sword",
     "Stats": {
       "Life": 755,
       "Atk": 21,
@@ -18157,7 +18157,7 @@
     "Name": "Rover-Havoc",
     "Rating": 5,
     "Element": "Havoc",
-    "WeaponType": 2,
+    "WeaponType": "Sword",
     "Stats": {
       "Life": 866,
       "Atk": 33,
