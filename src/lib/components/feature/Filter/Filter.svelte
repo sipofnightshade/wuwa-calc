@@ -17,7 +17,7 @@
         class="w-full"
         class:opacity-50={selected !== filter.id}
         src={filter.imageUrl}
-        alt={filter.name}
+        alt={filter.name && 'filter'}
       />
     </button>
   {/each}
